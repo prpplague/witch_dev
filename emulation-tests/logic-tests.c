@@ -8,10 +8,13 @@ int add(int *reg_a, int *reg_b) {
     for (pulse=0; pulse < 10; pulse++) {
 	printf("Pulse Count = %d : ",pulse);
 	(*reg_a)++;
+
 	if (*reg_a == 10) {
-	    setflag = 1;
 	    *reg_a = 0;
 	}
+
+	if (*reg_a == 1)
+	    setflag = 1;
 
 	if (setflag)
 	    (*reg_b)++;
@@ -26,7 +29,7 @@ int add(int *reg_a, int *reg_b) {
 
 void main (void) {
 
-    int tape_01=4;
+    int tape_01=3;
     int reg_10=0;
     int reg_20=0;
 
