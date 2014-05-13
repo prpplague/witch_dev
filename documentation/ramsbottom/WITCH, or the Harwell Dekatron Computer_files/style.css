@@ -1,0 +1,13 @@
+* {
+	font-family: Helvetica, Arial, Geneva, sans-serif;
+	color: #222;
+}
+
+#main {
+	width: 600px;
+}
+
+a {
+	color: #666;
+	text-decoration: none;
+}

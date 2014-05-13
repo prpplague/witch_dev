@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+	<title>WITCH, or the Harwell Dekatron Computer</title>
+	
+	<link rel="stylesheet" href="WITCH,%20or%20the%20Harwell%20Dekatron%20Computer_files/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	
+</head>
+<body>
+	<div id="main">
+		<h4>WITCH, or the Harwell Dekatron Computer</h4>
+
+		<p>I've just knocked together this page quickly to put up some photos 
+of the Harwell Dekatron Computer, known from 1957 onwards as WITCH. This
+ computer was designed and built over the course of two years between 
+1949 and 1951, at the Atomic Energy Research Establishment in 
+Oxfordshire, UK. For more details have a look at its <a href="http://en.wikipedia.org/wiki/WITCH_%28computer%29">Wikipedia entry</a> or at the page dedicated to the computer at the <a href="http://www.computerconservationsociety.org/witch.htm">Computer Conservation Society</a>
+ website. At the time of its retirement in 1974 it was the oldest 
+computer in the world still in continuous use, and was proclaimed by 
+Guiness World Records to be the “Most durable computer in the World”.</p>
+
+		<p>Unlike the computers that we use every day, WITCH computed in base 10 using <a href="http://en.wikipedia.org/wiki/Dekatron">Dekatrons</a>.
+ These Dekatrons formed the volatile memory (RAM) of the computer. The 
+cathode in a Dekatron which was glowing allowed one simply to read the 
+value (between 0 and 9) being stored in that Dekatron, making it an 
+ideal early computer for teaching. These Dekatrons were arranged into 
+lines of 9, the first representing the parity (plus or minus) of a 
+stored number and the following eight its digits. The numbers that WITCH
+ could store were therefore between -9.9999999 and 9.9999999, even in 
+its heyday this was not the most powerful of machines; its attraction 
+was that it was incredibly reliable. Whilst other computers in the 
+fifties needed continuous nursing, WITCH was left for days at a time, 
+running merrily whilst people went on Christmas holidays and the like.</p>
+		
+		<p>My grandfather, Cecil Ramsbottom was in charge of the running and 
+maintenance of WITCH when it moved to the University of Wolverhampton 
+(Wolverhampton and Staffordshire Technical College at the time) in 1957.
+ Here it was renamed to WITCH, Wolverhampton Instrument for Teaching 
+Computing from Harwell. Here's a photo of him (on the right) with the 
+machine:</p>
+		
+		<img src="WITCH,%20or%20the%20Harwell%20Dekatron%20Computer_files/cer.jpg" alt="WITCH at Wolverhampton" width="800" height="583">
+		
+		<p>Today, WITCH is being restored to its former glory, after several decades in storage, at <a href="http://www.tnmoc.org/">The National Museum of Computing</a>
+ at Bletchley Park. Our family (my grandfather's four children and their
+ children) visited a few days after Christmas 2009 to hand over the key 
+to Tony Frazer, who's leading the project to restore the computer.</p>
+		
+		<p>There were formerly a number of keys in existence but all the 
+others appear to have been misplaced and they “thought we were going to 
+have to hotwire it”.</p>
+		
+		<img src="WITCH,%20or%20the%20Harwell%20Dekatron%20Computer_files/IMG_6171small.jpg" alt="IMG 6171small" width="683" height="1024">
+		
+		<p>Below are some of the photos that I took on the day. Clicking on a 
+photo takes you to the full resolution (2808x1872) version. All photos 
+are under a Creative Commons <a href="http://creativecommons.org/licenses/by-nc/2.0/">Attribution-Noncommercial 2.0 Generic</a> license (i.e. do whatever you want as long as it's not for commercial purposes and mention me (Matthew Badger)).</p>
+		
+		<p>Fool that I am I didn't get a photo of the complete machine, but there are several such pictures on the <a href="http://www.computerconservationsociety.org/witch.htm">CCS website</a>.</p>
+		
+		<a href="http://lightrefrain.net/witch/images/IMG_6222.jpg"><img src="WITCH,%20or%20the%20Harwell%20Dekatron%20Computer_files/IMG_6222small.jpg" alt="IMG 6185small" width="1024" height="682"></a>
+		
+		<p>One of the Dekatrons on test (not part of the machine).</p>
+		
+		<a href="http://lightrefrain.net/witch/images/IMG_6185.jpg"><img src="WITCH,%20or%20the%20Harwell%20Dekatron%20Computer_files/IMG_6185small.jpg" alt="IMG 6185small" width="1024" height="682"></a>
+		
+		<p>Dekatrons in the memory store.</p>
+		
+		<a href="http://lightrefrain.net/witch/images/IMG_6186.jpg"><img src="WITCH,%20or%20the%20Harwell%20Dekatron%20Computer_files/IMG_6186small.jpg" alt="IMG 6185small" width="1024" height="682"></a>
+		
+		<p>One memory store. Each row of nine Dekatrons stored one number, each bank stored ten numbers.</p>
+		
+		<a href="http://lightrefrain.net/witch/images/IMG_6190.jpg"><img src="WITCH,%20or%20the%20Harwell%20Dekatron%20Computer_files/IMG_6190small.jpg" alt="IMG 6185small" width="1024" height="682"></a>
+		
+		<p>Four memory stores. There were nine stores in total (as you can see in the photo with the key in it).</p>
+		
+		<a href="http://lightrefrain.net/witch/images/IMG_6191.jpg"><img src="WITCH,%20or%20the%20Harwell%20Dekatron%20Computer_files/IMG_6191small.jpg" alt="IMG 6185small" width="1024" height="682"></a>
+		
+		<p>Looking down WITCH.</p>
+		
+		<a href="http://lightrefrain.net/witch/images/IMG_6189.jpg"><img src="WITCH,%20or%20the%20Harwell%20Dekatron%20Computer_files/IMG_6189small.jpg" alt="IMG 6185small" width="1024" height="682"></a>
+		
+		<p>The accumulators. These did the actual number crunching.</p>
+		
+		<a href="http://lightrefrain.net/witch/images/IMG_6193.jpg"><img src="WITCH,%20or%20the%20Harwell%20Dekatron%20Computer_files/IMG_6193small.jpg" alt="IMG 6185small" width="1024" height="682"></a>
+		
+		<p>The accumulators from the front.</p>
+		
+		<a href="http://lightrefrain.net/witch/images/IMG_6192.jpg"><img src="WITCH,%20or%20the%20Harwell%20Dekatron%20Computer_files/IMG_6192small.jpg" alt="IMG 6185small" width="1024" height="682"></a>
+		
+		<p>Behind one of the memory stores (in my grandfather's writing), the 
+names of the people who designed, built and used the computer at the 
+Atomic Energy Research Establishment.</p>
+		
+		<a href="http://lightrefrain.net/witch/images/IMG_6194.jpg"><img src="WITCH,%20or%20the%20Harwell%20Dekatron%20Computer_files/IMG_6194small.jpg" alt="IMG 6185small" width="682" height="1024"></a>
+		
+		<p>Inside one of the relay banks.</p>
+		
+		<a href="http://lightrefrain.net/witch/images/IMG_6197.jpg"><img src="WITCH,%20or%20the%20Harwell%20Dekatron%20Computer_files/IMG_6197small.jpg" alt="IMG 6185small" width="1024" height="682"></a>
+		
+		<p>The six tape readers were how programs and data were input to WITCH.</p>
+		
+		<a href="http://lightrefrain.net/witch/images/IMG_6199.jpg"><img src="WITCH,%20or%20the%20Harwell%20Dekatron%20Computer_files/IMG_6199small.jpg" alt="IMG 6185small" width="682" height="1024"></a>
+		
+		<p>You can't do computing <a href="http://www.youtube.com/watch?v=NowdrL6fvb4">unless you've got power</a>!</p>
+		
+		<a href="http://lightrefrain.net/witch/images/IMG_6240.jpg"><img src="WITCH,%20or%20the%20Harwell%20Dekatron%20Computer_files/IMG_6240small.jpg" alt="IMG 6185small" width="1024" height="682"></a>
+		
+		<p>The key fitted and everyone breathed a sigh of relief.</p>
+		
+		<h4>Cable Routing Photos</h4>
+		
+		<p>The cable routing at the back of the computer was incredible.</p>
+		
+		<a href="http://lightrefrain.net/witch/images/IMG_6203.jpg"><img src="WITCH,%20or%20the%20Harwell%20Dekatron%20Computer_files/IMG_6203small.jpg" alt="IMG 6185small" width="1024" height="682"></a>
+		
+		<p></p>
+		
+		<a href="http://lightrefrain.net/witch/images/IMG_6205.jpg"><img src="WITCH,%20or%20the%20Harwell%20Dekatron%20Computer_files/IMG_6205small.jpg" alt="IMG 6185small" width="1024" height="682"></a>
+		
+		<p></p>
+		
+		<a href="http://lightrefrain.net/witch/images/IMG_6208.jpg"><img src="WITCH,%20or%20the%20Harwell%20Dekatron%20Computer_files/IMG_6208small.jpg" alt="IMG 6185small" width="1024" height="682"></a>
+		
+		<p></p>
+		
+		<a href="http://lightrefrain.net/witch/images/IMG_6211.jpg"><img src="WITCH,%20or%20the%20Harwell%20Dekatron%20Computer_files/IMG_6211small.jpg" alt="IMG 6185small" width="1024" height="682"></a>
+		
+		
+		
+	</div>
+	
+</body></html>
