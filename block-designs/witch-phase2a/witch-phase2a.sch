@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10683,11 +10683,6 @@ Design by: David Anders</text>
 <pinref part="IC9" gate="A" pin="3A"/>
 <pinref part="IC9" gate="A" pin="4A"/>
 </segment>
-<segment>
-<wire x1="172.72" y1="172.72" x2="203.2" y2="172.72" width="0.1524" layer="91"/>
-<label x="187.96" y="172.72" size="1.778" layer="95"/>
-<pinref part="JP1" gate="A" pin="4"/>
-</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -10844,13 +10839,6 @@ Design by: David Anders</text>
 <wire x1="73.66" y1="88.9" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
 <label x="30.48" y="88.9" size="1.778" layer="95"/>
 <pinref part="IC11" gate="A" pin="1B"/>
-</segment>
-</net>
-<net name="10A_PULSES" class="0">
-<segment>
-<pinref part="JP2" gate="A" pin="4"/>
-<wire x1="182.88" y1="134.62" x2="213.36" y2="134.62" width="0.1524" layer="91"/>
-<label x="198.12" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="0">
