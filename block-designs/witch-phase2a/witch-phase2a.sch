@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11023,12 +11023,19 @@ Design by: David Anders</text>
 </net>
 <net name="CARRYOUT3" class="0">
 <segment>
-<pinref part="IC10" gate="A" pin="I1"/>
-<wire x1="63.5" y1="172.72" x2="35.56" y2="172.72" width="0.1524" layer="91"/>
-<label x="38.1" y="172.72" size="1.778" layer="95"/>
+<pinref part="IC10" gate="C" pin="I1"/>
+<wire x1="63.5" y1="147.32" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
+<label x="35.56" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CARRYOUT0" class="0">
+<segment>
+<pinref part="IC10" gate="D" pin="I1"/>
+<wire x1="63.5" y1="134.62" x2="35.56" y2="134.62" width="0.1524" layer="91"/>
+<label x="35.56" y="134.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CARRYOUT2" class="0">
 <segment>
 <pinref part="IC10" gate="B" pin="I1"/>
 <wire x1="63.5" y1="160.02" x2="35.56" y2="160.02" width="0.1524" layer="91"/>
@@ -11037,16 +11044,9 @@ Design by: David Anders</text>
 </net>
 <net name="CARRYOUT1" class="0">
 <segment>
-<pinref part="IC10" gate="C" pin="I1"/>
-<wire x1="63.5" y1="147.32" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
-<label x="35.56" y="147.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="CARRYOUT2" class="0">
-<segment>
-<pinref part="IC10" gate="D" pin="I1"/>
-<wire x1="63.5" y1="134.62" x2="35.56" y2="134.62" width="0.1524" layer="91"/>
-<label x="35.56" y="134.62" size="1.778" layer="95"/>
+<pinref part="IC10" gate="A" pin="I1"/>
+<wire x1="63.5" y1="172.72" x2="35.56" y2="172.72" width="0.1524" layer="91"/>
+<label x="38.1" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
