@@ -1,0 +1,43 @@
+The National Museum of Computing (http://www.tnmoc.org)
+This work is licensed under the Creative Commons 
+Attribution-NonCommercial-ShareAlike 4.0 International License
+http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+
+Printer code
+
+abcde	Figure	Letter
+
+00000	??	??
+00001	-	X
+00010	CR	CR
+00011	6	Y
+00100	SP	SP
+00101	5	T
+00110	4	R
+00111	Block 0	B
+01000	LF	LF
+01001	9	O	
+01010	3	E
+01011	Block 1	A	
+01100	2	W
+01101	Block 7	J
+01110	Block 8	K
+01111	*	C
+10000	+	Z
+10001	8	I
+10010	7	U
+10011	Block 2	S
+10100	1	Q
+10101	Block 3	D
+10110	Block 9	L
+10111	.	V
+11000	0	P
+11001	Block 4	F
+11010	Block 5	G
+11011	Figure	Figure
+11100	Block 6	H
+11101	N?	N
+11110	M?	M
+11111	Letters	Letters
+

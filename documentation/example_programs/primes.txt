@@ -1,0 +1,69 @@
+The National Museum of Computing (http://www.tnmoc.org)
+This work is licensed under the Creative Commons 
+Attribution-NonCommercial-ShareAlike 4.0 International License
+http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+
+
+WITCH program to find first 20 primes
+-------------------------------------
+
+CONSTANTS
+12	0.0000001
+13	00100	Send 1
+14	39919 	Initial LOAD_DIV instruction
+15	12080	Terminal STORE_PRIME instruction
+16	12079	Terminal less 1 STORE_PRIME instruction
+
+WORKING_STORE
+17	00100	Candidate prime increment (/100), initially 1
+18	00000	Temporary for 22
+19		Current divisor (-ve)
+20	00200 	Candidate prime (/100), starting at 2
+21		Result of division (units in LS digit)
+22	40019	Lowest valid LOAD_DIV
+23	00100	1 (/100), used to inc 17 and then cleared
+
+FINISH
+24	00100	Finish
+TRY_NEXT
+25	21900	Clear store 19 (current divisor)
+LOAD_DIV
+26	39919	Load divisor (-ve) to store 19
+DO_DIVISION
+27	20900	Clear acc
+28	08900	Set shift 10e-7
+29	32009	Load -ve store 20 (candidate prime) to acc
+30	22100	Clear store 21
+31	61921	Divide acc by store 19 (current divisor) into 21
+32	08900	Set shift 10e-7
+33	11209	Add 0.0000001 to acc (becomes +ve only if no remainder,-ve zero)
+34	01109	Test acc +ve
+35	02251	Jump to NOT_PRIME if so
+36	12218	Move last LOAD_DIV to temporary
+37	31826	Subtract last LOAD_DIV from current
+38	01126	Test > 0 (current > last)
+39	21826	Restore LOAD_DIV and clear temporary
+40	31326	Subtract one from LOAD_DIV send addr
+41	02225 	Goto TRY_NEXT if not reached end
+PRINT_PRIME
+42	12001	Print prime number
+CLEAR_PRIME
+43	29900	Clear next prime storage addr
+STORE_PRIME
+44	12099	Store prime number
+45	31544	Subtract terminal STORE_PRIME instruction
+46	01244	Test <= 0 (current <= terminal)
+47	02224	Goto FINISH if done enough
+48	11644	Add terminal less 1 STORE_PRIME (i.e end up with 1 less in recv addr)
+49	31322	Subtract one from lowest valid LOAD_DIV send addr
+50	31343	Subtract one from CLEAR_PRIME send addr
+NOT_PRIME
+51	11720	Advance candidate prime
+52	22600	Clear LOAD_DIV instruction
+53	11426	Reset LOAD_DIV instruction
+54	22317	Add 1 to prime increment (first pass only)
+55	02125	Goto TRY_NEXT
+ENTRY_POINT
+56	07400	Set print layout
+57	02142   Goto PRINT_PRIME

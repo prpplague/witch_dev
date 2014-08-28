@@ -1,0 +1,75 @@
+The National Museum of Computing (http://www.tnmoc.org)
+This work is licensed under the Creative Commons 
+Attribution-NonCommercial-ShareAlike 4.0 International License
+http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+
+Cubes program for race
+----------------------
+
+Uses stores 69, 39, 38, 37
+
+PTR1	Block 1
+	26900		Clear 69
+	10169
+	*11000		Load 1.1 to 69
+	23900		Clear 39
+	23800		Clear 38
+	10138
+	*18500		Load 1.85 to 38
+	23700
+	10137
+	*19500		Load 1.95 to 37
+	03102		Search for block 1 on PTR2
+	02102		Transfer control to PTR2
+
+PTR2	Block 1
+	16939		Move 69 to 39
+	20900		Clear acc
+	56939		Multiply 69 x 39
+	20939		Move acc to 39
+	56939		Multiply 69 x 39
+	07300		Print across
+	16901		Print 69
+	07400		Print newline
+	10901		Print acc
+	33869		Subtract 38 from 69
+	01269		Test -ve 69
+	13769		Add 37 to 69
+	05102		Conditional search for block 1 on PTR2
+	00100		Finish
+
+Alternative version
+-------------------
+
+Uses stores 65, 35, 20, 21
+
+PTR1	Block 1
+	26500		Clear 65
+	10165
+	*11000		Load 1.1 to 65
+	23500		Clear 35
+	22000		Clear 20
+	10120
+	*18500		Load 1.85 to 20
+	22100
+	10121
+	*19500		Load 1.95 to 21
+	03102		Search for block 1 on PTR2
+	02102		Transfer control to PTR2
+
+PTR2	Block 1
+	16535		Move 65 to 35
+	20900		Clear acc
+	56535		Multiply 65 x 35
+	20935		Move acc to 35
+	56535		Multiply 65 x 35
+	07300		Print across
+	16501		Print 65
+	07400		Print newline
+	10901		Print acc
+	32065		Subtract 20 from 65
+	01265		Test -ve 65
+	12165		Add 21 to 65
+	05102		Conditional search for block 1 on PTR2
+	00100		Finish
