@@ -14076,6 +14076,8 @@ Mating wall wart : TOL-00298 (and others)</description>
 <part name="C8" library="resistor" deviceset="C-US" device="025-040X050"/>
 <part name="VSS15" library="supply1" deviceset="VSS" device=""/>
 <part name="VDD12" library="supply1" deviceset="VDD" device=""/>
+<part name="C9" library="resistor" deviceset="C-US" device="025-025X050"/>
+<part name="C10" library="resistor" deviceset="C-US" device="025-025X050"/>
 </parts>
 <sheets>
 <sheet>
@@ -14097,10 +14099,10 @@ Design by: David Anders</text>
 <instance part="IC1" gate="G$1" x="37.465" y="132.08"/>
 <instance part="S3" gate="S" x="139.7" y="68.58"/>
 <instance part="S2" gate="S" x="141.605" y="172.72"/>
-<instance part="S1" gate="S" x="81.28" y="68.58"/>
+<instance part="S1" gate="S" x="54.61" y="70.485"/>
 <instance part="R6" gate="G$1" x="157.48" y="60.96" rot="R90"/>
 <instance part="R5" gate="G$1" x="159.385" y="165.1" rot="R90"/>
-<instance part="R3" gate="G$1" x="88.9" y="75.565" rot="R90"/>
+<instance part="R3" gate="G$1" x="62.23" y="77.47" rot="R90"/>
 <instance part="R2" gate="G$1" x="11.43" y="127" rot="R270"/>
 <instance part="R1" gate="G$1" x="11.43" y="137.16" rot="R90"/>
 <instance part="C2" gate="G$1" x="11.43" y="113.03"/>
@@ -14127,11 +14129,11 @@ Design by: David Anders</text>
 <instance part="R7" gate="G$1" x="200.66" y="172.72" rot="MR180"/>
 <instance part="LED2" gate="G$1" x="189.23" y="68.58" rot="MR90"/>
 <instance part="R8" gate="G$1" x="200.66" y="68.58" rot="MR180"/>
-<instance part="VDD3" gate="G$1" x="88.9" y="83.82" smashed="yes">
-<attribute name="VALUE" x="86.995" y="86.36" size="1.778" layer="96"/>
+<instance part="VDD3" gate="G$1" x="62.23" y="85.725" smashed="yes">
+<attribute name="VALUE" x="60.325" y="88.265" size="1.778" layer="96"/>
 </instance>
-<instance part="VSS6" gate="G$1" x="73.66" y="57.15" smashed="yes">
-<attribute name="VALUE" x="71.755" y="52.705" size="1.778" layer="96"/>
+<instance part="VSS6" gate="G$1" x="46.99" y="59.055" smashed="yes">
+<attribute name="VALUE" x="45.085" y="54.61" size="1.778" layer="96"/>
 </instance>
 <instance part="VDD1" gate="G$1" x="132.08" y="82.55" smashed="yes">
 <attribute name="VALUE" x="130.175" y="85.09" size="1.778" layer="96"/>
@@ -14208,6 +14210,9 @@ Design by: David Anders</text>
 <instance part="VDD12" gate="G$1" x="21.59" y="88.9" smashed="yes">
 <attribute name="VALUE" x="19.685" y="91.44" size="1.778" layer="96"/>
 </instance>
+<instance part="C9" gate="G$1" x="138.43" y="59.69" rot="R90"/>
+<instance part="C10" gate="G$1" x="138.43" y="163.83" rot="R90"/>
+<instance part="IC4" gate="A" x="93.98" y="70.485"/>
 </instances>
 <busses>
 </busses>
@@ -14263,12 +14268,16 @@ Design by: David Anders</text>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
 <pinref part="IC3" gate="D" pin="I0"/>
-<wire x1="118.745" y1="132.08" x2="84.455" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="84.455" y1="132.08" x2="47.625" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="84.455" y1="132.08" x2="84.455" y2="115.57" width="0.1524" layer="91"/>
-<wire x1="84.455" y1="115.57" x2="88.265" y2="115.57" width="0.1524" layer="91"/>
+<wire x1="118.745" y1="132.08" x2="74.93" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="132.08" x2="47.625" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<junction x="84.455" y="132.08"/>
+<pinref part="IC4" gate="A" pin="I0"/>
+<wire x1="81.28" y1="73.025" x2="74.93" y2="73.025" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="73.025" x2="74.93" y2="115.57" width="0.1524" layer="91"/>
+<junction x="74.93" y="132.08"/>
+<wire x1="74.93" y1="115.57" x2="74.93" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="88.265" y1="115.57" x2="74.93" y2="115.57" width="0.1524" layer="91"/>
+<junction x="74.93" y="115.57"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -14318,7 +14327,7 @@ Design by: David Anders</text>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="80.645" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="82.55" x2="62.23" y2="83.185" width="0.1524" layer="91"/>
 <pinref part="VDD3" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
@@ -14331,6 +14340,9 @@ Design by: David Anders</text>
 <junction x="132.08" y="68.58"/>
 <junction x="132.08" y="66.04"/>
 <pinref part="VDD1" gate="G$1" pin="VDD"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="66.04" x2="132.08" y2="59.69" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="59.69" x2="135.89" y2="59.69" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="161.925" y1="116.84" x2="157.48" y2="116.84" width="0.1524" layer="91"/>
@@ -14401,7 +14413,8 @@ Design by: David Anders</text>
 <wire x1="146.685" y1="172.72" x2="149.225" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="149.225" y1="172.72" x2="149.225" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="D" pin="I0"/>
-<wire x1="149.225" y1="170.18" x2="149.225" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="149.225" y1="170.18" x2="149.225" y2="163.83" width="0.1524" layer="91"/>
+<wire x1="149.225" y1="163.83" x2="149.225" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="149.225" y1="139.7" x2="154.94" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="S2" gate="S" pin="4"/>
 <wire x1="146.685" y1="170.18" x2="149.225" y2="170.18" width="0.1524" layer="91"/>
@@ -14410,6 +14423,9 @@ Design by: David Anders</text>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="149.225" y1="172.72" x2="159.385" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="159.385" y1="172.72" x2="159.385" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="143.51" y1="163.83" x2="149.225" y2="163.83" width="0.1524" layer="91"/>
+<junction x="149.225" y="163.83"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -14430,6 +14446,9 @@ Design by: David Anders</text>
 <junction x="157.48" y="68.58"/>
 <wire x1="157.48" y1="68.58" x2="157.48" y2="81.915" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="81.915" x2="233.68" y2="81.915" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="66.04" x2="147.32" y2="59.69" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="59.69" x2="143.51" y2="59.69" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VSS" class="0">
@@ -14470,13 +14489,13 @@ Design by: David Anders</text>
 </segment>
 <segment>
 <pinref part="S1" gate="S" pin="2"/>
-<wire x1="76.2" y1="66.04" x2="73.66" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="66.04" x2="73.66" y2="59.69" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="67.945" x2="46.99" y2="67.945" width="0.1524" layer="91"/>
+<wire x1="46.99" y1="67.945" x2="46.99" y2="61.595" width="0.1524" layer="91"/>
 <pinref part="S1" gate="S" pin="1"/>
-<wire x1="76.2" y1="68.58" x2="73.66" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="68.58" x2="73.66" y2="66.04" width="0.1524" layer="91"/>
-<junction x="73.66" y="68.58"/>
-<junction x="73.66" y="66.04"/>
+<wire x1="49.53" y1="70.485" x2="46.99" y2="70.485" width="0.1524" layer="91"/>
+<wire x1="46.99" y1="70.485" x2="46.99" y2="67.945" width="0.1524" layer="91"/>
+<junction x="46.99" y="70.485"/>
+<junction x="46.99" y="67.945"/>
 <pinref part="VSS6" gate="G$1" pin="VSS"/>
 </segment>
 <segment>
@@ -14549,9 +14568,14 @@ Design by: David Anders</text>
 </segment>
 <segment>
 <pinref part="VSS14" gate="G$1" pin="VSS"/>
-<wire x1="129.54" y1="27.94" x2="129.54" y2="17.145" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="27.94" x2="129.54" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="GNDBREAK"/>
+<wire x1="129.54" y1="25.4" x2="129.54" y2="17.145" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="27.94" x2="129.54" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="GND"/>
+<wire x1="121.92" y1="25.4" x2="129.54" y2="25.4" width="0.1524" layer="91"/>
+<junction x="129.54" y="27.94"/>
+<junction x="129.54" y="25.4"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
@@ -14576,17 +14600,9 @@ Design by: David Anders</text>
 <label x="78.105" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="S1" gate="S" pin="4"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="S1" gate="S" pin="3"/>
-<wire x1="86.36" y1="68.58" x2="88.9" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="68.58" x2="88.9" y2="70.485" width="0.1524" layer="91"/>
-<junction x="88.9" y="68.58"/>
-<wire x1="88.9" y1="68.58" x2="88.9" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="66.04" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="66.04" x2="104.775" y2="66.04" width="0.1524" layer="91"/>
-<junction x="88.9" y="66.04"/>
-<label x="97.155" y="66.04" size="1.778" layer="95"/>
+<pinref part="IC4" gate="A" pin="O"/>
+<wire x1="106.68" y1="70.485" x2="115.57" y2="70.485" width="0.1524" layer="91"/>
+<label x="107.315" y="70.485" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -14693,6 +14709,29 @@ Design by: David Anders</text>
 <pinref part="JP2" gate="A" pin="5"/>
 <wire x1="246.38" y1="139.7" x2="220.98" y2="139.7" width="0.1524" layer="91"/>
 <label x="221.615" y="139.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDD1" class="0">
+<segment>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="170.18" x2="132.08" y2="163.83" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="163.83" x2="135.89" y2="163.83" width="0.1524" layer="91"/>
+<junction x="132.08" y="163.83"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="S1" gate="S" pin="4"/>
+<pinref part="IC4" gate="A" pin="I1"/>
+<wire x1="59.69" y1="67.945" x2="62.23" y2="67.945" width="0.1524" layer="91"/>
+<pinref part="S1" gate="S" pin="3"/>
+<wire x1="62.23" y1="67.945" x2="81.28" y2="67.945" width="0.1524" layer="91"/>
+<wire x1="59.69" y1="70.485" x2="62.23" y2="70.485" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="70.485" x2="62.23" y2="67.945" width="0.1524" layer="91"/>
+<junction x="62.23" y="70.485"/>
+<junction x="62.23" y="67.945"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="62.23" y1="72.39" x2="62.23" y2="70.485" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
