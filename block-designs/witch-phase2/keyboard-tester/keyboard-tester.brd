@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -126,15 +126,15 @@
 <circle x="2.3368" y="76.3778" radius="2.0066" width="0.0254" layer="41"/>
 <circle x="2.159" y="2.159" radius="2.0066" width="0.0254" layer="41"/>
 <circle x="2.159" y="2.159" radius="2.0066" width="0.0254" layer="42"/>
-<text x="4.953" y="41.148" size="3.81" layer="51">A</text>
-<text x="24.003" y="41.148" size="3.81" layer="51">B</text>
-<text x="42.926" y="41.148" size="3.81" layer="51">C</text>
-<text x="61.595" y="41.148" size="3.81" layer="51">D</text>
-<text x="80.7466" y="41.148" size="3.81" layer="51">E</text>
-<text x="83.8962" y="4.318" size="2.1844" layer="51">RESET</text>
-<text x="10.0076" y="2.8702" size="2.1844" layer="51">DGA</text>
-<text x="25.1968" y="2.8702" size="2.1844" layer="51">DSA/DSB</text>
-<text x="48.7426" y="2.8702" size="2.1844" layer="51">DM</text>
+<text x="4.953" y="41.148" size="3.81" layer="48">A</text>
+<text x="24.003" y="41.148" size="3.81" layer="48">B</text>
+<text x="42.926" y="41.148" size="3.81" layer="48">C</text>
+<text x="61.595" y="41.148" size="3.81" layer="48">D</text>
+<text x="80.7466" y="41.148" size="3.81" layer="48">E</text>
+<text x="83.8962" y="4.318" size="2.1844" layer="48">RESET</text>
+<text x="10.0076" y="2.8702" size="2.1844" layer="48">DGA</text>
+<text x="25.1968" y="2.8702" size="2.1844" layer="48">DSA/DSB</text>
+<text x="48.7426" y="2.8702" size="2.1844" layer="48">DM</text>
 </plain>
 <libraries>
 <library name="pinhead">
