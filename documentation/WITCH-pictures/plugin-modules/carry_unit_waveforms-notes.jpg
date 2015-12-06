@@ -1,0 +1,17 @@
+Hi Dave,
+ 
+Referring to the Plug-in Units drawing, you'll see there is a 0.01uF capacitor on the left hand grid of the double triode.  This maintains the grid potential long enough for the next carry pulse (only) to pass.  Or at least it should.  Whilst commissioning the machine we noticed that there was a lot of variation in these caps and in most cases the level was not decaying fast enough.  Even the good ones were marginal.  So we decided to replace all the 0.01uF with 2.2nF, resulting in a much better waveform (see picture - middle waveform is carry B pulses, bottom is LH grid).  There is also an "undocumented feature" - pin B4 of the carry unit is connected to continuous positive B pulses from the pulse generator.  The positive part of this waveform is blocked by the diode, and the negative part rapidly discharges the 2.2nF cap immediately after the end of the carry B pulse.
+ 
+I also took a photo yesterday, showing, top to bottom: carry unit anode waveform, -ve going carry B pulses, and the carry unit input. 
+ 
+So the order of operations is :-
+ 
+- carry unit triggered, either at some point during normal 10B transfer period or at the end of a preceding carry B pulse
+- at beginning of next carry B pulse (there is always at least one), is trigger tube extinguished
+- cap on LH grid of double triode allows carry B pulse to pass to receiving store
+- between the end of the carry B pulse and the next, the +B waveform from the pulse generator discharges the cap
+- when no carry units are triggered, the next carry B pulse reaches the pulse generator instead and stops the transfer cycle
+ 
+Hope that makes sense....
+ 
+Delwyn
