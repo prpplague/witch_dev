@@ -6291,17 +6291,6 @@ Source: http://focus.ti.com/lit/ds/symlink/sn74lvc1g3157.</description>
 <pin name="I1" x="-12.7" y="-2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
 <pin name="O" x="12.7" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
 </symbol>
-<symbol name="7408">
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="2.54" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="-5.08" width="0.4064" layer="94" curve="-180"/>
-<wire x1="2.54" y1="5.08" x2="-7.62" y2="5.08" width="0.4064" layer="94"/>
-<text x="-7.62" y="5.715" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="I0" x="-12.7" y="2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
-<pin name="I1" x="-12.7" y="-2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
-<pin name="O" x="12.7" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
-</symbol>
 <symbol name="74175">
 <wire x1="-5.08" y1="-5.08" x2="10.16" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.4064" layer="94"/>
@@ -6364,45 +6353,6 @@ Source: http://focus.ti.com/lit/ds/symlink/sn74lvc1g3157.</description>
 <technology name="AHC"/>
 <technology name="AHCT"/>
 <technology name="AUC"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="74*1G08" prefix="IC">
-<description>2-input &lt;b&gt;AND&lt;/b&gt; gate</description>
-<gates>
-<gate name="A" symbol="7408" x="20.32" y="0"/>
-<gate name="P" symbol="PWRN" x="2.54" y="-7.62" addlevel="request"/>
-</gates>
-<devices>
-<device name="DBV" package="SOT23-5">
-<connects>
-<connect gate="A" pin="I0" pad="1"/>
-<connect gate="A" pin="I1" pad="2"/>
-<connect gate="A" pin="O" pad="4"/>
-<connect gate="P" pin="GND" pad="3"/>
-<connect gate="P" pin="VCC" pad="5"/>
-</connects>
-<technologies>
-<technology name="AHC"/>
-<technology name="AHCT"/>
-<technology name="AUC"/>
-<technology name="LVC"/>
-</technologies>
-</device>
-<device name="DCK" package="SC70-5">
-<connects>
-<connect gate="A" pin="I0" pad="1"/>
-<connect gate="A" pin="I1" pad="2"/>
-<connect gate="A" pin="O" pad="4"/>
-<connect gate="P" pin="GND" pad="3"/>
-<connect gate="P" pin="VCC" pad="5"/>
-</connects>
-<technologies>
-<technology name="AHC"/>
-<technology name="AHCT"/>
-<technology name="AUC"/>
-<technology name="LVC"/>
 </technologies>
 </device>
 </devices>
@@ -6638,7 +6588,7 @@ Based on the following sources:
 <pin name="B" x="-12.7" y="2.54" length="middle" direction="in"/>
 <pin name="C" x="-12.7" y="0" length="middle" direction="in"/>
 <pin name="D" x="-12.7" y="-2.54" length="middle" direction="in"/>
-<pin name="S/!L" x="12.7" y="10.16" length="middle" direction="in" rot="R180"/>
+<pin name="S/!L" x="12.7" y="-12.7" length="middle" direction="in" rot="R180"/>
 <pin name="CLK" x="-12.7" y="-12.7" length="middle" direction="in" function="clk"/>
 <pin name="!QD" x="12.7" y="-7.62" length="middle" direction="out" rot="R180"/>
 <pin name="QD" x="12.7" y="-2.54" length="middle" direction="out" rot="R180"/>
@@ -6771,10 +6721,9 @@ Based on the following sources:
 <part name="R1" library="resistor" deviceset="R-US_" device="R0805"/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="IC4" library="74xx-little-us" deviceset="74*1G175" device=""/>
-<part name="IC8" library="74xx-little-us" deviceset="74*1G08" device="DBV" technology="AHC"/>
 <part name="IC2" library="74xx-little-us" deviceset="74*1G86" device="DBV" technology="AHC"/>
 <part name="IC3" library="74xx-us" deviceset="74*195" device="D" technology="LS"/>
-<part name="P+7" library="supply1" deviceset="VCC" device=""/>
+<part name="GND6" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6805,10 +6754,9 @@ Based on the following sources:
 <instance part="R1" gate="G$1" x="25.4" y="87.63" rot="R270"/>
 <instance part="P+6" gate="VCC" x="25.4" y="100.33"/>
 <instance part="IC4" gate="G$1" x="38.1" y="114.3"/>
-<instance part="IC8" gate="A" x="39.37" y="64.77"/>
 <instance part="IC2" gate="A" x="125.73" y="111.76"/>
 <instance part="IC3" gate="A" x="92.71" y="109.22"/>
-<instance part="P+7" gate="VCC" x="110.49" y="134.62"/>
+<instance part="GND6" gate="1" x="69.85" y="91.44"/>
 </instances>
 <busses>
 </busses>
@@ -6856,6 +6804,25 @@ Based on the following sources:
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="222.25" y1="118.11" x2="214.63" y2="118.11" width="0.1524" layer="91"/>
 <wire x1="214.63" y1="118.11" x2="214.63" y2="110.49" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="A" pin="A"/>
+<wire x1="80.01" y1="114.3" x2="69.85" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="69.85" y1="114.3" x2="69.85" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="A" pin="B"/>
+<wire x1="69.85" y1="111.76" x2="69.85" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="69.85" y1="109.22" x2="69.85" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="69.85" y1="106.68" x2="69.85" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="80.01" y1="111.76" x2="69.85" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="A" pin="C"/>
+<wire x1="80.01" y1="109.22" x2="69.85" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="A" pin="D"/>
+<wire x1="80.01" y1="106.68" x2="69.85" y2="106.68" width="0.1524" layer="91"/>
+<junction x="69.85" y="114.3"/>
+<junction x="69.85" y="111.76"/>
+<junction x="69.85" y="109.22"/>
+<junction x="69.85" y="106.68"/>
+<pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -6907,12 +6874,6 @@ Based on the following sources:
 <pinref part="P+6" gate="VCC" pin="VCC"/>
 <wire x1="25.4" y1="92.71" x2="25.4" y2="97.79" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="IC3" gate="A" pin="S/!L"/>
-<wire x1="105.41" y1="119.38" x2="110.49" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="110.49" y1="119.38" x2="110.49" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="P+7" gate="VCC" pin="VCC"/>
-</segment>
 </net>
 <net name="ZC" class="0">
 <segment>
@@ -6949,12 +6910,12 @@ Based on the following sources:
 <junction x="52.07" y="116.84"/>
 <pinref part="IC4" gate="G$1" pin="Q"/>
 <pinref part="IC3" gate="A" pin="K"/>
-<wire x1="80.01" y1="116.84" x2="67.31" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="80.01" y1="116.84" x2="69.85" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="A" pin="J"/>
-<wire x1="67.31" y1="116.84" x2="52.07" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="80.01" y1="119.38" x2="67.31" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="67.31" y1="119.38" x2="67.31" y2="116.84" width="0.1524" layer="91"/>
-<junction x="67.31" y="116.84"/>
+<wire x1="69.85" y1="116.84" x2="52.07" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="80.01" y1="119.38" x2="69.85" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="69.85" y1="119.38" x2="69.85" y2="116.84" width="0.1524" layer="91"/>
+<junction x="69.85" y="116.84"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -6983,9 +6944,11 @@ Based on the following sources:
 <label x="8.89" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="A" pin="I1"/>
-<wire x1="26.67" y1="62.23" x2="8.89" y2="62.23" width="0.1524" layer="91"/>
-<label x="8.89" y="62.23" size="1.778" layer="95"/>
+<label x="8.89" y="73.66" size="1.778" layer="95"/>
+<wire x1="77.47" y1="73.66" x2="8.89" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="77.47" y1="73.66" x2="77.47" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="A" pin="CLK"/>
+<wire x1="77.47" y1="96.52" x2="80.01" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!RST" class="0">
@@ -7039,18 +7002,11 @@ Based on the following sources:
 <label x="196.85" y="120.65" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="26.67" y1="67.31" x2="8.89" y2="67.31" width="0.1524" layer="91"/>
-<label x="8.89" y="67.31" size="1.778" layer="95"/>
-<pinref part="IC8" gate="A" pin="I0"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="IC8" gate="A" pin="O"/>
-<wire x1="72.39" y1="64.77" x2="52.07" y2="64.77" width="0.1524" layer="91"/>
-<wire x1="72.39" y1="64.77" x2="72.39" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="CLK"/>
-<wire x1="72.39" y1="96.52" x2="80.01" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="8.89" y1="66.04" x2="110.49" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="110.49" y1="66.04" x2="110.49" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="A" pin="S/!L"/>
+<wire x1="110.49" y1="96.52" x2="105.41" y2="96.52" width="0.1524" layer="91"/>
+<label x="8.89" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
