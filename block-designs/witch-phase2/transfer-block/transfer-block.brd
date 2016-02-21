@@ -125,7 +125,8 @@
 <circle x="2.159" y="2.159" radius="2.0066" width="0.0254" layer="41"/>
 <circle x="2.159" y="2.159" radius="2.0066" width="0.0254" layer="42"/>
 <text x="5.7912" y="25.4508" size="1.016" layer="48">TOP</text>
-<text x="19.3802" y="25.5016" size="1.016" layer="48">TOP</text>
+<text x="4.6228" y="2.7178" size="0.6096" layer="48">TRANSFER
+   UNIT</text>
 </plain>
 <libraries>
 <library name="resistor">
@@ -1727,9 +1728,7 @@ design rules under a new name.</description>
 <wire x1="9.586" y1="9.505" x2="11.029" y2="9.505" width="0.3048" layer="1"/>
 <wire x1="11.029" y1="9.505" x2="11.684" y2="10.16" width="0.3048" layer="1"/>
 <via x="11.684" y="10.16" extent="1-16" drill="0.3048"/>
-<wire x1="13.6906" y1="21.4168" x2="13.6906" y2="22.4536" width="0.3048" layer="1"/>
-<wire x1="13.6906" y1="22.4536" x2="12.8524" y2="23.2918" width="0.3048" layer="1"/>
-<via x="12.8524" y="23.2918" extent="1-16" drill="0.3048"/>
+<via x="9.6774" y="22.7838" extent="1-16" drill="0.3048"/>
 <wire x1="13.6906" y1="16.1844" x2="13.6906" y2="17.4498" width="0.3048" layer="1"/>
 <via x="13.6906" y="17.4498" extent="1-16" drill="0.3048"/>
 <via x="8.2804" y="6.2738" extent="1-16" drill="0.3048"/>
@@ -1737,6 +1736,9 @@ design rules under a new name.</description>
 <wire x1="8.7478" y1="5.8064" x2="8.2804" y2="6.2738" width="0.3048" layer="1"/>
 <via x="19.5326" y="5.8928" extent="1-16" drill="0.3048"/>
 <wire x1="19.5326" y1="9.0378" x2="19.5326" y2="5.8928" width="0.3048" layer="1"/>
+<wire x1="13.6906" y1="21.4168" x2="13.6906" y2="22.3774" width="0.3048" layer="1"/>
+<wire x1="13.6906" y1="22.3774" x2="13.2842" y2="22.7838" width="0.3048" layer="1"/>
+<wire x1="13.2842" y1="22.7838" x2="9.6774" y2="22.7838" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="IC1" pad="4"/>
@@ -1892,4 +1894,10 @@ design rules under a new name.</description>
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
