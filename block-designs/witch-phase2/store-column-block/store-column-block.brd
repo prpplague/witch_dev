@@ -127,8 +127,8 @@
 <circle x="2.159" y="2.159" radius="2.0066" width="0.0254" layer="42"/>
 <text x="20.3454" y="25.781" size="1.016" layer="48">TOP</text>
 <text x="5.5118" y="25.6286" size="1.016" layer="48">TOP</text>
-<text x="1.0668" y="5.5372" size="0.6096" layer="48">COLUMN
- SELECT</text>
+<text x="0.762" y="5.08" size="0.6096" layer="48">COLUMN
+SELECT</text>
 </plain>
 <libraries>
 <library name="resistor">

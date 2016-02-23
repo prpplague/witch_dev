@@ -126,7 +126,7 @@
 <circle x="2.159" y="2.159" radius="2.0066" width="0.0254" layer="42"/>
 <text x="86.1568" y="39.9034" size="1.778" layer="48">OUTPUT</text>
 <text x="87.4268" y="33.6042" size="1.778" layer="48">INPUT</text>
-<text x="3.683" y="38.7604" size="1.778" layer="48">Relay Set D
+<text x="8.89" y="2.54" size="1.778" layer="48">Relay Set D
      Latch</text>
 <text x="35.3822" y="23.876" size="2.1844" layer="48" rot="R180">A</text>
 <text x="44.2722" y="23.876" size="2.1844" layer="48" rot="R180">B</text>

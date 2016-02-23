@@ -151,7 +151,7 @@
 <vertex x="5.2324" y="18.3134"/>
 <vertex x="4.2672" y="18.2626"/>
 </polygon>
-<text x="1.016" y="5.588" size="0.6096" layer="48">DEKATRON
+<text x="0.762" y="5.08" size="0.6096" layer="48">DEKATRON
 SIMULATOR</text>
 </plain>
 <libraries>

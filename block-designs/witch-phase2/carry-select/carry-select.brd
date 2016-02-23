@@ -127,7 +127,7 @@
 <circle x="2.159" y="2.159" radius="2.0066" width="0.0254" layer="42"/>
 <text x="5.7912" y="25.4508" size="1.016" layer="48">TOP</text>
 <text x="19.3802" y="25.5016" size="1.016" layer="48">TOP</text>
-<text x="1.143" y="4.8768" size="0.6096" layer="48"> CARRY
+<text x="0.762" y="5.08" size="0.6096" layer="48">CARRY
 SELECT</text>
 </plain>
 <libraries>

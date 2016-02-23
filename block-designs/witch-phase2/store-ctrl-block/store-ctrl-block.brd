@@ -129,7 +129,7 @@
 <text x="5.5118" y="25.6286" size="1.016" layer="48">TOP</text>
 <text x="6.9596" y="16.002" size="1.27" layer="48">RCV</text>
 <text x="17.1704" y="16.002" size="1.27" layer="48">SND</text>
-<text x="1.7526" y="5.3594" size="0.6096" layer="48">SND/RCV
+<text x="0.762" y="5.08" size="0.6096" layer="48">SND/RCV
 CONTROL</text>
 </plain>
 <libraries>

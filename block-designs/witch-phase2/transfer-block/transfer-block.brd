@@ -125,8 +125,8 @@
 <circle x="2.159" y="2.159" radius="2.0066" width="0.0254" layer="41"/>
 <circle x="2.159" y="2.159" radius="2.0066" width="0.0254" layer="42"/>
 <text x="5.7912" y="25.4508" size="1.016" layer="48">TOP</text>
-<text x="3.683" y="3.4036" size="0.6096" layer="48">TRANSFER
-     UNIT</text>
+<text x="4.5466" y="2.6162" size="0.6096" layer="48">TRANSFER
+UNIT</text>
 </plain>
 <libraries>
 <library name="resistor">

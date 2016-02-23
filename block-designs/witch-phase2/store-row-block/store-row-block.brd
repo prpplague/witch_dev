@@ -127,7 +127,7 @@
 <circle x="2.159" y="2.159" radius="2.0066" width="0.0254" layer="42"/>
 <text x="5.7912" y="25.4508" size="1.016" layer="48">TOP</text>
 <text x="19.3802" y="25.5016" size="1.016" layer="48">TOP</text>
-<text x="1.9304" y="6.0452" size="0.6096" layer="48">  ROW
+<text x="0.762" y="5.08" size="0.6096" layer="48">ROW
 SELECT</text>
 </plain>
 <libraries>
@@ -1653,11 +1653,11 @@ design rules under a new name.</description>
 <contactref element="C4" pad="2"/>
 <contactref element="JP2" pad="4"/>
 <contactref element="JP4" pad="4"/>
-<polygon width="0" layer="1">
-<vertex x="27.94" y="0"/>
-<vertex x="0" y="0"/>
-<vertex x="0" y="27.94"/>
-<vertex x="27.94" y="27.94"/>
+<polygon width="0.254" layer="1">
+<vertex x="27.686" y="0.254"/>
+<vertex x="0.254" y="0.254"/>
+<vertex x="0.254" y="27.686"/>
+<vertex x="27.686" y="27.686"/>
 </polygon>
 <contactref element="IC1" pad="3"/>
 <contactref element="IC1" pad="3"/>
@@ -1681,11 +1681,11 @@ design rules under a new name.</description>
 <contactref element="C4" pad="1"/>
 <contactref element="JP2" pad="1"/>
 <contactref element="JP4" pad="1"/>
-<polygon width="0" layer="16">
-<vertex x="27.94" y="0"/>
-<vertex x="0" y="0"/>
-<vertex x="0" y="27.94"/>
-<vertex x="27.94" y="27.94"/>
+<polygon width="0.254" layer="16">
+<vertex x="27.686" y="0.254"/>
+<vertex x="0.254" y="0.254"/>
+<vertex x="0.254" y="27.686"/>
+<vertex x="27.686" y="27.686"/>
 </polygon>
 <contactref element="IC1" pad="5"/>
 <contactref element="R4" pad="2"/>
