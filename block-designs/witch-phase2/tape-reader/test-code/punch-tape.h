@@ -1,7 +1,7 @@
 struct punch_code {
-	char code_id; /* character representation */
-	int code_val; /* 5-bit value */
-	int shift;    /*  0=figure 1=letter */
+	unsigned int code_id; /* character representation */
+	unsigned int code_val; /* 5-bit value */
+	unsigned int shift;    /*  0=figure 1=letter */
 };
 
 
