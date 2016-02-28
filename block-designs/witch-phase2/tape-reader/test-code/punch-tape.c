@@ -9,11 +9,13 @@
 #include <cups/cups.h>
 
 #if 0
+/* 3" x 42" Tape */
 #define WIDTH  216
 #define HEIGHT 3456
 #else
-#define WIDTH  216
-#define HEIGHT 828
+/* 8.5" x 11 Letter */
+#define WIDTH  612
+#define HEIGHT 792
 #endif
 
 #define HMARGIN 50
