@@ -3,3 +3,4 @@
 *.scr
 gerbers
 *.cam
+*.o
