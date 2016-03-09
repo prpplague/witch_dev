@@ -176,28 +176,27 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pin name="GND" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
 <pin name="VCC" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
 </symbol>
-<symbol name="7432">
-<wire x1="-1.27" y1="5.08" x2="-7.62" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="-5.08" x2="-7.62" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-7.62" y1="2.54" x2="-6.35" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-6.35" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.2446" y1="-5.0678" x2="7.5439" y2="0.0507" width="0.4064" layer="94" curve="60.147106" cap="flat"/>
-<wire x1="-1.2446" y1="5.0678" x2="7.5442" y2="-0.0505" width="0.4064" layer="94" curve="-60.148802" cap="flat"/>
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.4064" layer="94" curve="-77.319617"/>
+<symbol name="7408">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="2.54" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="-5.08" width="0.4064" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="-7.62" y2="5.08" width="0.4064" layer="94"/>
 <text x="-7.62" y="5.715" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="I0" x="-12.7" y="2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
 <pin name="I1" x="-12.7" y="-2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
 <pin name="O" x="12.7" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
 </symbol>
-<symbol name="7404">
-<wire x1="-5.08" y1="5.08" x2="5.08" y2="0" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="0" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<symbol name="74126">
 <wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="-5.08" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="0" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
 <text x="2.54" y="3.175" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="OE" x="0" y="10.16" visible="pad" length="middle" direction="in" rot="R270"/>
 <pin name="I" x="-10.16" y="0" visible="pad" length="middle" direction="in"/>
-<pin name="O" x="10.16" y="0" visible="pad" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="O" x="10.16" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
 </symbol>
 <symbol name="74125">
 <wire x1="5.08" y1="0" x2="-5.08" y2="5.08" width="0.4064" layer="94"/>
@@ -213,53 +212,17 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="74*1G32" prefix="IC">
-<description>2-input &lt;b&gt;OR&lt;/b&gt; gate</description>
+<deviceset name="74*1G08" prefix="IC">
+<description>2-input &lt;b&gt;AND&lt;/b&gt; gate</description>
 <gates>
-<gate name="A" symbol="7432" x="15.24" y="5.08"/>
-<gate name="P" symbol="PWRN" x="-5.08" y="0" addlevel="request"/>
+<gate name="A" symbol="7408" x="20.32" y="0"/>
+<gate name="P" symbol="PWRN" x="2.54" y="-7.62" addlevel="request"/>
 </gates>
 <devices>
 <device name="DBV" package="SOT23-5">
 <connects>
 <connect gate="A" pin="I0" pad="1"/>
 <connect gate="A" pin="I1" pad="2"/>
-<connect gate="A" pin="O" pad="4"/>
-<connect gate="P" pin="GND" pad="3"/>
-<connect gate="P" pin="VCC" pad="5"/>
-</connects>
-<technologies>
-<technology name="AHC"/>
-<technology name="AHCT"/>
-<technology name="AUC"/>
-</technologies>
-</device>
-<device name="DCK" package="SC70-5">
-<connects>
-<connect gate="A" pin="I0" pad="1"/>
-<connect gate="A" pin="I1" pad="2"/>
-<connect gate="A" pin="O" pad="4"/>
-<connect gate="P" pin="GND" pad="3"/>
-<connect gate="P" pin="VCC" pad="5"/>
-</connects>
-<technologies>
-<technology name="AHC"/>
-<technology name="AHCT"/>
-<technology name="AUC"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="74*1G04" prefix="IC">
-<description>&lt;b&gt;INVERTER&lt;/b&gt; Gate</description>
-<gates>
-<gate name="A" symbol="7404" x="17.78" y="0"/>
-<gate name="P" symbol="PWRN" x="-5.08" y="-10.16" addlevel="request"/>
-</gates>
-<devices>
-<device name="DBV" package="SOT23-5">
-<connects>
-<connect gate="A" pin="I" pad="2"/>
 <connect gate="A" pin="O" pad="4"/>
 <connect gate="P" pin="GND" pad="3"/>
 <connect gate="P" pin="VCC" pad="5"/>
@@ -273,7 +236,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </device>
 <device name="DCK" package="SC70-5">
 <connects>
-<connect gate="A" pin="I" pad="2"/>
+<connect gate="A" pin="I0" pad="1"/>
+<connect gate="A" pin="I1" pad="2"/>
 <connect gate="A" pin="O" pad="4"/>
 <connect gate="P" pin="GND" pad="3"/>
 <connect gate="P" pin="VCC" pad="5"/>
@@ -282,6 +246,43 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <technology name="AHC"/>
 <technology name="AHCT"/>
 <technology name="AUC"/>
+<technology name="LVC"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74*1G126" prefix="IC">
+<description>Single Bus &lt;b&gt;Buffer&lt;/b&gt; Gate With 3-State Outputs</description>
+<gates>
+<gate name="A" symbol="74126" x="17.78" y="0"/>
+<gate name="P" symbol="PWRN" x="-5.08" y="-5.08" addlevel="request"/>
+</gates>
+<devices>
+<device name="DBV" package="SOT23-5">
+<connects>
+<connect gate="A" pin="I" pad="2"/>
+<connect gate="A" pin="O" pad="4"/>
+<connect gate="A" pin="OE" pad="1"/>
+<connect gate="P" pin="GND" pad="3"/>
+<connect gate="P" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name="AHC"/>
+<technology name="AHCT"/>
+<technology name="LVC"/>
+</technologies>
+</device>
+<device name="DCK" package="SC70-5">
+<connects>
+<connect gate="A" pin="I" pad="2"/>
+<connect gate="A" pin="O" pad="4"/>
+<connect gate="A" pin="OE" pad="1"/>
+<connect gate="P" pin="GND" pad="3"/>
+<connect gate="P" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name="AHC"/>
+<technology name="AHCT"/>
 <technology name="LVC"/>
 </technologies>
 </device>
@@ -8440,14 +8441,14 @@ Based on the following sources:
 </class>
 </classes>
 <parts>
-<part name="IC12" library="74xx-little-us" deviceset="74*1G32" device="DBV" technology="AHC" value="74LVC1G32DBV"/>
-<part name="IC11" library="74xx-little-us" deviceset="74*1G32" device="DBV" technology="AHC" value="74LVC1G32DBV"/>
-<part name="IC10" library="74xx-little-us" deviceset="74*1G32" device="DBV" technology="AHC" value="74LVC1G32DBV"/>
-<part name="IC9" library="74xx-little-us" deviceset="74*1G32" device="DBV" technology="AHC" value="74LVC1G32DBV"/>
-<part name="IC8" library="74xx-little-us" deviceset="74*1G32" device="DBV" technology="AHC" value="74LVC1G32DBV"/>
-<part name="IC7" library="74xx-little-us" deviceset="74*1G32" device="DBV" technology="AHC" value="74LVC1G32DBV"/>
-<part name="IC6" library="74xx-little-us" deviceset="74*1G32" device="DBV" technology="AHC" value="74LVC1G32DBV"/>
-<part name="IC5" library="74xx-little-us" deviceset="74*1G32" device="DBV" technology="AHC" value="74LVC1G32DBV"/>
+<part name="IC12" library="74xx-little-us" deviceset="74*1G08" device="DBV" technology="LVC" value="74LVC1G32DBV"/>
+<part name="IC11" library="74xx-little-us" deviceset="74*1G08" device="DBV" technology="LVC" value="74LVC1G32DBV"/>
+<part name="IC10" library="74xx-little-us" deviceset="74*1G08" device="DBV" technology="LVC" value="74LVC1G32DBV"/>
+<part name="IC9" library="74xx-little-us" deviceset="74*1G08" device="DBV" technology="LVC" value="74LVC1G32DBV"/>
+<part name="IC8" library="74xx-little-us" deviceset="74*1G08" device="DBV" technology="LVC" value="74LVC1G32DBV"/>
+<part name="IC7" library="74xx-little-us" deviceset="74*1G08" device="DBV" technology="LVC" value="74LVC1G32DBV"/>
+<part name="IC6" library="74xx-little-us" deviceset="74*1G08" device="DBV" technology="LVC" value="74LVC1G32DBV"/>
+<part name="IC5" library="74xx-little-us" deviceset="74*1G08" device="DBV" technology="LVC" value="74LVC1G32DBV"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X8" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" deviceset="VCC" device=""/>
@@ -8458,7 +8459,7 @@ Based on the following sources:
 <part name="R25" library="resistor" deviceset="R-US_" device="R0805"/>
 <part name="P+20" library="supply1" deviceset="VCC" device=""/>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0805"/>
-<part name="IC24" library="74xx-little-us" deviceset="74*1G125" device="DBV" technology="LVC"/>
+<part name="IC24" library="74xx-little-us" deviceset="74*1G126" device="DBV" technology="LVC"/>
 <part name="IC13" library="74xx-little-us" deviceset="74*1G125" device="DBV" technology="LVC"/>
 <part name="IC14" library="74xx-little-us" deviceset="74*1G125" device="DBV" technology="LVC"/>
 <part name="IC15" library="74xx-little-us" deviceset="74*1G125" device="DBV" technology="LVC"/>
@@ -8478,10 +8479,9 @@ Based on the following sources:
 <part name="R8" library="resistor" deviceset="R-US_" device="R0805"/>
 <part name="R9" library="resistor" deviceset="R-US_" device="R0805"/>
 <part name="R10" library="resistor" deviceset="R-US_" device="R0805"/>
-<part name="IC23" library="74xx-little-us" deviceset="74*1G125" device="DBV" technology="LVC"/>
+<part name="IC23" library="74xx-little-us" deviceset="74*1G126" device="DBV" technology="LVC"/>
 <part name="R21" library="resistor" deviceset="R-US_" device="R0805"/>
 <part name="R22" library="resistor" deviceset="R-US_" device="R0805"/>
-<part name="IC25" library="74xx-little-us" deviceset="74*1G04" device="DBV" technology="LVC"/>
 <part name="LED10" library="led" deviceset="LED" device="CHIP-LED0805"/>
 <part name="R20" library="resistor" deviceset="R-US_" device="R0805"/>
 <part name="LED9" library="led" deviceset="LED" device="CHIP-LED0805"/>
@@ -8526,7 +8526,6 @@ Based on the following sources:
 <part name="P+16" library="supply1" deviceset="VCC" device=""/>
 <part name="P+17" library="supply1" deviceset="VCC" device=""/>
 <part name="P+18" library="supply1" deviceset="VCC" device=""/>
-<part name="IC26" library="74xx-little-us" deviceset="74*1G04" device="DBV" technology="LVC"/>
 <part name="C5" library="resistor" deviceset="C-US" device="C0805"/>
 <part name="C7" library="resistor" deviceset="C-US" device="C0805"/>
 <part name="C9" library="resistor" deviceset="C-US" device="C0805"/>
@@ -8555,6 +8554,7 @@ Based on the following sources:
 <sheets>
 <sheet>
 <plain>
+<text x="320.04" y="105.41" size="5.08" layer="97">KDM25-SWITCH?</text>
 </plain>
 <instances>
 <instance part="IC12" gate="A" x="162.56" y="76.2"/>
@@ -8635,7 +8635,6 @@ Based on the following sources:
 </instance>
 <instance part="R21" gate="G$1" x="342.9" y="184.15" rot="R90"/>
 <instance part="R22" gate="G$1" x="342.9" y="156.21" rot="R90"/>
-<instance part="IC25" gate="A" x="341.63" y="115.57"/>
 <instance part="LED10" gate="G$1" x="250.19" y="27.94" rot="R270"/>
 <instance part="R20" gate="G$1" x="237.49" y="27.94"/>
 <instance part="LED9" gate="G$1" x="250.19" y="57.15" rot="R270"/>
@@ -8680,7 +8679,6 @@ Based on the following sources:
 <instance part="P+16" gate="VCC" x="342.9" y="193.04"/>
 <instance part="P+17" gate="VCC" x="342.9" y="165.1"/>
 <instance part="P+18" gate="VCC" x="372.11" y="193.04"/>
-<instance part="IC26" gate="A" x="341.63" y="99.06"/>
 <instance part="C5" gate="G$1" x="33.02" y="100.33"/>
 <instance part="C7" gate="G$1" x="40.64" y="100.33"/>
 <instance part="C9" gate="G$1" x="48.26" y="100.33"/>
@@ -9157,7 +9155,6 @@ Based on the following sources:
 <pinref part="IC22" gate="A" pin="OE"/>
 </segment>
 <segment>
-<pinref part="IC25" gate="A" pin="I"/>
 <wire x1="331.47" y1="115.57" x2="314.96" y2="115.57" width="0.1524" layer="91"/>
 <label x="314.96" y="115.57" size="1.778" layer="95"/>
 </segment>
@@ -9167,7 +9164,6 @@ Based on the following sources:
 <label x="318.77" y="233.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC26" gate="A" pin="I"/>
 <wire x1="331.47" y1="99.06" x2="314.96" y2="99.06" width="0.1524" layer="91"/>
 <label x="314.96" y="99.06" size="1.778" layer="95"/>
 </segment>
@@ -9860,14 +9856,12 @@ Based on the following sources:
 <label x="297.18" y="168.91" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC25" gate="A" pin="O"/>
 <wire x1="351.79" y1="115.57" x2="375.92" y2="115.57" width="0.1524" layer="91"/>
 <label x="361.95" y="115.57" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="!DSA-DSB-B" class="0">
 <segment>
-<pinref part="IC26" gate="A" pin="O"/>
 <wire x1="351.79" y1="99.06" x2="375.92" y2="99.06" width="0.1524" layer="91"/>
 <label x="361.95" y="99.06" size="1.778" layer="95"/>
 </segment>
