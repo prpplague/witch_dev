@@ -18,7 +18,7 @@
 #define HEIGHT 792
 #endif
 
-#define HMARGIN 50
+#define HMARGIN 60
 #define VMARGIN 100
 #define DSPACING 27
 

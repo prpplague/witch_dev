@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -122,11 +122,11 @@
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="+5V">
+<symbol name="VCC">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -143,10 +143,10 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="+5V" prefix="P+">
+<deviceset name="VCC" prefix="P+">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
-<gate name="1" symbol="+5V" x="0" y="0"/>
+<gate name="VCC" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -5999,63 +5999,58 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="+3V1" library="supply1" deviceset="+5V" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="JP2" library="pinhead" deviceset="PINHD-1X4" device=""/>
-<part name="JP4" library="pinhead" deviceset="PINHD-1X4" device=""/>
-<part name="C1" library="resistor" deviceset="C-US" device="C0805"/>
-<part name="C2" library="resistor" deviceset="C-US" device="C0805"/>
-<part name="C3" library="resistor" deviceset="C-US" device="C0805"/>
-<part name="+3V4" library="supply1" deviceset="+5V" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="C4" library="resistor" deviceset="C-US" device="C0805"/>
-<part name="FRAME1" library="frames" deviceset="LETTER_L" device=""/>
-<part name="JP3" library="pinhead" deviceset="PINHD-1X4" device=""/>
+<part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X4" device=""/>
+<part name="JP3" library="pinhead" deviceset="PINHD-1X4" device=""/>
+<part name="C1" library="resistor" deviceset="C-US" device="C0805"/>
+<part name="GND4" library="supply1" deviceset="GND" device=""/>
+<part name="C2" library="resistor" deviceset="C-US" device="C0805"/>
+<part name="FRAME1" library="frames" deviceset="LETTER_L" device=""/>
+<part name="JP4" library="pinhead" deviceset="PINHD-1X4" device=""/>
+<part name="JP2" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="IC1" library="74xx-eu" deviceset="74*125" device="D" technology="HC"/>
-<part name="+3V2" library="supply1" deviceset="+5V" device=""/>
-<part name="+3V3" library="supply1" deviceset="+5V" device=""/>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0805"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="R0805"/>
 <part name="R3" library="resistor" deviceset="R-US_" device="R0805"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="GND5" library="supply1" deviceset="GND" device=""/>
+<part name="GND2" library="supply1" deviceset="GND" device=""/>
+<part name="P+2" library="supply1" deviceset="VCC" device=""/>
+<part name="P+1" library="supply1" deviceset="VCC" device=""/>
+<part name="P+3" library="supply1" deviceset="VCC" device=""/>
+<part name="P+4" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="GND2" gate="1" x="170.18" y="96.52"/>
-<instance part="+3V1" gate="1" x="200.66" y="81.28"/>
-<instance part="GND3" gate="1" x="200.66" y="43.18"/>
-<instance part="GND4" gate="1" x="200.66" y="96.52"/>
-<instance part="JP2" gate="A" x="180.34" y="106.68"/>
-<instance part="JP4" gate="A" x="210.82" y="106.68"/>
-<instance part="C1" gate="G$1" x="162.56" y="147.32"/>
-<instance part="C2" gate="G$1" x="172.72" y="147.32"/>
-<instance part="C3" gate="G$1" x="182.88" y="147.32"/>
-<instance part="+3V4" gate="1" x="190.5" y="162.56"/>
-<instance part="GND6" gate="1" x="190.5" y="132.08"/>
-<instance part="C4" gate="G$1" x="198.12" y="147.32"/>
+<instance part="GND3" gate="1" x="170.18" y="96.52"/>
+<instance part="GND6" gate="1" x="200.66" y="43.18"/>
+<instance part="GND5" gate="1" x="200.66" y="96.52"/>
+<instance part="JP1" gate="A" x="180.34" y="106.68"/>
+<instance part="JP3" gate="A" x="210.82" y="106.68"/>
+<instance part="C1" gate="G$1" x="184.15" y="147.32"/>
+<instance part="GND4" gate="1" x="190.5" y="132.08"/>
+<instance part="C2" gate="G$1" x="198.12" y="147.32"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="JP3" gate="A" x="210.82" y="66.04"/>
-<instance part="JP1" gate="A" x="180.34" y="66.04"/>
+<instance part="JP4" gate="A" x="210.82" y="66.04"/>
+<instance part="JP2" gate="A" x="180.34" y="66.04"/>
 <instance part="IC1" gate="C" x="73.66" y="91.44"/>
 <instance part="IC1" gate="D" x="73.66" y="76.2"/>
 <instance part="IC1" gate="A" x="73.66" y="127"/>
 <instance part="IC1" gate="B" x="73.66" y="142.24"/>
-<instance part="+3V2" gate="1" x="170.18" y="119.38"/>
-<instance part="+3V3" gate="1" x="200.66" y="119.38"/>
-<instance part="IC1" gate="P" x="210.82" y="147.32"/>
 <instance part="R1" gate="G$1" x="134.62" y="119.38" rot="R270"/>
 <instance part="R2" gate="G$1" x="134.62" y="68.58" rot="R270"/>
 <instance part="R3" gate="G$1" x="195.58" y="58.42" rot="R270"/>
 <instance part="GND1" gate="1" x="134.62" y="109.22"/>
-<instance part="GND5" gate="1" x="134.62" y="58.42"/>
+<instance part="GND2" gate="1" x="134.62" y="58.42"/>
+<instance part="P+2" gate="VCC" x="190.5" y="162.56"/>
+<instance part="P+1" gate="VCC" x="170.18" y="119.38"/>
+<instance part="P+3" gate="VCC" x="200.66" y="119.38"/>
+<instance part="P+4" gate="VCC" x="200.66" y="81.28"/>
 </instances>
 <busses>
 </busses>
@@ -6063,16 +6058,16 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <net name="GND" class="0">
 <segment>
 <wire x1="170.18" y1="104.14" x2="170.18" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="JP2" gate="A" pin="4"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="JP1" gate="A" pin="4"/>
 <wire x1="177.8" y1="104.14" x2="170.18" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="200.66" y1="63.5" x2="200.66" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="200.66" y1="50.8" x2="200.66" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="63.5" x2="208.28" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="A" pin="4"/>
+<pinref part="JP4" gate="A" pin="4"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="53.34" x2="195.58" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="50.8" x2="200.66" y2="50.8" width="0.1524" layer="91"/>
@@ -6080,33 +6075,20 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 </segment>
 <segment>
 <wire x1="200.66" y1="104.14" x2="200.66" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="JP4" gate="A" pin="4"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="JP3" gate="A" pin="4"/>
 <wire x1="208.28" y1="104.14" x2="200.66" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="142.24" x2="162.56" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="139.7" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="139.7" x2="182.88" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="139.7" x2="190.5" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="184.15" y1="142.24" x2="184.15" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="184.15" y1="139.7" x2="190.5" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="142.24" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="142.24" x2="182.88" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="142.24" x2="198.12" y2="139.7" width="0.1524" layer="91"/>
-<junction x="182.88" y="139.7"/>
-<junction x="172.72" y="139.7"/>
-<junction x="162.56" y="139.7"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="210.82" y1="139.7" x2="198.12" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="198.12" y1="139.7" x2="190.5" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="134.62" x2="190.5" y2="139.7" width="0.1524" layer="91"/>
 <junction x="190.5" y="139.7"/>
-<pinref part="IC1" gate="P" pin="GND"/>
-<junction x="210.82" y="139.7"/>
-<junction x="198.12" y="139.7"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -6114,58 +6096,14 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="134.62" y1="111.76" x2="134.62" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="60.96" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+5V" class="0">
-<segment>
-<wire x1="208.28" y1="71.12" x2="200.66" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="71.12" x2="200.66" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="+3V1" gate="1" pin="+5V"/>
-<pinref part="JP3" gate="A" pin="1"/>
-</segment>
-<segment>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="149.86" x2="162.56" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="154.94" x2="172.72" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="154.94" x2="182.88" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="154.94" x2="190.5" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="149.86" x2="172.72" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="149.86" x2="182.88" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="154.94" x2="198.12" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="154.94" x2="198.12" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="154.94" x2="198.12" y2="149.86" width="0.1524" layer="91"/>
-<junction x="162.56" y="154.94"/>
-<junction x="172.72" y="154.94"/>
-<junction x="182.88" y="154.94"/>
-<pinref part="+3V4" gate="1" pin="+5V"/>
-<wire x1="190.5" y1="154.94" x2="190.5" y2="160.02" width="0.1524" layer="91"/>
-<junction x="190.5" y="154.94"/>
-<pinref part="IC1" gate="P" pin="VCC"/>
-<junction x="210.82" y="154.94"/>
-<junction x="198.12" y="154.94"/>
-</segment>
-<segment>
-<pinref part="JP2" gate="A" pin="1"/>
-<wire x1="177.8" y1="111.76" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="111.76" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="+3V2" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="JP4" gate="A" pin="1"/>
-<wire x1="208.28" y1="111.76" x2="200.66" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="111.76" x2="200.66" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="+3V3" gate="1" pin="+5V"/>
-</segment>
-</net>
 <net name="ZC" class="0">
 <segment>
-<pinref part="JP3" gate="A" pin="3"/>
+<pinref part="JP4" gate="A" pin="3"/>
 <wire x1="208.28" y1="66.04" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
 <label x="187.96" y="66.04" size="1.778" layer="95"/>
 </segment>
@@ -6187,7 +6125,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <pinref part="IC1" gate="B" pin="I"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="JP2" gate="A" pin="1"/>
 <wire x1="177.8" y1="71.12" x2="154.94" y2="71.12" width="0.1524" layer="91"/>
 <label x="154.94" y="71.12" size="1.778" layer="95"/>
 </segment>
@@ -6201,7 +6139,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="134.62" y1="127" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="JP2" gate="A" pin="2"/>
 <wire x1="177.8" y1="68.58" x2="154.94" y2="68.58" width="0.1524" layer="91"/>
 <label x="154.94" y="68.58" size="1.778" layer="95"/>
 </segment>
@@ -6218,12 +6156,12 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <pinref part="IC1" gate="B" pin="OE"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="A" pin="2"/>
+<pinref part="JP1" gate="A" pin="2"/>
 <wire x1="177.8" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
 <label x="154.94" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="A" pin="2"/>
+<pinref part="JP3" gate="A" pin="2"/>
 <wire x1="208.28" y1="109.22" x2="190.5" y2="109.22" width="0.1524" layer="91"/>
 <label x="190.5" y="109.22" size="1.778" layer="95"/>
 </segment>
@@ -6235,7 +6173,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <label x="33.02" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="JP2" gate="A" pin="3"/>
 <wire x1="177.8" y1="66.04" x2="154.94" y2="66.04" width="0.1524" layer="91"/>
 <label x="154.94" y="66.04" size="1.778" layer="95"/>
 </segment>
@@ -6249,7 +6187,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <segment>
 <wire x1="208.28" y1="68.58" x2="195.58" y2="68.58" width="0.1524" layer="91"/>
 <label x="187.96" y="68.58" size="1.778" layer="95"/>
-<pinref part="JP3" gate="A" pin="2"/>
+<pinref part="JP4" gate="A" pin="2"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="68.58" x2="187.96" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="68.58" x2="195.58" y2="63.5" width="0.1524" layer="91"/>
@@ -6270,7 +6208,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="134.62" y1="76.2" x2="134.62" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="4"/>
+<pinref part="JP2" gate="A" pin="4"/>
 <wire x1="177.8" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
 <label x="154.94" y="63.5" size="1.778" layer="95"/>
 </segment>
@@ -6287,14 +6225,45 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <label x="33.02" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="A" pin="3"/>
+<pinref part="JP1" gate="A" pin="3"/>
 <wire x1="177.8" y1="106.68" x2="154.94" y2="106.68" width="0.1524" layer="91"/>
 <label x="154.94" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="A" pin="3"/>
+<pinref part="JP3" gate="A" pin="3"/>
 <wire x1="208.28" y1="106.68" x2="190.5" y2="106.68" width="0.1524" layer="91"/>
 <label x="190.5" y="106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="184.15" y1="149.86" x2="184.15" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="184.15" y1="154.94" x2="190.5" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="154.94" x2="198.12" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="154.94" x2="198.12" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="154.94" x2="190.5" y2="160.02" width="0.1524" layer="91"/>
+<junction x="190.5" y="154.94"/>
+<pinref part="P+2" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="1"/>
+<wire x1="177.8" y1="111.76" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="111.76" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="P+1" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="A" pin="1"/>
+<wire x1="208.28" y1="111.76" x2="200.66" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="111.76" x2="200.66" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="P+3" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<wire x1="208.28" y1="71.12" x2="200.66" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="71.12" x2="200.66" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="1"/>
+<pinref part="P+4" gate="VCC" pin="VCC"/>
 </segment>
 </net>
 </nets>
