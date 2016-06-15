@@ -4,3 +4,4 @@
 gerbers
 *.cam
 *.o
+*.lck
