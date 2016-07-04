@@ -140,8 +140,10 @@
 <text x="5.588" y="10.668" size="2.1844" layer="48">+</text>
 <text x="109.982" y="12.446" size="1.778" layer="48" rot="SR180">Mini-Store Interconnect Board</text>
 <text x="107.442" y="16.002" size="1.778" layer="48" rot="SR180">http://www.witch-e.org</text>
-<text x="32.766" y="62.992" size="2.1844" layer="48">+</text>
-<text x="35.56" y="62.992" size="2.1844" layer="48">-</text>
+<text x="3.302" y="2.032" size="2.1844" layer="48">+</text>
+<text x="6.096" y="2.032" size="2.1844" layer="48">-</text>
+<text x="3.048" y="67.564" size="2.1844" layer="48">+</text>
+<text x="5.842" y="67.564" size="2.1844" layer="48">-</text>
 </plain>
 <libraries>
 <library name="pinhead">
@@ -772,9 +774,9 @@
 <wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-2.54" y="0" drill="1.0668" shape="square" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.0668" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.0668" rot="R90"/>
 <text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
@@ -2129,8 +2131,12 @@ design rules under a new name.</description>
 <element name="JP8" library="pinhead" package="1X02" value="" x="137.16" y="27.94" smashed="yes" rot="R180">
 <attribute name="VALUE" x="139.7" y="31.115" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C1" library="resistor" package="E15-6" value="" x="49.53" y="43.18" rot="R270"/>
-<element name="C2" library="resistor" package="E15-6" value="" x="137.16" y="43.18" rot="R270"/>
+<element name="C1" library="resistor" package="E15-6" value="" x="49.53" y="43.18" smashed="yes" rot="R270">
+<attribute name="VALUE" x="47.6758" y="43.815" size="1.27" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="C2" library="resistor" package="E15-6" value="" x="137.16" y="43.18" smashed="yes" rot="R270">
+<attribute name="VALUE" x="135.3058" y="43.815" size="1.27" layer="27" ratio="10" rot="R270"/>
+</element>
 <element name="JP9" library="pinhead" package="1X12" value="" x="29.972" y="20.32" smashed="yes">
 <attribute name="VALUE" x="14.732" y="17.145" size="1.27" layer="27"/>
 </element>
@@ -2140,7 +2146,12 @@ design rules under a new name.</description>
 <element name="JP10" library="pinhead" package="1X03" value="" x="16.002" y="57.15" smashed="yes" rot="R270">
 <attribute name="VALUE" x="12.827" y="60.96" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="JP11" library="pinhead" package="1X02" value="" x="34.798" y="66.04"/>
+<element name="JP11" library="pinhead" package="1X02" value="" x="5.334" y="5.08" smashed="yes">
+<attribute name="VALUE" x="2.794" y="1.905" size="1.27" layer="27"/>
+</element>
+<element name="JP12" library="pinhead" package="1X02" value="" x="5.334" y="66.04" smashed="yes">
+<attribute name="VALUE" x="2.794" y="62.865" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
@@ -2370,6 +2381,7 @@ design rules under a new name.</description>
 <contactref element="C2" pad="-"/>
 <contactref element="C1" pad="-"/>
 <contactref element="JP11" pad="2"/>
+<contactref element="JP12" pad="2"/>
 </signal>
 <signal name="VCC">
 <polygon width="0.254" layer="1" isolate="0.3048">
@@ -2388,6 +2400,7 @@ design rules under a new name.</description>
 <contactref element="C2" pad="+"/>
 <contactref element="C1" pad="+"/>
 <contactref element="JP11" pad="1"/>
+<contactref element="JP12" pad="1"/>
 </signal>
 <signal name="N$31">
 <contactref element="JP1" pad="19"/>
