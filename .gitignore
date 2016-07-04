@@ -6,3 +6,4 @@ gerbers
 *.o
 *.lck
 *.dxf~
+#*.dxf
