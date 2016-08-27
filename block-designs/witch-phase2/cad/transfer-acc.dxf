@@ -33,7 +33,7 @@ $EXTMAX
  10
 14500
  20
-14500
+7000
  30
 0
   9
@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-7403.019070972675
+9105.086733152557
  22
-3519.887436647685
+5252.012277156479
  13
 0
  23
@@ -1149,7 +1149,7 @@ AcDbViewportTableRecord
  37
 0
  40
-7489.993033796819
+11703.11411530759
  41
 2.039617486338798
  42
@@ -3121,7 +3121,7 @@ AcDbCircle
  10
 8600
  20
-2815
+1885
  40
 39.5
   0
@@ -3141,7 +3141,7 @@ ByLayer
 100
 AcDbCircle
  10
-9530
+9750
  20
 2815
  40
@@ -3163,9 +3163,9 @@ ByLayer
 100
 AcDbCircle
  10
-8600
+10680
  20
-1885
+2815
  40
 39.5
   0
@@ -3185,7 +3185,7 @@ ByLayer
 100
 AcDbCircle
  10
-9530
+9750
  20
 1885
  40
@@ -3207,81 +3207,15 @@ ByLayer
 100
 AcDbCircle
  10
-9750
+10680
  20
-2815
+1885
  40
 39.5
   0
 CIRCLE
   5
 66
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-10680
- 20
-2815
- 40
-39.5
-  0
-CIRCLE
-  5
-67
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-9750
- 20
-1885
- 40
-39.5
-  0
-CIRCLE
-  5
-68
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-10680
- 20
-1885
- 40
-39.5
-  0
-CIRCLE
-  5
-69
 100
 AcDbEntity
   8
@@ -3303,7 +3237,7 @@ AcDbCircle
   0
 CIRCLE
   5
-6A
+67
 100
 AcDbEntity
   8
@@ -3318,6 +3252,72 @@ ByLayer
 AcDbCircle
  10
 4930
+ 20
+3965
+ 40
+39.5
+  0
+CIRCLE
+  5
+68
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+4000
+ 20
+3035
+ 40
+39.5
+  0
+CIRCLE
+  5
+69
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+4930
+ 20
+3035
+ 40
+39.5
+  0
+CIRCLE
+  5
+6A
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+5150
  20
 3965
  40
@@ -3339,9 +3339,9 @@ ByLayer
 100
 AcDbCircle
  10
-4000
+6080
  20
-3035
+3965
  40
 39.5
   0
@@ -3361,7 +3361,7 @@ ByLayer
 100
 AcDbCircle
  10
-4930
+6080
  20
 3035
  40
@@ -3383,7 +3383,7 @@ ByLayer
 100
 AcDbCircle
  10
-5150
+6300
  20
 3965
  40
@@ -3405,7 +3405,7 @@ ByLayer
 100
 AcDbCircle
  10
-6080
+7230
  20
 3965
  40
@@ -3427,7 +3427,7 @@ ByLayer
 100
 AcDbCircle
  10
-6080
+6300
  20
 3035
  40
@@ -3449,9 +3449,9 @@ ByLayer
 100
 AcDbCircle
  10
-6300
+7230
  20
-3965
+3035
  40
 39.5
   0
@@ -3471,7 +3471,7 @@ ByLayer
 100
 AcDbCircle
  10
-7230
+7450
  20
 3965
  40
@@ -3493,9 +3493,9 @@ ByLayer
 100
 AcDbCircle
  10
-6300
+8380
  20
-3035
+3965
  40
 39.5
   0
@@ -3515,7 +3515,7 @@ ByLayer
 100
 AcDbCircle
  10
-7230
+7450
  20
 3035
  40
@@ -3537,9 +3537,9 @@ ByLayer
 100
 AcDbCircle
  10
-7450
+8380
  20
-3965
+3035
  40
 39.5
   0
@@ -3559,7 +3559,7 @@ ByLayer
 100
 AcDbCircle
  10
-8380
+8600
  20
 3965
  40
@@ -3581,9 +3581,9 @@ ByLayer
 100
 AcDbCircle
  10
-7450
+9530
  20
-3035
+3965
  40
 39.5
   0
@@ -3603,7 +3603,7 @@ ByLayer
 100
 AcDbCircle
  10
-8380
+8600
  20
 3035
  40
@@ -3625,9 +3625,9 @@ ByLayer
 100
 AcDbCircle
  10
-8600
+9530
  20
-3965
+3035
  40
 39.5
   0
@@ -3647,7 +3647,7 @@ ByLayer
 100
 AcDbCircle
  10
-9530
+9750
  20
 3965
  40
@@ -3669,9 +3669,9 @@ ByLayer
 100
 AcDbCircle
  10
-8600
+10680
  20
-3035
+3965
  40
 39.5
   0
@@ -3691,7 +3691,7 @@ ByLayer
 100
 AcDbCircle
  10
-9530
+9750
  20
 3035
  40
@@ -3713,81 +3713,15 @@ ByLayer
 100
 AcDbCircle
  10
-9750
+10680
  20
-3965
+3035
  40
 39.5
   0
 CIRCLE
   5
 7D
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-10680
- 20
-3965
- 40
-39.5
-  0
-CIRCLE
-  5
-7E
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-9750
- 20
-3035
- 40
-39.5
-  0
-CIRCLE
-  5
-7F
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-10680
- 20
-3035
- 40
-39.5
-  0
-CIRCLE
-  5
-80
 100
 AcDbEntity
   8
@@ -3809,7 +3743,7 @@ AcDbCircle
   0
 CIRCLE
   5
-81
+7E
 100
 AcDbEntity
   8
@@ -3824,6 +3758,72 @@ ByLayer
 AcDbCircle
  10
 4930
+ 20
+5115
+ 40
+39.5
+  0
+CIRCLE
+  5
+7F
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+4000
+ 20
+4185
+ 40
+39.5
+  0
+CIRCLE
+  5
+80
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+4930
+ 20
+4185
+ 40
+39.5
+  0
+CIRCLE
+  5
+81
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+5150
  20
 5115
  40
@@ -3845,9 +3845,9 @@ ByLayer
 100
 AcDbCircle
  10
-4000
+6080
  20
-4185
+5115
  40
 39.5
   0
@@ -3867,7 +3867,7 @@ ByLayer
 100
 AcDbCircle
  10
-4930
+5150
  20
 4185
  40
@@ -3889,9 +3889,9 @@ ByLayer
 100
 AcDbCircle
  10
-5150
+6080
  20
-5115
+4185
  40
 39.5
   0
@@ -3911,7 +3911,7 @@ ByLayer
 100
 AcDbCircle
  10
-6080
+7230
  20
 5115
  40
@@ -3933,7 +3933,7 @@ ByLayer
 100
 AcDbCircle
  10
-5150
+6300
  20
 4185
  40
@@ -3955,7 +3955,7 @@ ByLayer
 100
 AcDbCircle
  10
-6080
+7230
  20
 4185
  40
@@ -3977,7 +3977,7 @@ ByLayer
 100
 AcDbCircle
  10
-7230
+7450
  20
 5115
  40
@@ -3999,9 +3999,9 @@ ByLayer
 100
 AcDbCircle
  10
-6300
+8380
  20
-4185
+5115
  40
 39.5
   0
@@ -4021,7 +4021,7 @@ ByLayer
 100
 AcDbCircle
  10
-7230
+7450
  20
 4185
  40
@@ -4043,9 +4043,9 @@ ByLayer
 100
 AcDbCircle
  10
-7450
+8380
  20
-5115
+4185
  40
 39.5
   0
@@ -4065,7 +4065,7 @@ ByLayer
 100
 AcDbCircle
  10
-8380
+8600
  20
 5115
  40
@@ -4087,7 +4087,7 @@ ByLayer
 100
 AcDbCircle
  10
-7450
+8600
  20
 4185
  40
@@ -4109,9 +4109,9 @@ ByLayer
 100
 AcDbCircle
  10
-8380
+9750
  20
-4185
+5115
  40
 39.5
   0
@@ -4131,125 +4131,15 @@ ByLayer
 100
 AcDbCircle
  10
-8600
+9750
  20
-5115
+4185
  40
 39.5
   0
 CIRCLE
   5
 90
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-9530
- 20
-5115
- 40
-39.5
-  0
-CIRCLE
-  5
-91
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-8600
- 20
-4185
- 40
-39.5
-  0
-CIRCLE
-  5
-92
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-9530
- 20
-4185
- 40
-39.5
-  0
-CIRCLE
-  5
-93
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-9750
- 20
-5115
- 40
-39.5
-  0
-CIRCLE
-  5
-94
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-9750
- 20
-4185
- 40
-39.5
-  0
-CIRCLE
-  5
-95
 100
 AcDbEntity
   8
@@ -4271,7 +4161,7 @@ AcDbCircle
   0
 CIRCLE
   5
-96
+91
 100
 AcDbEntity
   8
@@ -4288,6 +4178,116 @@ AcDbCircle
 4465
  20
 1367.5
+ 40
+250
+  0
+CIRCLE
+  5
+92
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+5615
+ 20
+1367.5
+ 40
+250
+  0
+CIRCLE
+  5
+93
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+7915
+ 20
+1367.5
+ 40
+250
+  0
+CIRCLE
+  5
+94
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+9065
+ 20
+1367.5
+ 40
+250
+  0
+CIRCLE
+  5
+95
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+10215
+ 20
+1367.5
+ 40
+250
+  0
+CIRCLE
+  5
+96
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+4465
+ 20
+5632.5
  40
 250
   0
@@ -4309,7 +4309,7 @@ AcDbCircle
  10
 5615
  20
-1367.5
+5632.5
  40
 250
   0
@@ -4331,7 +4331,7 @@ AcDbCircle
  10
 7915
  20
-1367.5
+5632.5
  40
 250
   0
@@ -4353,7 +4353,7 @@ AcDbCircle
  10
 9065
  20
-1367.5
+5632.5
  40
 250
   0
@@ -4375,123 +4375,13 @@ AcDbCircle
  10
 10215
  20
-1367.5
+5632.5
  40
 250
   0
 CIRCLE
   5
 9B
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-4465
- 20
-5632.5
- 40
-250
-  0
-CIRCLE
-  5
-9C
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-5615
- 20
-5632.5
- 40
-250
-  0
-CIRCLE
-  5
-9D
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-7915
- 20
-5632.5
- 40
-250
-  0
-CIRCLE
-  5
-9E
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-9065
- 20
-5632.5
- 40
-250
-  0
-CIRCLE
-  5
-9F
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-10215
- 20
-5632.5
- 40
-250
-  0
-CIRCLE
-  5
-A0
 100
 AcDbEntity
   8
@@ -4513,7 +4403,7 @@ AcDbCircle
   0
 CIRCLE
   5
-A1
+9C
 100
 AcDbEntity
   8
@@ -4535,6 +4425,116 @@ AcDbCircle
   0
 CIRCLE
   5
+9D
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+11197.5
+ 20
+4650
+ 40
+300
+  0
+CIRCLE
+  5
+9E
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+11197.5
+ 20
+3500
+ 40
+300
+  0
+CIRCLE
+  5
+9F
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+11197.5
+ 20
+2350
+ 40
+300
+  0
+CIRCLE
+  5
+A0
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+3482.5
+ 20
+4650
+ 40
+300
+  0
+CIRCLE
+  5
+A1
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+3482.5
+ 20
+3500
+ 40
+300
+  0
+CIRCLE
+  5
 A2
 100
 AcDbEntity
@@ -4549,125 +4549,15 @@ ByLayer
 100
 AcDbCircle
  10
-11197.5
+3482.5
  20
-4650
+2350
  40
 300
   0
 CIRCLE
   5
 A3
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-11197.5
- 20
-3500
- 40
-300
-  0
-CIRCLE
-  5
-A4
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-11197.5
- 20
-2350
- 40
-300
-  0
-CIRCLE
-  5
-A5
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-3482.5
- 20
-4650
- 40
-300
-  0
-CIRCLE
-  5
-A6
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-3482.5
- 20
-3500
- 40
-300
-  0
-CIRCLE
-  5
-A7
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-3482.5
- 20
-2350
- 40
-300
-  0
-CIRCLE
-  5
-A8
 100
 AcDbEntity
   8
@@ -4689,7 +4579,7 @@ AcDbCircle
   0
 CIRCLE
   5
-A9
+A4
 100
 AcDbEntity
   8
@@ -4711,95 +4601,7 @@ AcDbCircle
   0
 CIRCLE
   5
-AA
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-5615
- 20
-2400
- 40
-39.5
-  0
-CIRCLE
-  5
-AB
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-9065
- 20
-2400
- 40
-39.5
-  0
-CIRCLE
-  5
-AC
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-5615
- 20
-4600
- 40
-39.5
-  0
-CIRCLE
-  5
-AD
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-9065
- 20
-4600
- 40
-39.5
-  0
-CIRCLE
-  5
-AE
+A5
 100
 AcDbEntity
   8
@@ -4821,7 +4623,7 @@ AcDbCircle
   0
 CIRCLE
   5
-AF
+A6
 100
 AcDbEntity
   8
@@ -4843,7 +4645,7 @@ AcDbCircle
   0
 CIRCLE
   5
-B0
+A7
 100
 AcDbEntity
   8
@@ -4865,7 +4667,7 @@ AcDbCircle
   0
 CIRCLE
   5
-B1
+A8
 100
 AcDbEntity
   8
@@ -4887,7 +4689,7 @@ AcDbCircle
   0
 CIRCLE
   5
-B2
+A9
 100
 AcDbEntity
   8
@@ -4906,6 +4708,204 @@ AcDbCircle
 6500
  40
 95
+  0
+CIRCLE
+  5
+AA
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+9530
+ 20
+2815
+ 40
+39.5
+  0
+CIRCLE
+  5
+AB
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+8600
+ 20
+2815
+ 40
+39.5
+  0
+CIRCLE
+  5
+AC
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+9530
+ 20
+1885
+ 40
+39.5
+  0
+CIRCLE
+  5
+AD
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+9065
+ 20
+2350
+ 40
+39.5
+  0
+CIRCLE
+  5
+AE
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+9530
+ 20
+5115
+ 40
+39.5
+  0
+CIRCLE
+  5
+AF
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+9530
+ 20
+4185
+ 40
+39.5
+  0
+CIRCLE
+  5
+B0
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+9065
+ 20
+4650
+ 40
+39.5
+  0
+CIRCLE
+  5
+B1
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+5615
+ 20
+2350
+ 40
+39.5
+  0
+CIRCLE
+  5
+B2
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+5615
+ 20
+4650
+ 40
+39.5
   0
 ENDSEC
   0
