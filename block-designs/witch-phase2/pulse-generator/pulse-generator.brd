@@ -160,8 +160,12 @@
 <circle x="2.159" y="2.159" radius="2.0066" width="0.0254" layer="41"/>
 <circle x="2.159" y="2.159" radius="2.0066" width="0.0254" layer="42"/>
 <wire x1="159.766" y1="0" x2="0" y2="0" width="0" layer="20"/>
-<text x="36.449" y="91.694" size="2.1844" layer="48">Pulse Generator
+<text x="3.048" y="73.787" size="2.1844" layer="48">Pulse Generator
 http://www.witch-e.org</text>
+<text x="56.388" y="6.096" size="1.778" layer="48">ADD/COMP</text>
+<text x="86.741" y="5.969" size="1.778" layer="48">CLEAR</text>
+<text x="142.113" y="12.446" size="1.778" layer="48">RESET</text>
+<text x="18.923" y="7.239" size="1.778" layer="48">MCLK</text>
 </plain>
 <libraries>
 <library name="resistor">
@@ -1895,7 +1899,7 @@ design rules under a new name.</description>
 <element name="IC12" library="74xx-little-us" package="SOT23-5" value="74LVC1G08DBV" x="91.948" y="56.769" rot="R270"/>
 <element name="IC14" library="witch-e" package="DBV_R-PDSO-G6" value="741G175" x="60.198" y="46.863" rot="R270"/>
 <element name="IC15" library="witch-e" package="DBV_R-PDSO-G6" value="741G175" x="72.009" y="46.863" rot="R270"/>
-<element name="C1" library="resistor" package="C0805" value="10uF" x="26.543" y="88.519" rot="R270"/>
+<element name="C1" library="resistor" package="C0805" value="10uF" x="147.32" y="90.805" rot="R270"/>
 <element name="C17" library="resistor" package="C0805" value="10uF" x="25.527" y="17.526" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.352" y="18.542" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="26.797" y="20.066" size="1.27" layer="27" rot="R180"/>
@@ -1905,7 +1909,7 @@ design rules under a new name.</description>
 <element name="C6" library="resistor" package="C0805" value="1uF" x="109.474" y="71.628"/>
 <element name="C9" library="resistor" package="C0805" value="1uF" x="101.727" y="60.325"/>
 <element name="C3" library="resistor" package="C0805" value="1uF" x="47.752" y="77.851"/>
-<element name="JP2" library="pinhead" package="1X02" value="" x="27.813" y="92.964"/>
+<element name="JP2" library="pinhead" package="1X02" value="" x="148.59" y="95.25"/>
 <element name="C2" library="resistor" package="C0805" value="10uF" x="79.629" y="85.09"/>
 <element name="C10" library="resistor" package="C0805" value="10uF" x="54.61" y="50.038"/>
 <element name="C5" library="resistor" package="C0805" value="10uF" x="56.769" y="71.882"/>
@@ -1997,7 +2001,7 @@ design rules under a new name.</description>
 <contactref element="C9" pad="1"/>
 <contactref element="C6" pad="1"/>
 <contactref element="JP2" pad="1"/>
-<wire x1="26.543" y1="89.469" x2="26.543" y2="92.964" width="0.254" layer="1"/>
+<wire x1="147.32" y1="91.755" x2="147.32" y2="95.25" width="0.254" layer="1"/>
 <wire x1="26.477" y1="17.526" x2="26.543" y2="17.46" width="0.254" layer="1"/>
 <wire x1="26.543" y1="17.46" x2="26.543" y2="15.113" width="0.254" layer="1"/>
 <contactref element="C5" pad="1"/>
