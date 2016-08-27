@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6758,11 +6758,11 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="FRAME1" library="frames" deviceset="TABL_L" device=""/>
 <part name="S7" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="PTH"/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH"/>
-<part name="C1" library="resistor" deviceset="C-US" device="C0805"/>
-<part name="R6" library="resistor" deviceset="R-US_" device="R0805"/>
+<part name="C1" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
+<part name="R6" library="resistor" deviceset="R-US_" device="R0805" value="10k"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
-<part name="R1" library="resistor" deviceset="R-US_" device="R0805"/>
+<part name="R1" library="resistor" deviceset="R-US_" device="R0805" value="100k"/>
 <part name="IC1" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
 <part name="S2" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH"/>
 <part name="C2" library="resistor" deviceset="C-US" device="C0805"/>
