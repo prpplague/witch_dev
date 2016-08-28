@@ -164,7 +164,7 @@
 http://www.witch-e.org</text>
 <text x="56.388" y="6.096" size="1.778" layer="48">ADD/COMP</text>
 <text x="86.741" y="5.969" size="1.778" layer="48">CLEAR</text>
-<text x="142.113" y="12.446" size="1.778" layer="48">RESET</text>
+<text x="134.62" y="10.668" size="1.778" layer="48">RESET/RUN</text>
 <text x="18.923" y="7.239" size="1.778" layer="48">MCLK</text>
 </plain>
 <libraries>
@@ -1930,7 +1930,7 @@ design rules under a new name.</description>
 <element name="S2" library="SparkFun-Electromechanical" package="TACTILE-PTH" value="" x="140.716" y="21.082" rot="R270"/>
 <element name="C16" library="resistor" package="C0805" value="10uF" x="131.064" y="28.321"/>
 <element name="R4" library="resistor" package="R0805" value="10k" x="131.064" y="24.257" rot="R180"/>
-<element name="R6" library="resistor" package="R0805" value="100k" x="137.414" y="13.589" rot="R180"/>
+<element name="R6" library="resistor" package="R0805" value="100k" x="134.112" y="16.891" rot="R270"/>
 <element name="IC23" library="74xx-little-us" package="SOT23-5" value="74LVC1G17DBV" x="130.048" y="14.859" rot="R180"/>
 <element name="JP1" library="pinhead" package="1X11" value="" x="126.746" y="95.377" rot="R180"/>
 </elements>
@@ -2087,8 +2087,6 @@ design rules under a new name.</description>
 <wire x1="106.807" y1="71.628" x2="105.41" y2="70.231" width="0.254" layer="1"/>
 <wire x1="100.777" y1="60.325" x2="99.187" y2="60.325" width="0.254" layer="1"/>
 <wire x1="99.187" y1="60.325" x2="97.917" y2="59.055" width="0.254" layer="1"/>
-<wire x1="130.998" y1="13.559" x2="136.434" y2="13.559" width="0.254" layer="1"/>
-<wire x1="136.434" y1="13.559" x2="136.464" y2="13.589" width="0.254" layer="1"/>
 <wire x1="68.677" y1="21.8465" x2="68.6816" y2="21.8419" width="0.254" layer="1"/>
 <via x="68.6816" y="20.193" extent="1-16" drill="0.3048"/>
 <wire x1="68.6816" y1="17.079" x2="68.6816" y2="20.193" width="0.254" layer="1"/>
@@ -2113,6 +2111,9 @@ design rules under a new name.</description>
 <wire x1="55.311" y1="61.976" x2="52.578" y2="61.976" width="0.254" layer="1"/>
 <wire x1="49.306" y1="61.529" x2="52.131" y2="61.529" width="0.254" layer="1"/>
 <wire x1="52.131" y1="61.529" x2="52.578" y2="61.976" width="0.254" layer="1"/>
+<wire x1="130.998" y1="13.559" x2="133.193" y2="13.559" width="0.254" layer="1"/>
+<wire x1="133.193" y1="13.559" x2="134.112" y2="14.478" width="0.254" layer="1"/>
+<wire x1="134.112" y1="14.478" x2="134.112" y2="15.941" width="0.254" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="J1" pad="PWR"/>
@@ -2596,11 +2597,11 @@ design rules under a new name.</description>
 <contactref element="S2" pad="3"/>
 <contactref element="S2" pad="4"/>
 <contactref element="R6" pad="1"/>
-<wire x1="138.364" y1="13.589" x2="138.4554" y2="13.6804" width="0.254" layer="1"/>
-<wire x1="138.4554" y1="13.6804" x2="138.4554" y2="17.8308" width="0.254" layer="1"/>
 <wire x1="138.4554" y1="17.8308" x2="138.4554" y2="24.3332" width="0.254" layer="1"/>
 <wire x1="132.014" y1="24.257" x2="132.0902" y2="24.3332" width="0.254" layer="1"/>
 <wire x1="132.0902" y1="24.3332" x2="138.4554" y2="24.3332" width="0.254" layer="1"/>
+<wire x1="138.4554" y1="17.8308" x2="134.1222" y2="17.8308" width="0.254" layer="1"/>
+<wire x1="134.1222" y1="17.8308" x2="134.112" y2="17.841" width="0.254" layer="1"/>
 </signal>
 <signal name="CARRY_DONE">
 <contactref element="JP1" pad="4"/>
