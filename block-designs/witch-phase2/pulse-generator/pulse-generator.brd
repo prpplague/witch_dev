@@ -2223,7 +2223,6 @@ design rules under a new name.</description>
 <contactref element="JP3" pad="1"/>
 </signal>
 <signal name="GND">
-<contactref element="IC20" pad="5"/>
 <contactref element="IC20" pad="1"/>
 <contactref element="C14" pad="2"/>
 <contactref element="LED1" pad="C"/>
