@@ -11153,15 +11153,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <junction x="41.91" y="22.86"/>
 </segment>
 <segment>
-<pinref part="IC20" gate="A" pin="CV"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="205.74" y1="160.02" x2="214.63" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="214.63" y1="160.02" x2="214.63" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="IC20" gate="A" pin="GND"/>
 <wire x1="214.63" y1="154.94" x2="214.63" y2="138.43" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="154.94" x2="214.63" y2="154.94" width="0.1524" layer="91"/>
-<junction x="214.63" y="160.02"/>
-<junction x="214.63" y="154.94"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
