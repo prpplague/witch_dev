@@ -11120,138 +11120,138 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <part name="J1" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH"/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="IC20" library="adafruit" deviceset="*555" device="D" technology="NE"/>
+<part name="IC21" library="adafruit" deviceset="*555" device="D" technology="NE"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
-<part name="C14" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
+<part name="C21" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="R3" library="resistor" deviceset="R-US_" device="R0805" value="33K"/>
-<part name="R5" library="resistor" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="R12" library="resistor" deviceset="R-US_" device="R0805" value="33K"/>
+<part name="R14" library="resistor" deviceset="R-US_" device="R0805" value="1K"/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
-<part name="R2" library="resistor" deviceset="R-US_" device="R0805" value="8.2K"/>
+<part name="R11" library="resistor" deviceset="R-US_" device="R0805" value="8.2K"/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="PTH"/>
-<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="Q1" library="transistor-pnp" deviceset="MMBT2907*" device="SMD" technology="ALT1"/>
-<part name="R8" library="resistor" deviceset="R-US_" device="R0805" value="1K"/>
-<part name="R7" library="resistor" deviceset="R-US_" device="R0805" value="270"/>
+<part name="LED6" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="Q6" library="transistor-pnp" deviceset="MMBT2907*" device="SMD" technology="ALT1"/>
+<part name="R21" library="resistor" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="R20" library="resistor" deviceset="R-US_" device="R0805" value="270"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
 <part name="IC2" library="witch-e" deviceset="74*1G175" device=""/>
-<part name="IC7" library="witch-e" deviceset="74*1G175" device=""/>
+<part name="IC8" library="witch-e" deviceset="74*1G175" device=""/>
 <part name="IC5" library="74xx-little-us" deviceset="74*1G04" device="DBV" technology="LVC"/>
 <part name="IC6" library="74xx-little-us" deviceset="74*1G08" device="DBV" technology="LVC"/>
 <part name="P+13" library="supply1" deviceset="VCC" device=""/>
 <part name="P+14" library="supply1" deviceset="VCC" device=""/>
-<part name="IC17" library="witch-e" deviceset="74*1G175" device=""/>
-<part name="IC18" library="74xx-little-us" deviceset="74*1G04" device="DBV" technology="LVC"/>
+<part name="IC18" library="witch-e" deviceset="74*1G175" device=""/>
 <part name="IC19" library="74xx-little-us" deviceset="74*1G04" device="DBV" technology="LVC"/>
-<part name="IC8" library="74xx-little-us" deviceset="74*1G08" device="DBV" technology="LVC"/>
-<part name="IC13" library="witch-e" deviceset="74*1G175" device=""/>
+<part name="IC20" library="74xx-little-us" deviceset="74*1G04" device="DBV" technology="LVC"/>
 <part name="IC9" library="74xx-little-us" deviceset="74*1G08" device="DBV" technology="LVC"/>
-<part name="IC16" library="74xx-little-us" deviceset="74*1G04" device="DBV" technology="LVC"/>
+<part name="IC14" library="witch-e" deviceset="74*1G175" device=""/>
+<part name="IC10" library="74xx-little-us" deviceset="74*1G08" device="DBV" technology="LVC"/>
+<part name="IC17" library="74xx-little-us" deviceset="74*1G04" device="DBV" technology="LVC"/>
 <part name="IC1" library="74xx-little-us" deviceset="74*1G08" device="DBV" technology="LVC"/>
 <part name="P+16" library="supply1" deviceset="VCC" device=""/>
 <part name="IC3" library="witch-e" deviceset="74*1G175" device=""/>
 <part name="IC4" library="witch-e" deviceset="74*1G175" device=""/>
 <part name="FRAME2" library="frames" deviceset="TABL_L" device=""/>
-<part name="IC11" library="witch-e" deviceset="74*1G175" device=""/>
+<part name="IC12" library="witch-e" deviceset="74*1G175" device=""/>
 <part name="P+15" library="supply1" deviceset="VCC" device=""/>
-<part name="IC10" library="74xx-little-us" deviceset="74*1G08" device="DBV" technology="LVC"/>
-<part name="IC12" library="74xx-little-us" deviceset="74*1G08" device="DBV" technology="LVC"/>
-<part name="IC14" library="witch-e" deviceset="74*1G175" device=""/>
+<part name="IC11" library="74xx-little-us" deviceset="74*1G08" device="DBV" technology="LVC"/>
+<part name="IC13" library="74xx-little-us" deviceset="74*1G08" device="DBV" technology="LVC"/>
 <part name="IC15" library="witch-e" deviceset="74*1G175" device=""/>
+<part name="IC16" library="witch-e" deviceset="74*1G175" device=""/>
 <part name="C1" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
-<part name="C17" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C4" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C8" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C25" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C10" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C14" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="P+11" library="supply1" deviceset="VCC" device=""/>
-<part name="C6" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C9" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C12" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C15" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
+<part name="C7" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="JP3" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="C3" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="JP2" library="pinhead" deviceset="PINHD-1X2" device=""/>
-<part name="C2" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C10" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C5" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C13" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C16" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C11" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C22" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
-<part name="C12" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C7" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C18" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C13" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
-<part name="C11" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C17" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="S3" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="PTH"/>
-<part name="C18" library="resistor" deviceset="C-US" device="C0805"/>
-<part name="R10" library="resistor" deviceset="R-US_" device="R0805"/>
+<part name="C26" library="resistor" deviceset="C-US" device="C0805"/>
+<part name="R17" library="resistor" deviceset="R-US_" device="R0805"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
-<part name="R9" library="resistor" deviceset="R-US_" device="R0805"/>
-<part name="IC21" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
+<part name="R16" library="resistor" deviceset="R-US_" device="R0805"/>
+<part name="IC22" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
 <part name="S4" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="PTH"/>
-<part name="C19" library="resistor" deviceset="C-US" device="C0805"/>
-<part name="R12" library="resistor" deviceset="R-US_" device="R0805"/>
+<part name="C27" library="resistor" deviceset="C-US" device="C0805"/>
+<part name="R19" library="resistor" deviceset="R-US_" device="R0805"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
-<part name="R11" library="resistor" deviceset="R-US_" device="R0805"/>
-<part name="IC22" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
+<part name="R18" library="resistor" deviceset="R-US_" device="R0805"/>
+<part name="IC23" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
 <part name="S2" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH"/>
-<part name="C16" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
-<part name="R4" library="resistor" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="C23" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
+<part name="R13" library="resistor" deviceset="R-US_" device="R0805" value="10k"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
-<part name="R6" library="resistor" deviceset="R-US_" device="R0805" value="100k"/>
-<part name="IC23" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X11" device=""/>
+<part name="R15" library="resistor" deviceset="R-US_" device="R0805" value="100k"/>
+<part name="IC24" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
+<part name="JP2" library="pinhead" deviceset="PINHD-1X11" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="JP3" library="pinhead" deviceset="PINHD-1X4" device=""/>
+<part name="JP1" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="P+17" library="supply1" deviceset="VCC" device=""/>
-<part name="IC24" library="74xx-little-us" deviceset="74*1G04" device="DBV" technology="LVC"/>
-<part name="C15" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
-<part name="C20" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C21" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C22" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C23" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C24" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="IC7" library="74xx-little-us" deviceset="74*1G04" device="DBV" technology="LVC"/>
+<part name="C4" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
+<part name="C2" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C9" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C6" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C8" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C19" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
-<part name="C25" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C26" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C20" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C24" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="P+18" library="supply1" deviceset="VCC" device=""/>
-<part name="C27" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="LED3" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="R14" library="resistor" deviceset="R-US_" device="R0805" value="270"/>
+<part name="C5" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="R2" library="resistor" deviceset="R-US_" device="R0805" value="270"/>
 <part name="P+20" library="supply1" deviceset="VCC" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="R15" library="resistor" deviceset="R-US_" device="R0805" value="1K"/>
-<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A"/>
-<part name="LED2" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="R1" library="resistor" deviceset="R-US_" device="R0805" value="270"/>
+<part name="R1" library="resistor" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A"/>
+<part name="LED3" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="R6" library="resistor" deviceset="R-US_" device="R0805" value="270"/>
 <part name="P+19" library="supply1" deviceset="VCC" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="R13" library="resistor" deviceset="R-US_" device="R0805" value="1K"/>
-<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A"/>
-<part name="LED4" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="R16" library="resistor" deviceset="R-US_" device="R0805" value="270"/>
+<part name="R5" library="resistor" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A"/>
+<part name="LED2" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="R4" library="resistor" deviceset="R-US_" device="R0805" value="270"/>
 <part name="P+21" library="supply1" deviceset="VCC" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="R17" library="resistor" deviceset="R-US_" device="R0805" value="1K"/>
-<part name="Q4" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A"/>
-<part name="LED5" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="R18" library="resistor" deviceset="R-US_" device="R0805" value="270"/>
+<part name="R3" library="resistor" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A"/>
+<part name="LED4" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="R8" library="resistor" deviceset="R-US_" device="R0805" value="270"/>
 <part name="P+22" library="supply1" deviceset="VCC" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="R19" library="resistor" deviceset="R-US_" device="R0805" value="1K"/>
-<part name="Q5" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A"/>
-<part name="LED6" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="R20" library="resistor" deviceset="R-US_" device="R0805" value="270"/>
+<part name="R7" library="resistor" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="Q4" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A"/>
+<part name="LED5" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="R10" library="resistor" deviceset="R-US_" device="R0805" value="270"/>
 <part name="P+23" library="supply1" deviceset="VCC" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="R21" library="resistor" deviceset="R-US_" device="R0805" value="1K"/>
-<part name="Q6" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A"/>
+<part name="R9" library="resistor" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="Q5" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A"/>
 </parts>
 <sheets>
 <sheet>
@@ -11263,108 +11263,108 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <instance part="J1" gate="G$1" x="30.48" y="20.32"/>
 <instance part="P+10" gate="VCC" x="41.91" y="39.37" rot="MR0"/>
 <instance part="GND10" gate="1" x="41.91" y="15.24" rot="MR0"/>
-<instance part="IC20" gate="A" x="195.58" y="167.64"/>
+<instance part="IC21" gate="A" x="195.58" y="167.64"/>
 <instance part="GND6" gate="1" x="214.63" y="135.89"/>
 <instance part="P+5" gate="VCC" x="214.63" y="190.5"/>
-<instance part="C14" gate="G$1" x="172.72" y="148.59"/>
+<instance part="C21" gate="G$1" x="172.72" y="148.59"/>
 <instance part="GND5" gate="1" x="172.72" y="135.89"/>
-<instance part="R3" gate="G$1" x="172.72" y="166.37" rot="R90"/>
-<instance part="R5" gate="G$1" x="172.72" y="179.07" rot="R90"/>
+<instance part="R12" gate="G$1" x="172.72" y="166.37" rot="R90"/>
+<instance part="R14" gate="G$1" x="172.72" y="179.07" rot="R90"/>
 <instance part="P+4" gate="VCC" x="172.72" y="190.5"/>
-<instance part="R2" gate="G$1" x="149.86" y="166.37" rot="R90"/>
+<instance part="R11" gate="G$1" x="149.86" y="166.37" rot="R90"/>
 <instance part="S1" gate="1" x="157.48" y="175.26"/>
-<instance part="LED1" gate="G$1" x="260.35" y="144.78"/>
-<instance part="Q1" gate="G$1" x="257.81" y="165.1" smashed="yes">
+<instance part="LED6" gate="G$1" x="260.35" y="144.78"/>
+<instance part="Q6" gate="G$1" x="257.81" y="165.1" smashed="yes">
 <attribute name="NAME" x="262.89" y="165.1" size="1.778" layer="95"/>
 <attribute name="VALUE" x="262.89" y="162.56" size="1.778" layer="96"/>
 </instance>
-<instance part="R8" gate="G$1" x="247.65" y="165.1" rot="R180"/>
-<instance part="R7" gate="G$1" x="260.35" y="153.67" rot="R270"/>
+<instance part="R21" gate="G$1" x="247.65" y="165.1" rot="R180"/>
+<instance part="R20" gate="G$1" x="260.35" y="153.67" rot="R270"/>
 <instance part="GND7" gate="1" x="260.35" y="135.89"/>
 <instance part="P+7" gate="VCC" x="260.35" y="175.26"/>
-<instance part="IC17" gate="G$1" x="255.27" y="234.95"/>
-<instance part="IC18" gate="A" x="259.08" y="254" rot="R180"/>
-<instance part="IC19" gate="A" x="259.08" y="185.42"/>
+<instance part="IC18" gate="G$1" x="255.27" y="234.95"/>
+<instance part="IC19" gate="A" x="259.08" y="254" rot="R180"/>
+<instance part="IC20" gate="A" x="259.08" y="185.42"/>
 <instance part="C1" gate="G$1" x="186.69" y="26.67"/>
-<instance part="C17" gate="G$1" x="198.12" y="26.67"/>
-<instance part="C4" gate="G$1" x="209.55" y="26.67"/>
-<instance part="C8" gate="G$1" x="220.98" y="26.67"/>
+<instance part="C25" gate="G$1" x="198.12" y="26.67"/>
+<instance part="C10" gate="G$1" x="209.55" y="26.67"/>
+<instance part="C14" gate="G$1" x="220.98" y="26.67"/>
 <instance part="GND11" gate="1" x="209.55" y="12.7"/>
 <instance part="P+11" gate="VCC" x="209.55" y="39.37"/>
-<instance part="C6" gate="G$1" x="242.57" y="26.67"/>
-<instance part="C9" gate="G$1" x="254" y="26.67"/>
+<instance part="C12" gate="G$1" x="242.57" y="26.67"/>
+<instance part="C15" gate="G$1" x="254" y="26.67"/>
 <instance part="GND12" gate="1" x="254" y="12.7"/>
 <instance part="P+12" gate="VCC" x="254" y="39.37"/>
-<instance part="C3" gate="G$1" x="265.43" y="26.67"/>
-<instance part="JP2" gate="G$1" x="53.34" y="25.4"/>
-<instance part="C2" gate="G$1" x="186.69" y="64.77"/>
-<instance part="C10" gate="G$1" x="198.12" y="64.77"/>
-<instance part="C5" gate="G$1" x="209.55" y="64.77"/>
-<instance part="C13" gate="G$1" x="220.98" y="64.77"/>
+<instance part="C7" gate="G$1" x="265.43" y="26.67"/>
+<instance part="JP3" gate="G$1" x="53.34" y="25.4"/>
+<instance part="C3" gate="G$1" x="186.69" y="64.77"/>
+<instance part="C16" gate="G$1" x="198.12" y="64.77"/>
+<instance part="C11" gate="G$1" x="209.55" y="64.77"/>
+<instance part="C22" gate="G$1" x="220.98" y="64.77"/>
 <instance part="GND8" gate="1" x="209.55" y="50.8"/>
 <instance part="P+8" gate="VCC" x="209.55" y="77.47"/>
-<instance part="C12" gate="G$1" x="242.57" y="64.77"/>
-<instance part="C7" gate="G$1" x="254" y="64.77"/>
+<instance part="C18" gate="G$1" x="242.57" y="64.77"/>
+<instance part="C13" gate="G$1" x="254" y="64.77"/>
 <instance part="GND9" gate="1" x="254" y="50.8"/>
 <instance part="P+9" gate="VCC" x="254" y="77.47"/>
-<instance part="C11" gate="G$1" x="265.43" y="64.77"/>
+<instance part="C17" gate="G$1" x="265.43" y="64.77"/>
 <instance part="S4" gate="1" x="26.67" y="243.84" rot="MR0"/>
-<instance part="C19" gate="G$1" x="49.53" y="240.03"/>
-<instance part="R12" gate="G$1" x="40.64" y="243.84"/>
+<instance part="C27" gate="G$1" x="49.53" y="240.03"/>
+<instance part="R19" gate="G$1" x="40.64" y="243.84"/>
 <instance part="GND1" gate="1" x="11.43" y="228.6"/>
 <instance part="P+1" gate="VCC" x="33.02" y="259.08" rot="MR0"/>
-<instance part="R11" gate="G$1" x="33.02" y="250.19" rot="R90"/>
-<instance part="IC22" gate="G$1" x="73.66" y="243.84"/>
+<instance part="R18" gate="G$1" x="33.02" y="250.19" rot="R90"/>
+<instance part="IC23" gate="G$1" x="73.66" y="243.84"/>
 <instance part="S3" gate="1" x="26.67" y="209.55" rot="MR0"/>
-<instance part="C18" gate="G$1" x="49.53" y="205.74"/>
-<instance part="R10" gate="G$1" x="40.64" y="209.55"/>
+<instance part="C26" gate="G$1" x="49.53" y="205.74"/>
+<instance part="R17" gate="G$1" x="40.64" y="209.55"/>
 <instance part="GND3" gate="1" x="11.43" y="194.31"/>
 <instance part="P+3" gate="VCC" x="33.02" y="224.79" rot="MR0"/>
-<instance part="R9" gate="G$1" x="33.02" y="215.9" rot="R90"/>
-<instance part="IC21" gate="G$1" x="73.66" y="209.55"/>
+<instance part="R16" gate="G$1" x="33.02" y="215.9" rot="R90"/>
+<instance part="IC22" gate="G$1" x="73.66" y="209.55"/>
 <instance part="S2" gate="S" x="24.13" y="171.45"/>
-<instance part="C16" gate="G$1" x="49.53" y="167.64"/>
-<instance part="R4" gate="G$1" x="40.64" y="171.45"/>
+<instance part="C23" gate="G$1" x="49.53" y="167.64"/>
+<instance part="R13" gate="G$1" x="40.64" y="171.45"/>
 <instance part="GND4" gate="1" x="11.43" y="156.21"/>
 <instance part="P+6" gate="VCC" x="33.02" y="189.23" rot="MR0"/>
-<instance part="R6" gate="G$1" x="33.02" y="179.07" rot="R90"/>
-<instance part="IC23" gate="G$1" x="73.66" y="171.45"/>
-<instance part="JP1" gate="A" x="370.84" y="123.19"/>
+<instance part="R15" gate="G$1" x="33.02" y="179.07" rot="R90"/>
+<instance part="IC24" gate="G$1" x="73.66" y="171.45"/>
+<instance part="JP2" gate="A" x="370.84" y="123.19"/>
 <instance part="GND13" gate="1" x="358.14" y="181.61"/>
-<instance part="JP3" gate="A" x="368.3" y="194.31"/>
+<instance part="JP1" gate="A" x="368.3" y="194.31"/>
 <instance part="P+17" gate="VCC" x="358.14" y="209.55"/>
-<instance part="C15" gate="G$1" x="276.86" y="26.67"/>
-<instance part="C20" gate="G$1" x="276.86" y="64.77"/>
-<instance part="LED3" gate="G$1" x="41.91" y="125.73"/>
-<instance part="R14" gate="G$1" x="41.91" y="134.62" rot="R270"/>
+<instance part="C4" gate="G$1" x="276.86" y="26.67"/>
+<instance part="C2" gate="G$1" x="276.86" y="64.77"/>
+<instance part="LED1" gate="G$1" x="41.91" y="125.73"/>
+<instance part="R2" gate="G$1" x="41.91" y="134.62" rot="R270"/>
 <instance part="P+20" gate="VCC" x="41.91" y="143.51"/>
 <instance part="GND16" gate="1" x="41.91" y="105.41"/>
-<instance part="R15" gate="G$1" x="30.48" y="114.3" rot="R180"/>
-<instance part="Q3" gate="G$1" x="39.37" y="114.3"/>
-<instance part="LED2" gate="G$1" x="118.11" y="125.73"/>
-<instance part="R1" gate="G$1" x="118.11" y="134.62" rot="R270"/>
+<instance part="R1" gate="G$1" x="30.48" y="114.3" rot="R180"/>
+<instance part="Q1" gate="G$1" x="39.37" y="114.3"/>
+<instance part="LED3" gate="G$1" x="118.11" y="125.73"/>
+<instance part="R6" gate="G$1" x="118.11" y="134.62" rot="R270"/>
 <instance part="P+19" gate="VCC" x="118.11" y="143.51"/>
 <instance part="GND15" gate="1" x="118.11" y="105.41"/>
-<instance part="R13" gate="G$1" x="106.68" y="114.3" rot="R180"/>
-<instance part="Q2" gate="G$1" x="115.57" y="114.3"/>
-<instance part="LED4" gate="G$1" x="41.91" y="72.39"/>
-<instance part="R16" gate="G$1" x="41.91" y="81.28" rot="R270"/>
+<instance part="R5" gate="G$1" x="106.68" y="114.3" rot="R180"/>
+<instance part="Q3" gate="G$1" x="115.57" y="114.3"/>
+<instance part="LED2" gate="G$1" x="41.91" y="72.39"/>
+<instance part="R4" gate="G$1" x="41.91" y="81.28" rot="R270"/>
 <instance part="P+21" gate="VCC" x="41.91" y="90.17"/>
 <instance part="GND17" gate="1" x="41.91" y="52.07"/>
-<instance part="R17" gate="G$1" x="30.48" y="60.96" rot="R180"/>
-<instance part="Q4" gate="G$1" x="39.37" y="60.96"/>
-<instance part="LED5" gate="G$1" x="118.11" y="72.39"/>
-<instance part="R18" gate="G$1" x="118.11" y="81.28" rot="R270"/>
+<instance part="R3" gate="G$1" x="30.48" y="60.96" rot="R180"/>
+<instance part="Q2" gate="G$1" x="39.37" y="60.96"/>
+<instance part="LED4" gate="G$1" x="118.11" y="72.39"/>
+<instance part="R8" gate="G$1" x="118.11" y="81.28" rot="R270"/>
 <instance part="P+22" gate="VCC" x="118.11" y="90.17"/>
 <instance part="GND18" gate="1" x="118.11" y="52.07"/>
-<instance part="R19" gate="G$1" x="106.68" y="60.96" rot="R180"/>
-<instance part="Q5" gate="G$1" x="115.57" y="60.96"/>
-<instance part="LED6" gate="G$1" x="172.72" y="106.68"/>
-<instance part="R20" gate="G$1" x="172.72" y="115.57" rot="R270"/>
+<instance part="R7" gate="G$1" x="106.68" y="60.96" rot="R180"/>
+<instance part="Q4" gate="G$1" x="115.57" y="60.96"/>
+<instance part="LED5" gate="G$1" x="172.72" y="106.68"/>
+<instance part="R10" gate="G$1" x="172.72" y="115.57" rot="R270"/>
 <instance part="P+23" gate="VCC" x="172.72" y="124.46"/>
 <instance part="GND19" gate="1" x="172.72" y="86.36"/>
-<instance part="R21" gate="G$1" x="161.29" y="95.25" rot="R180"/>
-<instance part="Q6" gate="G$1" x="170.18" y="95.25"/>
+<instance part="R9" gate="G$1" x="161.29" y="95.25" rot="R180"/>
+<instance part="Q5" gate="G$1" x="170.18" y="95.25"/>
 </instances>
 <busses>
 </busses>
@@ -11373,7 +11373,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <segment>
 <wire x1="41.91" y1="27.94" x2="41.91" y2="36.83" width="0.1524" layer="91"/>
 <pinref part="P+10" gate="VCC" pin="VCC"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="41.91" y1="27.94" x2="50.8" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="PWR"/>
 <wire x1="41.91" y1="27.94" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
@@ -11381,27 +11381,27 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </segment>
 <segment>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
-<pinref part="IC20" gate="A" pin="R"/>
+<pinref part="IC21" gate="A" pin="R"/>
 <wire x1="214.63" y1="187.96" x2="214.63" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="214.63" y1="175.26" x2="214.63" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="214.63" y1="170.18" x2="205.74" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="IC20" gate="A" pin="V+"/>
+<pinref part="IC21" gate="A" pin="V+"/>
 <wire x1="205.74" y1="175.26" x2="214.63" y2="175.26" width="0.1524" layer="91"/>
 <junction x="214.63" y="175.26"/>
 <junction x="214.63" y="170.18"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="184.15" x2="172.72" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="G$1" pin="E"/>
+<pinref part="Q6" gate="G$1" pin="E"/>
 <wire x1="260.35" y1="170.18" x2="260.35" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="P+11" gate="VCC" pin="VCC"/>
 <wire x1="209.55" y1="29.21" x2="209.55" y2="34.29" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -11409,10 +11409,10 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <wire x1="186.69" y1="29.21" x2="186.69" y2="34.29" width="0.1524" layer="91"/>
 <wire x1="186.69" y1="34.29" x2="198.12" y2="34.29" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="34.29" x2="209.55" y2="34.29" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="220.98" y1="34.29" x2="209.55" y2="34.29" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="29.21" x2="220.98" y2="34.29" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="1"/>
+<pinref part="C25" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="29.21" x2="198.12" y2="34.29" width="0.1524" layer="91"/>
 <junction x="186.69" y="34.29"/>
 <junction x="198.12" y="34.29"/>
@@ -11422,36 +11422,36 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <segment>
 <pinref part="P+12" gate="VCC" pin="VCC"/>
 <wire x1="254" y1="34.29" x2="254" y2="36.83" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="242.57" y1="34.29" x2="254" y2="34.29" width="0.1524" layer="91"/>
 <wire x1="265.43" y1="29.21" x2="265.43" y2="34.29" width="0.1524" layer="91"/>
 <wire x1="265.43" y1="34.29" x2="254" y2="34.29" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="254" y1="29.21" x2="254" y2="34.29" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="242.57" y1="29.21" x2="242.57" y2="34.29" width="0.1524" layer="91"/>
 <junction x="254" y="34.29"/>
 <junction x="254" y="34.29"/>
 <junction x="265.43" y="34.29"/>
 <junction x="242.57" y="34.29"/>
-<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="276.86" y1="29.21" x2="276.86" y2="34.29" width="0.1524" layer="91"/>
 <junction x="276.86" y="34.29"/>
 <wire x1="265.43" y1="34.29" x2="276.86" y2="34.29" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 <pinref part="P+8" gate="VCC" pin="VCC"/>
 <wire x1="209.55" y1="67.31" x2="209.55" y2="72.39" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="209.55" y1="72.39" x2="209.55" y2="74.93" width="0.1524" layer="91"/>
 <wire x1="186.69" y1="67.31" x2="186.69" y2="72.39" width="0.1524" layer="91"/>
 <wire x1="186.69" y1="72.39" x2="198.12" y2="72.39" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="72.39" x2="209.55" y2="72.39" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="C22" gate="G$1" pin="1"/>
 <wire x1="220.98" y1="72.39" x2="209.55" y2="72.39" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="67.31" x2="220.98" y2="72.39" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="67.31" x2="198.12" y2="72.39" width="0.1524" layer="91"/>
 <junction x="186.69" y="72.39"/>
 <junction x="198.12" y="72.39"/>
@@ -11461,66 +11461,66 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <segment>
 <pinref part="P+9" gate="VCC" pin="VCC"/>
 <wire x1="254" y1="72.39" x2="254" y2="74.93" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="C17" gate="G$1" pin="1"/>
 <wire x1="242.57" y1="72.39" x2="254" y2="72.39" width="0.1524" layer="91"/>
 <wire x1="265.43" y1="67.31" x2="265.43" y2="72.39" width="0.1524" layer="91"/>
 <wire x1="265.43" y1="72.39" x2="254" y2="72.39" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="254" y1="67.31" x2="254" y2="72.39" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="242.57" y1="67.31" x2="242.57" y2="72.39" width="0.1524" layer="91"/>
 <junction x="254" y="72.39"/>
 <junction x="254" y="72.39"/>
 <junction x="265.43" y="72.39"/>
 <junction x="242.57" y="72.39"/>
-<pinref part="C20" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="276.86" y1="67.31" x2="276.86" y2="72.39" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="72.39" x2="265.43" y2="72.39" width="0.1524" layer="91"/>
 <junction x="276.86" y="72.39"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <wire x1="33.02" y1="255.27" x2="33.02" y2="256.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="2"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
 <wire x1="33.02" y1="220.98" x2="33.02" y2="222.25" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R15" gate="G$1" pin="2"/>
 <pinref part="P+6" gate="VCC" pin="VCC"/>
 <wire x1="33.02" y1="184.15" x2="33.02" y2="186.69" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="365.76" y1="199.39" x2="358.14" y2="199.39" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="199.39" x2="358.14" y2="207.01" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="A" pin="1"/>
+<pinref part="JP1" gate="A" pin="1"/>
 <pinref part="P+17" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="P+20" gate="VCC" pin="VCC"/>
 <wire x1="41.91" y1="139.7" x2="41.91" y2="140.97" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="P+19" gate="VCC" pin="VCC"/>
 <wire x1="118.11" y1="139.7" x2="118.11" y2="140.97" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="P+21" gate="VCC" pin="VCC"/>
 <wire x1="41.91" y1="86.36" x2="41.91" y2="87.63" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="P+22" gate="VCC" pin="VCC"/>
 <wire x1="118.11" y1="86.36" x2="118.11" y2="87.63" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="P+23" gate="VCC" pin="VCC"/>
 <wire x1="172.72" y1="120.65" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
 </segment>
@@ -11529,7 +11529,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <segment>
 <wire x1="41.91" y1="25.4" x2="41.91" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
 <wire x1="41.91" y1="22.86" x2="41.91" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="41.91" y1="25.4" x2="50.8" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="GNDBREAK"/>
@@ -11541,22 +11541,22 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="IC20" gate="A" pin="GND"/>
+<pinref part="IC21" gate="A" pin="GND"/>
 <wire x1="214.63" y1="154.94" x2="214.63" y2="138.43" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="154.94" x2="214.63" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="C14" gate="G$1" pin="2"/>
+<pinref part="C21" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="138.43" x2="172.72" y2="143.51" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="LED6" gate="G$1" pin="C"/>
 <wire x1="260.35" y1="139.7" x2="260.35" y2="138.43" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="209.55" y1="21.59" x2="209.55" y2="19.05" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -11564,10 +11564,10 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <wire x1="186.69" y1="21.59" x2="186.69" y2="19.05" width="0.1524" layer="91"/>
 <wire x1="186.69" y1="19.05" x2="198.12" y2="19.05" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="19.05" x2="209.55" y2="19.05" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="2"/>
+<pinref part="C25" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="19.05" x2="209.55" y2="19.05" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="21.59" x2="198.12" y2="19.05" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="21.59" x2="220.98" y2="19.05" width="0.1524" layer="91"/>
 <junction x="186.69" y="19.05"/>
 <junction x="198.12" y="19.05"/>
@@ -11577,36 +11577,36 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="254" y1="19.05" x2="254" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="242.57" y1="19.05" x2="254" y2="19.05" width="0.1524" layer="91"/>
 <wire x1="265.43" y1="21.59" x2="265.43" y2="19.05" width="0.1524" layer="91"/>
 <wire x1="265.43" y1="19.05" x2="254" y2="19.05" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="242.57" y1="21.59" x2="242.57" y2="19.05" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="254" y1="21.59" x2="254" y2="19.05" width="0.1524" layer="91"/>
 <junction x="254" y="19.05"/>
 <junction x="254" y="19.05"/>
 <junction x="265.43" y="19.05"/>
 <junction x="242.57" y="19.05"/>
-<pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="276.86" y1="21.59" x2="276.86" y2="19.05" width="0.1524" layer="91"/>
 <junction x="276.86" y="19.05"/>
 <wire x1="265.43" y1="19.05" x2="276.86" y2="19.05" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="209.55" y1="59.69" x2="209.55" y2="57.15" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="209.55" y1="57.15" x2="209.55" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="186.69" y1="59.69" x2="186.69" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="186.69" y1="57.15" x2="198.12" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="57.15" x2="209.55" y2="57.15" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="57.15" x2="209.55" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="59.69" x2="198.12" y2="57.15" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="C22" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="59.69" x2="220.98" y2="57.15" width="0.1524" layer="91"/>
 <junction x="186.69" y="57.15"/>
 <junction x="198.12" y="57.15"/>
@@ -11616,25 +11616,25 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="254" y1="57.15" x2="254" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="C17" gate="G$1" pin="2"/>
 <wire x1="242.57" y1="57.15" x2="254" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="265.43" y1="59.69" x2="265.43" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="265.43" y1="57.15" x2="254" y2="57.15" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="C18" gate="G$1" pin="2"/>
 <wire x1="242.57" y1="59.69" x2="242.57" y2="57.15" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="254" y1="59.69" x2="254" y2="57.15" width="0.1524" layer="91"/>
 <junction x="254" y="57.15"/>
 <junction x="254" y="57.15"/>
 <junction x="265.43" y="57.15"/>
 <junction x="242.57" y="57.15"/>
-<pinref part="C20" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="276.86" y1="59.69" x2="276.86" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="57.15" x2="265.43" y2="57.15" width="0.1524" layer="91"/>
 <junction x="276.86" y="57.15"/>
 </segment>
 <segment>
-<pinref part="C19" gate="G$1" pin="2"/>
+<pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="49.53" y1="234.95" x2="49.53" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="49.53" y1="233.68" x2="11.43" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -11645,7 +11645,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <pinref part="S4" gate="1" pin="S"/>
 </segment>
 <segment>
-<pinref part="C18" gate="G$1" pin="2"/>
+<pinref part="C26" gate="G$1" pin="2"/>
 <wire x1="49.53" y1="200.66" x2="49.53" y2="199.39" width="0.1524" layer="91"/>
 <wire x1="49.53" y1="199.39" x2="11.43" y2="199.39" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
@@ -11656,7 +11656,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <pinref part="S3" gate="1" pin="S"/>
 </segment>
 <segment>
-<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="C23" gate="G$1" pin="2"/>
 <wire x1="49.53" y1="162.56" x2="49.53" y2="161.29" width="0.1524" layer="91"/>
 <wire x1="49.53" y1="161.29" x2="11.43" y2="161.29" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -11675,47 +11675,47 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <wire x1="358.14" y1="191.77" x2="358.14" y2="184.15" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="358.14" y1="191.77" x2="365.76" y2="191.77" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="A" pin="4"/>
+<pinref part="JP1" gate="A" pin="4"/>
 </segment>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
-<pinref part="Q3" gate="G$1" pin="E"/>
+<pinref part="Q1" gate="G$1" pin="E"/>
 <wire x1="41.91" y1="107.95" x2="41.91" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
-<pinref part="Q2" gate="G$1" pin="E"/>
+<pinref part="Q3" gate="G$1" pin="E"/>
 <wire x1="118.11" y1="107.95" x2="118.11" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
-<pinref part="Q4" gate="G$1" pin="E"/>
+<pinref part="Q2" gate="G$1" pin="E"/>
 <wire x1="41.91" y1="54.61" x2="41.91" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
-<pinref part="Q5" gate="G$1" pin="E"/>
+<pinref part="Q4" gate="G$1" pin="E"/>
 <wire x1="118.11" y1="54.61" x2="118.11" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND19" gate="1" pin="GND"/>
-<pinref part="Q6" gate="G$1" pin="E"/>
+<pinref part="Q5" gate="G$1" pin="E"/>
 <wire x1="172.72" y1="88.9" x2="172.72" y2="90.17" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MCLK" class="0">
 <segment>
-<pinref part="IC20" gate="A" pin="Q"/>
+<pinref part="IC21" gate="A" pin="Q"/>
 <wire x1="205.74" y1="165.1" x2="229.87" y2="165.1" width="0.1524" layer="91"/>
 <label x="231.14" y="232.41" size="1.778" layer="95"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="229.87" y1="165.1" x2="242.57" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="229.87" y1="165.1" x2="229.87" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="229.87" y1="185.42" x2="229.87" y2="232.41" width="0.1524" layer="91"/>
 <wire x1="229.87" y1="232.41" x2="247.65" y2="232.41" width="0.1524" layer="91"/>
 <junction x="229.87" y="165.1"/>
-<pinref part="IC17" gate="G$1" pin="CLK"/>
-<pinref part="IC19" gate="A" pin="I"/>
+<pinref part="IC18" gate="G$1" pin="CLK"/>
+<pinref part="IC20" gate="A" pin="I"/>
 <wire x1="248.92" y1="185.42" x2="229.87" y2="185.42" width="0.1524" layer="91"/>
 <junction x="229.87" y="185.42"/>
 <junction x="229.87" y="232.41"/>
@@ -11723,29 +11723,29 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="IC20" gate="A" pin="THR"/>
+<pinref part="IC21" gate="A" pin="THR"/>
 <wire x1="185.42" y1="154.94" x2="172.72" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="154.94" x2="172.72" y2="151.13" width="0.1524" layer="91"/>
-<pinref part="IC20" gate="A" pin="TR"/>
+<pinref part="IC21" gate="A" pin="TR"/>
 <wire x1="185.42" y1="160.02" x2="172.72" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="160.02" x2="172.72" y2="154.94" width="0.1524" layer="91"/>
 <junction x="172.72" y="160.02"/>
 <junction x="172.72" y="154.94"/>
-<pinref part="C14" gate="G$1" pin="1"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="160.02" x2="172.72" y2="161.29" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="160.02" x2="149.86" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="160.02" x2="149.86" y2="161.29" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="IC20" gate="A" pin="DIS"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="IC21" gate="A" pin="DIS"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="172.72" x2="172.72" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="172.72" x2="172.72" y2="171.45" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="172.72" x2="172.72" y2="173.99" width="0.1524" layer="91"/>
 <junction x="172.72" y="172.72"/>
 <pinref part="S1" gate="1" pin="S"/>
@@ -11754,7 +11754,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="S1" gate="1" pin="P"/>
 <wire x1="149.86" y1="171.45" x2="149.86" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="175.26" x2="154.94" y2="175.26" width="0.1524" layer="91"/>
@@ -11762,52 +11762,52 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="Q1" gate="G$1" pin="B"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="Q6" gate="G$1" pin="B"/>
 <wire x1="252.73" y1="165.1" x2="255.27" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="Q1" gate="G$1" pin="C"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="Q6" gate="G$1" pin="C"/>
 <wire x1="260.35" y1="158.75" x2="260.35" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="LED6" gate="G$1" pin="A"/>
+<pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="260.35" y1="147.32" x2="260.35" y2="148.59" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="IC17" gate="G$1" pin="D"/>
+<pinref part="IC18" gate="G$1" pin="D"/>
 <wire x1="247.65" y1="237.49" x2="242.57" y2="237.49" width="0.1524" layer="91"/>
 <wire x1="242.57" y1="237.49" x2="242.57" y2="254" width="0.1524" layer="91"/>
-<pinref part="IC18" gate="A" pin="O"/>
+<pinref part="IC19" gate="A" pin="O"/>
 <wire x1="242.57" y1="254" x2="248.92" y2="254" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!MCLK" class="0">
 <segment>
-<pinref part="IC19" gate="A" pin="O"/>
+<pinref part="IC20" gate="A" pin="O"/>
 <wire x1="269.24" y1="185.42" x2="317.5" y2="185.42" width="0.1524" layer="91"/>
 <label x="304.8" y="185.42" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="368.3" y1="133.35" x2="342.9" y2="133.35" width="0.1524" layer="91"/>
 <label x="342.9" y="133.35" size="1.778" layer="95"/>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="JP2" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="TCLK" class="0">
 <segment>
-<pinref part="IC18" gate="A" pin="I"/>
+<pinref part="IC19" gate="A" pin="I"/>
 <wire x1="269.24" y1="254" x2="275.59" y2="254" width="0.1524" layer="91"/>
 <wire x1="275.59" y1="254" x2="275.59" y2="237.49" width="0.1524" layer="91"/>
-<pinref part="IC17" gate="G$1" pin="Q"/>
+<pinref part="IC18" gate="G$1" pin="Q"/>
 <wire x1="275.59" y1="237.49" x2="267.97" y2="237.49" width="0.1524" layer="91"/>
 <wire x1="275.59" y1="237.49" x2="318.77" y2="237.49" width="0.1524" layer="91"/>
 <junction x="275.59" y="237.49"/>
@@ -11818,15 +11818,15 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <segment>
 <wire x1="368.3" y1="115.57" x2="350.52" y2="115.57" width="0.1524" layer="91"/>
 <label x="350.52" y="115.57" size="1.778" layer="95"/>
-<pinref part="JP1" gate="A" pin="9"/>
+<pinref part="JP2" gate="A" pin="9"/>
 </segment>
 <segment>
 <wire x1="365.76" y1="196.85" x2="336.55" y2="196.85" width="0.1524" layer="91"/>
 <label x="336.55" y="196.85" size="1.778" layer="95"/>
-<pinref part="JP3" gate="A" pin="2"/>
+<pinref part="JP1" gate="A" pin="2"/>
 </segment>
 <segment>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="114.3" x2="6.35" y2="114.3" width="0.1524" layer="91"/>
 <label x="6.35" y="114.3" size="1.778" layer="95"/>
 </segment>
@@ -11835,20 +11835,20 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <segment>
 <wire x1="368.3" y1="135.89" x2="342.9" y2="135.89" width="0.1524" layer="91"/>
 <label x="342.9" y="135.89" size="1.778" layer="95"/>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="JP2" gate="A" pin="1"/>
 </segment>
 <segment>
 <wire x1="368.3" y1="118.11" x2="350.52" y2="118.11" width="0.1524" layer="91"/>
 <label x="350.52" y="118.11" size="1.778" layer="95"/>
-<pinref part="JP1" gate="A" pin="8"/>
+<pinref part="JP2" gate="A" pin="8"/>
 </segment>
 <segment>
-<pinref part="IC23" gate="G$1" pin="O"/>
+<pinref part="IC24" gate="G$1" pin="O"/>
 <wire x1="83.82" y1="171.45" x2="100.33" y2="171.45" width="0.1524" layer="91"/>
 <label x="87.63" y="171.45" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC17" gate="G$1" pin="!CLR"/>
+<pinref part="IC18" gate="G$1" pin="!CLR"/>
 <wire x1="267.97" y1="232.41" x2="318.77" y2="232.41" width="0.1524" layer="91"/>
 <label x="304.8" y="232.41" size="1.778" layer="95"/>
 </segment>
@@ -11857,10 +11857,10 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <segment>
 <wire x1="368.3" y1="123.19" x2="342.9" y2="123.19" width="0.1524" layer="91"/>
 <label x="342.9" y="123.19" size="1.778" layer="95"/>
-<pinref part="JP1" gate="A" pin="6"/>
+<pinref part="JP2" gate="A" pin="6"/>
 </segment>
 <segment>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="114.3" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
 <label x="78.74" y="114.3" size="1.778" layer="95"/>
 </segment>
@@ -11869,17 +11869,17 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <segment>
 <wire x1="368.3" y1="113.03" x2="350.52" y2="113.03" width="0.1524" layer="91"/>
 <label x="350.52" y="113.03" size="1.778" layer="95"/>
-<pinref part="JP1" gate="A" pin="10"/>
+<pinref part="JP2" gate="A" pin="10"/>
 </segment>
 </net>
 <net name="CARRY_OE" class="0">
 <segment>
 <wire x1="368.3" y1="130.81" x2="342.9" y2="130.81" width="0.1524" layer="91"/>
 <label x="342.9" y="130.81" size="1.778" layer="95"/>
-<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="JP2" gate="A" pin="3"/>
 </segment>
 <segment>
-<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="60.96" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
 <label x="78.74" y="60.96" size="1.778" layer="95"/>
 </segment>
@@ -11888,10 +11888,10 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <segment>
 <wire x1="368.3" y1="120.65" x2="350.52" y2="120.65" width="0.1524" layer="91"/>
 <label x="350.52" y="120.65" size="1.778" layer="95"/>
-<pinref part="JP1" gate="A" pin="7"/>
+<pinref part="JP2" gate="A" pin="7"/>
 </segment>
 <segment>
-<pinref part="IC22" gate="G$1" pin="O"/>
+<pinref part="IC23" gate="G$1" pin="O"/>
 <wire x1="83.82" y1="243.84" x2="100.33" y2="243.84" width="0.1524" layer="91"/>
 <label x="87.63" y="243.84" size="1.778" layer="95"/>
 </segment>
@@ -11900,10 +11900,10 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <segment>
 <wire x1="368.3" y1="110.49" x2="350.52" y2="110.49" width="0.1524" layer="91"/>
 <label x="350.52" y="110.49" size="1.778" layer="95"/>
-<pinref part="JP1" gate="A" pin="11"/>
+<pinref part="JP2" gate="A" pin="11"/>
 </segment>
 <segment>
-<pinref part="IC21" gate="G$1" pin="O"/>
+<pinref part="IC22" gate="G$1" pin="O"/>
 <wire x1="83.82" y1="209.55" x2="100.33" y2="209.55" width="0.1524" layer="91"/>
 <label x="88.9" y="209.55" size="1.778" layer="95"/>
 </segment>
@@ -11912,67 +11912,67 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <segment>
 <wire x1="368.3" y1="128.27" x2="342.9" y2="128.27" width="0.1524" layer="91"/>
 <label x="342.9" y="128.27" size="1.778" layer="95"/>
-<pinref part="JP1" gate="A" pin="4"/>
+<pinref part="JP2" gate="A" pin="4"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="243.84" x2="49.53" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="C19" gate="G$1" pin="1"/>
+<pinref part="C27" gate="G$1" pin="1"/>
 <wire x1="49.53" y1="243.84" x2="63.5" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="49.53" y1="242.57" x2="49.53" y2="243.84" width="0.1524" layer="91"/>
 <junction x="49.53" y="243.84"/>
-<pinref part="IC22" gate="G$1" pin="I"/>
+<pinref part="IC23" gate="G$1" pin="I"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="243.84" x2="33.02" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="243.84" x2="29.21" y2="243.84" width="0.1524" layer="91"/>
 <junction x="33.02" y="243.84"/>
 <wire x1="33.02" y1="243.84" x2="33.02" y2="245.11" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R18" gate="G$1" pin="1"/>
 <pinref part="S4" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="209.55" x2="49.53" y2="209.55" width="0.1524" layer="91"/>
-<pinref part="C18" gate="G$1" pin="1"/>
+<pinref part="C26" gate="G$1" pin="1"/>
 <wire x1="49.53" y1="209.55" x2="63.5" y2="209.55" width="0.1524" layer="91"/>
 <wire x1="49.53" y1="208.28" x2="49.53" y2="209.55" width="0.1524" layer="91"/>
 <junction x="49.53" y="209.55"/>
-<pinref part="IC21" gate="G$1" pin="I"/>
+<pinref part="IC22" gate="G$1" pin="I"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="209.55" x2="33.02" y2="209.55" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="209.55" x2="29.21" y2="209.55" width="0.1524" layer="91"/>
 <junction x="33.02" y="209.55"/>
 <wire x1="33.02" y1="209.55" x2="33.02" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R16" gate="G$1" pin="1"/>
 <pinref part="S3" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="171.45" x2="49.53" y2="171.45" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
+<pinref part="C23" gate="G$1" pin="1"/>
 <wire x1="49.53" y1="171.45" x2="63.5" y2="171.45" width="0.1524" layer="91"/>
 <wire x1="49.53" y1="170.18" x2="49.53" y2="171.45" width="0.1524" layer="91"/>
 <junction x="49.53" y="171.45"/>
-<pinref part="IC23" gate="G$1" pin="I"/>
+<pinref part="IC24" gate="G$1" pin="I"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="S2" gate="S" pin="3"/>
 <wire x1="35.56" y1="171.45" x2="33.02" y2="171.45" width="0.1524" layer="91"/>
 <pinref part="S2" gate="S" pin="4"/>
@@ -11981,131 +11981,131 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <wire x1="33.02" y1="168.91" x2="33.02" y2="171.45" width="0.1524" layer="91"/>
 <junction x="33.02" y="171.45"/>
 <wire x1="33.02" y1="171.45" x2="33.02" y2="173.99" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R15" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="ZC" class="0">
 <segment>
-<pinref part="JP3" gate="A" pin="3"/>
+<pinref part="JP1" gate="A" pin="3"/>
 <wire x1="365.76" y1="194.31" x2="336.55" y2="194.31" width="0.1524" layer="91"/>
 <label x="336.55" y="194.31" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="Q3" gate="G$1" pin="C"/>
-<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="Q1" gate="G$1" pin="C"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="41.91" y1="119.38" x2="41.91" y2="120.65" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="Q3" gate="G$1" pin="B"/>
-<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="Q1" gate="G$1" pin="B"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="36.83" y1="114.3" x2="35.56" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CDONE" class="0">
 <segment>
-<pinref part="R21" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="156.21" y1="95.25" x2="143.51" y2="95.25" width="0.1524" layer="91"/>
 <label x="143.51" y="95.25" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="LED3" gate="G$1" pin="A"/>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="41.91" y1="128.27" x2="41.91" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="Q2" gate="G$1" pin="C"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="Q3" gate="G$1" pin="C"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
 <wire x1="118.11" y1="119.38" x2="118.11" y2="120.65" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="Q2" gate="G$1" pin="B"/>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="Q3" gate="G$1" pin="B"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="113.03" y1="114.3" x2="111.76" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="118.11" y1="128.27" x2="118.11" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="Q4" gate="G$1" pin="C"/>
-<pinref part="LED4" gate="G$1" pin="C"/>
+<pinref part="Q2" gate="G$1" pin="C"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="41.91" y1="66.04" x2="41.91" y2="67.31" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="Q4" gate="G$1" pin="B"/>
-<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="Q2" gate="G$1" pin="B"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="36.83" y1="60.96" x2="35.56" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="LED4" gate="G$1" pin="A"/>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="41.91" y1="74.93" x2="41.91" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="Q5" gate="G$1" pin="C"/>
-<pinref part="LED5" gate="G$1" pin="C"/>
+<pinref part="Q4" gate="G$1" pin="C"/>
+<pinref part="LED4" gate="G$1" pin="C"/>
 <wire x1="118.11" y1="66.04" x2="118.11" y2="67.31" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
-<pinref part="Q5" gate="G$1" pin="B"/>
-<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="Q4" gate="G$1" pin="B"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="113.03" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
-<pinref part="LED5" gate="G$1" pin="A"/>
-<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="118.11" y1="74.93" x2="118.11" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
-<pinref part="Q6" gate="G$1" pin="C"/>
-<pinref part="LED6" gate="G$1" pin="C"/>
+<pinref part="Q5" gate="G$1" pin="C"/>
+<pinref part="LED5" gate="G$1" pin="C"/>
 <wire x1="172.72" y1="100.33" x2="172.72" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
-<pinref part="Q6" gate="G$1" pin="B"/>
-<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="Q5" gate="G$1" pin="B"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="95.25" x2="166.37" y2="95.25" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$39" class="0">
 <segment>
-<pinref part="LED6" gate="G$1" pin="A"/>
-<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="LED5" gate="G$1" pin="A"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="109.22" x2="172.72" y2="110.49" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TDONE" class="0">
 <segment>
-<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="60.96" x2="6.35" y2="60.96" width="0.1524" layer="91"/>
 <label x="6.35" y="60.96" size="1.778" layer="95"/>
 </segment>
@@ -12119,7 +12119,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="299.72" y="0"/>
 <instance part="IC2" gate="G$1" x="95.25" y="224.79"/>
-<instance part="IC7" gate="G$1" x="325.12" y="199.39"/>
+<instance part="IC8" gate="G$1" x="325.12" y="199.39"/>
 <instance part="IC5" gate="A" x="215.9" y="227.33" smashed="yes">
 <attribute name="NAME" x="217.17" y="230.505" size="1.778" layer="95"/>
 <attribute name="VALUE" x="207.01" y="219.71" size="1.778" layer="96"/>
@@ -12127,33 +12127,33 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <instance part="IC6" gate="A" x="248.92" y="224.79"/>
 <instance part="P+13" gate="VCC" x="83.82" y="234.95"/>
 <instance part="P+14" gate="VCC" x="313.69" y="209.55"/>
-<instance part="IC8" gate="A" x="99.06" y="166.37"/>
-<instance part="IC13" gate="G$1" x="95.25" y="88.9"/>
-<instance part="IC9" gate="A" x="358.14" y="163.83"/>
-<instance part="IC16" gate="A" x="222.25" y="91.44"/>
+<instance part="IC9" gate="A" x="99.06" y="166.37"/>
+<instance part="IC14" gate="G$1" x="95.25" y="88.9"/>
+<instance part="IC10" gate="A" x="358.14" y="163.83"/>
+<instance part="IC17" gate="A" x="222.25" y="91.44"/>
 <instance part="IC1" gate="A" x="356.87" y="204.47"/>
 <instance part="P+16" gate="VCC" x="82.55" y="100.33"/>
 <instance part="IC3" gate="G$1" x="135.89" y="224.79"/>
 <instance part="IC4" gate="G$1" x="175.26" y="224.79"/>
-<instance part="IC11" gate="G$1" x="175.26" y="135.89"/>
+<instance part="IC12" gate="G$1" x="175.26" y="135.89"/>
 <instance part="P+15" gate="VCC" x="162.56" y="147.32"/>
-<instance part="IC10" gate="A" x="99.06" y="133.35"/>
-<instance part="IC12" gate="A" x="320.04" y="135.89"/>
-<instance part="IC14" gate="G$1" x="135.89" y="88.9"/>
-<instance part="IC15" gate="G$1" x="175.26" y="88.9"/>
-<instance part="IC24" gate="A" x="290.83" y="196.85" smashed="yes">
+<instance part="IC11" gate="A" x="99.06" y="133.35"/>
+<instance part="IC13" gate="A" x="320.04" y="135.89"/>
+<instance part="IC15" gate="G$1" x="135.89" y="88.9"/>
+<instance part="IC16" gate="G$1" x="175.26" y="88.9"/>
+<instance part="IC7" gate="A" x="290.83" y="196.85" smashed="yes">
 <attribute name="NAME" x="292.1" y="200.025" size="1.778" layer="95"/>
 <attribute name="VALUE" x="281.94" y="189.23" size="1.778" layer="96"/>
 </instance>
-<instance part="C25" gate="G$1" x="353.06" y="62.23"/>
-<instance part="C26" gate="G$1" x="364.49" y="62.23"/>
+<instance part="C20" gate="G$1" x="353.06" y="62.23"/>
+<instance part="C24" gate="G$1" x="364.49" y="62.23"/>
 <instance part="GND14" gate="1" x="364.49" y="48.26"/>
 <instance part="P+18" gate="VCC" x="364.49" y="74.93"/>
-<instance part="C27" gate="G$1" x="375.92" y="62.23"/>
-<instance part="C21" gate="G$1" x="304.8" y="62.23"/>
-<instance part="C22" gate="G$1" x="316.23" y="62.23"/>
-<instance part="C23" gate="G$1" x="327.66" y="62.23"/>
-<instance part="C24" gate="G$1" x="339.09" y="62.23"/>
+<instance part="C5" gate="G$1" x="375.92" y="62.23"/>
+<instance part="C9" gate="G$1" x="304.8" y="62.23"/>
+<instance part="C6" gate="G$1" x="316.23" y="62.23"/>
+<instance part="C8" gate="G$1" x="327.66" y="62.23"/>
+<instance part="C19" gate="G$1" x="339.09" y="62.23"/>
 <instance part="GND2" gate="1" x="327.66" y="48.26"/>
 <instance part="P+2" gate="VCC" x="327.66" y="74.93"/>
 </instances>
@@ -12168,19 +12168,19 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <pinref part="P+13" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="D"/>
+<pinref part="IC8" gate="G$1" pin="D"/>
 <wire x1="317.5" y1="201.93" x2="313.69" y2="201.93" width="0.1524" layer="91"/>
 <wire x1="313.69" y1="201.93" x2="313.69" y2="207.01" width="0.1524" layer="91"/>
 <pinref part="P+14" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="IC13" gate="G$1" pin="D"/>
+<pinref part="IC14" gate="G$1" pin="D"/>
 <wire x1="87.63" y1="91.44" x2="82.55" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="82.55" y1="91.44" x2="82.55" y2="97.79" width="0.1524" layer="91"/>
 <pinref part="P+16" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="IC11" gate="G$1" pin="D"/>
+<pinref part="IC12" gate="G$1" pin="D"/>
 <wire x1="167.64" y1="138.43" x2="162.56" y2="138.43" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="138.43" x2="162.56" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="P+15" gate="VCC" pin="VCC"/>
@@ -12188,13 +12188,13 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <segment>
 <pinref part="P+18" gate="VCC" pin="VCC"/>
 <wire x1="364.49" y1="69.85" x2="364.49" y2="72.39" width="0.1524" layer="91"/>
-<pinref part="C27" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="353.06" y1="69.85" x2="364.49" y2="69.85" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="64.77" x2="375.92" y2="69.85" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="69.85" x2="364.49" y2="69.85" width="0.1524" layer="91"/>
-<pinref part="C26" gate="G$1" pin="1"/>
+<pinref part="C24" gate="G$1" pin="1"/>
 <wire x1="364.49" y1="64.77" x2="364.49" y2="69.85" width="0.1524" layer="91"/>
-<pinref part="C25" gate="G$1" pin="1"/>
+<pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="353.06" y1="64.77" x2="353.06" y2="69.85" width="0.1524" layer="91"/>
 <junction x="364.49" y="69.85"/>
 <junction x="364.49" y="69.85"/>
@@ -12202,18 +12202,18 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <junction x="375.92" y="69.85"/>
 </segment>
 <segment>
-<pinref part="C23" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <wire x1="327.66" y1="64.77" x2="327.66" y2="69.85" width="0.1524" layer="91"/>
-<pinref part="C21" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="69.85" x2="327.66" y2="72.39" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="64.77" x2="304.8" y2="69.85" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="69.85" x2="316.23" y2="69.85" width="0.1524" layer="91"/>
 <wire x1="316.23" y1="69.85" x2="327.66" y2="69.85" width="0.1524" layer="91"/>
-<pinref part="C24" gate="G$1" pin="1"/>
+<pinref part="C19" gate="G$1" pin="1"/>
 <wire x1="339.09" y1="69.85" x2="327.66" y2="69.85" width="0.1524" layer="91"/>
 <wire x1="339.09" y1="64.77" x2="339.09" y2="69.85" width="0.1524" layer="91"/>
-<pinref part="C22" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="316.23" y1="64.77" x2="316.23" y2="69.85" width="0.1524" layer="91"/>
 <junction x="304.8" y="69.85"/>
 <junction x="316.23" y="69.85"/>
@@ -12223,7 +12223,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </net>
 <net name="TDONE" class="0">
 <segment>
-<pinref part="IC8" gate="A" pin="I0"/>
+<pinref part="IC9" gate="A" pin="I0"/>
 <wire x1="86.36" y1="168.91" x2="58.42" y2="168.91" width="0.1524" layer="91"/>
 <label x="58.42" y="168.91" size="1.778" layer="95"/>
 </segment>
@@ -12234,7 +12234,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <label x="191.77" y="227.33" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC10" gate="A" pin="I0"/>
+<pinref part="IC11" gate="A" pin="I0"/>
 <wire x1="86.36" y1="135.89" x2="58.42" y2="135.89" width="0.1524" layer="91"/>
 <label x="58.42" y="135.89" size="1.778" layer="95"/>
 </segment>
@@ -12259,7 +12259,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <wire x1="344.17" y1="207.01" x2="341.63" y2="207.01" width="0.1524" layer="91"/>
 <wire x1="341.63" y1="207.01" x2="341.63" y2="224.79" width="0.1524" layer="91"/>
 <junction x="341.63" y="224.79"/>
-<pinref part="IC24" gate="A" pin="I"/>
+<pinref part="IC7" gate="A" pin="I"/>
 <wire x1="267.97" y1="196.85" x2="280.67" y2="196.85" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -12283,18 +12283,18 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <junction x="194.31" y="205.74"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="!CLR"/>
+<pinref part="IC8" gate="G$1" pin="!CLR"/>
 <wire x1="337.82" y1="196.85" x2="342.9" y2="196.85" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="196.85" x2="342.9" y2="191.77" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="191.77" x2="388.62" y2="191.77" width="0.1524" layer="91"/>
 <label x="374.65" y="191.77" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC15" gate="G$1" pin="!CLR"/>
+<pinref part="IC16" gate="G$1" pin="!CLR"/>
 <wire x1="187.96" y1="86.36" x2="198.12" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="86.36" x2="198.12" y2="74.93" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="74.93" x2="156.21" y2="74.93" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="G$1" pin="!CLR"/>
+<pinref part="IC15" gate="G$1" pin="!CLR"/>
 <wire x1="156.21" y1="74.93" x2="114.3" y2="74.93" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="74.93" x2="59.69" y2="74.93" width="0.1524" layer="91"/>
 <wire x1="148.59" y1="86.36" x2="156.21" y2="86.36" width="0.1524" layer="91"/>
@@ -12302,11 +12302,11 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <junction x="156.21" y="74.93"/>
 <junction x="198.12" y="74.93"/>
 <label x="59.69" y="74.93" size="1.778" layer="95"/>
-<pinref part="IC13" gate="G$1" pin="!CLR"/>
+<pinref part="IC14" gate="G$1" pin="!CLR"/>
 <wire x1="107.95" y1="86.36" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="86.36" x2="114.3" y2="74.93" width="0.1524" layer="91"/>
 <junction x="114.3" y="74.93"/>
-<pinref part="IC11" gate="G$1" pin="!CLR"/>
+<pinref part="IC12" gate="G$1" pin="!CLR"/>
 <wire x1="187.96" y1="133.35" x2="198.12" y2="133.35" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="133.35" x2="198.12" y2="86.36" width="0.1524" layer="91"/>
 <junction x="198.12" y="86.36"/>
@@ -12327,17 +12327,17 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <junction x="162.56" y="213.36"/>
 </segment>
 <segment>
-<pinref part="IC10" gate="A" pin="I1"/>
+<pinref part="IC11" gate="A" pin="I1"/>
 <wire x1="86.36" y1="130.81" x2="58.42" y2="130.81" width="0.1524" layer="91"/>
 <label x="58.42" y="130.81" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC15" gate="G$1" pin="CLK"/>
+<pinref part="IC16" gate="G$1" pin="CLK"/>
 <wire x1="167.64" y1="86.36" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="86.36" x2="165.1" y2="64.77" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="64.77" x2="121.92" y2="64.77" width="0.1524" layer="91"/>
 <label x="59.69" y="64.77" size="1.778" layer="95"/>
-<pinref part="IC14" gate="G$1" pin="CLK"/>
+<pinref part="IC15" gate="G$1" pin="CLK"/>
 <wire x1="121.92" y1="64.77" x2="59.69" y2="64.77" width="0.1524" layer="91"/>
 <wire x1="128.27" y1="86.36" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="86.36" x2="121.92" y2="64.77" width="0.1524" layer="91"/>
@@ -12346,7 +12346,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </net>
 <net name="TCLK" class="0">
 <segment>
-<pinref part="IC8" gate="A" pin="I1"/>
+<pinref part="IC9" gate="A" pin="I1"/>
 <wire x1="86.36" y1="163.83" x2="58.42" y2="163.83" width="0.1524" layer="91"/>
 <label x="58.42" y="163.83" size="1.778" layer="95"/>
 </segment>
@@ -12360,14 +12360,14 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="IC8" gate="A" pin="O"/>
-<pinref part="IC9" gate="A" pin="I0"/>
+<pinref part="IC9" gate="A" pin="O"/>
+<pinref part="IC10" gate="A" pin="I0"/>
 <wire x1="111.76" y1="166.37" x2="345.44" y2="166.37" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CARRY_PULSE" class="0">
 <segment>
-<pinref part="IC9" gate="A" pin="O"/>
+<pinref part="IC10" gate="A" pin="O"/>
 <wire x1="370.84" y1="163.83" x2="389.89" y2="163.83" width="0.1524" layer="91"/>
 <label x="372.11" y="163.83" size="1.778" layer="95"/>
 </segment>
@@ -12375,7 +12375,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <net name="N$12" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="I1"/>
-<pinref part="IC7" gate="G$1" pin="Q"/>
+<pinref part="IC8" gate="G$1" pin="Q"/>
 <wire x1="344.17" y1="201.93" x2="337.82" y2="201.93" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -12388,7 +12388,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </net>
 <net name="CARRY_DONE" class="0">
 <segment>
-<pinref part="IC13" gate="G$1" pin="CLK"/>
+<pinref part="IC14" gate="G$1" pin="CLK"/>
 <wire x1="87.63" y1="86.36" x2="59.69" y2="86.36" width="0.1524" layer="91"/>
 <label x="59.69" y="86.36" size="1.778" layer="95"/>
 </segment>
@@ -12416,32 +12416,32 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="IC11" gate="G$1" pin="CLK"/>
-<pinref part="IC10" gate="A" pin="O"/>
+<pinref part="IC12" gate="G$1" pin="CLK"/>
+<pinref part="IC11" gate="A" pin="O"/>
 <wire x1="167.64" y1="133.35" x2="111.76" y2="133.35" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!CDONE" class="0">
 <segment>
-<pinref part="IC16" gate="A" pin="O"/>
+<pinref part="IC17" gate="A" pin="O"/>
 <wire x1="232.41" y1="91.44" x2="300.99" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="300.99" y1="91.44" x2="300.99" y2="133.35" width="0.1524" layer="91"/>
-<pinref part="IC12" gate="A" pin="I1"/>
+<pinref part="IC13" gate="A" pin="I1"/>
 <wire x1="300.99" y1="133.35" x2="307.34" y2="133.35" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="IC11" gate="G$1" pin="Q"/>
-<pinref part="IC12" gate="A" pin="I0"/>
+<pinref part="IC12" gate="G$1" pin="Q"/>
+<pinref part="IC13" gate="A" pin="I0"/>
 <wire x1="187.96" y1="138.43" x2="307.34" y2="138.43" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CARRY_OE" class="0">
 <segment>
-<pinref part="IC12" gate="A" pin="O"/>
+<pinref part="IC13" gate="A" pin="O"/>
 <wire x1="332.74" y1="135.89" x2="340.36" y2="135.89" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="A" pin="I1"/>
+<pinref part="IC10" gate="A" pin="I1"/>
 <wire x1="340.36" y1="135.89" x2="388.62" y2="135.89" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="161.29" x2="340.36" y2="161.29" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="161.29" x2="340.36" y2="135.89" width="0.1524" layer="91"/>
@@ -12451,29 +12451,29 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="IC13" gate="G$1" pin="Q"/>
-<pinref part="IC14" gate="G$1" pin="D"/>
+<pinref part="IC14" gate="G$1" pin="Q"/>
+<pinref part="IC15" gate="G$1" pin="D"/>
 <wire x1="107.95" y1="91.44" x2="128.27" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="IC14" gate="G$1" pin="Q"/>
-<pinref part="IC15" gate="G$1" pin="D"/>
+<pinref part="IC15" gate="G$1" pin="Q"/>
+<pinref part="IC16" gate="G$1" pin="D"/>
 <wire x1="148.59" y1="91.44" x2="167.64" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CDONE" class="0">
 <segment>
-<pinref part="IC15" gate="G$1" pin="Q"/>
-<pinref part="IC16" gate="A" pin="I"/>
+<pinref part="IC16" gate="G$1" pin="Q"/>
+<pinref part="IC17" gate="A" pin="I"/>
 <wire x1="187.96" y1="91.44" x2="212.09" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="IC24" gate="A" pin="O"/>
-<pinref part="IC7" gate="G$1" pin="CLK"/>
+<pinref part="IC7" gate="A" pin="O"/>
+<pinref part="IC8" gate="G$1" pin="CLK"/>
 <wire x1="300.99" y1="196.85" x2="317.5" y2="196.85" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -12481,13 +12481,13 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="364.49" y1="54.61" x2="364.49" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="C27" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="353.06" y1="54.61" x2="364.49" y2="54.61" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="57.15" x2="375.92" y2="54.61" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="54.61" x2="364.49" y2="54.61" width="0.1524" layer="91"/>
-<pinref part="C25" gate="G$1" pin="2"/>
+<pinref part="C20" gate="G$1" pin="2"/>
 <wire x1="353.06" y1="57.15" x2="353.06" y2="54.61" width="0.1524" layer="91"/>
-<pinref part="C26" gate="G$1" pin="2"/>
+<pinref part="C24" gate="G$1" pin="2"/>
 <wire x1="364.49" y1="57.15" x2="364.49" y2="54.61" width="0.1524" layer="91"/>
 <junction x="364.49" y="54.61"/>
 <junction x="364.49" y="54.61"/>
@@ -12495,18 +12495,18 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <junction x="375.92" y="54.61"/>
 </segment>
 <segment>
-<pinref part="C23" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="327.66" y1="57.15" x2="327.66" y2="54.61" width="0.1524" layer="91"/>
-<pinref part="C21" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="327.66" y1="54.61" x2="327.66" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="57.15" x2="304.8" y2="54.61" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="54.61" x2="316.23" y2="54.61" width="0.1524" layer="91"/>
 <wire x1="316.23" y1="54.61" x2="327.66" y2="54.61" width="0.1524" layer="91"/>
-<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="339.09" y1="54.61" x2="327.66" y2="54.61" width="0.1524" layer="91"/>
 <wire x1="316.23" y1="57.15" x2="316.23" y2="54.61" width="0.1524" layer="91"/>
-<pinref part="C24" gate="G$1" pin="2"/>
+<pinref part="C19" gate="G$1" pin="2"/>
 <wire x1="339.09" y1="57.15" x2="339.09" y2="54.61" width="0.1524" layer="91"/>
 <junction x="304.8" y="54.61"/>
 <junction x="316.23" y="54.61"/>
