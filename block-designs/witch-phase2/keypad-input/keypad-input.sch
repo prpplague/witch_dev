@@ -1904,22 +1904,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
-<package name="R0603">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
-<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
 <package name="R0805">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
@@ -3435,6 +3419,28 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
 <rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
 </package>
+<package name="R0603">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
+<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="-0.2286" y1="0.5461" x2="0.2286" y2="0.5461" width="0" layer="41"/>
+<wire x1="0.2286" y1="0.5461" x2="0.2286" y2="-0.5461" width="0" layer="41"/>
+<wire x1="0.2286" y1="-0.5461" x2="-0.2286" y2="-0.5461" width="0" layer="41"/>
+<wire x1="-0.2286" y1="-0.5461" x2="-0.2286" y2="0.5461" width="0" layer="41"/>
+<wire x1="-0.3" y1="0.6476" x2="0.3" y2="0.6476" width="0.1524" layer="21"/>
+<wire x1="-0.3" y1="-0.6478" x2="0.3" y2="-0.6478" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R-US">
@@ -4362,24 +4368,24 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="22.86" y1="-0.635" x2="22.225" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="22.225" y1="-1.27" x2="20.955" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="20.955" y1="-1.27" x2="20.32" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-21.59" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-19.05" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="-16.51" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="-13.97" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="-11.43" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="6" x="-8.89" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="7" x="-6.35" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="8" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="9" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="10" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="11" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="12" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="13" x="8.89" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="14" x="11.43" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="15" x="13.97" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="16" x="16.51" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="17" x="19.05" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="18" x="21.59" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-21.59" y="0" drill="1.0668" shape="square" rot="R90"/>
+<pad name="2" x="-19.05" y="0" drill="1.0668" rot="R90"/>
+<pad name="3" x="-16.51" y="0" drill="1.0668" rot="R90"/>
+<pad name="4" x="-13.97" y="0" drill="1.0668" rot="R90"/>
+<pad name="5" x="-11.43" y="0" drill="1.0668" rot="R90"/>
+<pad name="6" x="-8.89" y="0" drill="1.0668" rot="R90"/>
+<pad name="7" x="-6.35" y="0" drill="1.0668" rot="R90"/>
+<pad name="8" x="-3.81" y="0" drill="1.0668" rot="R90"/>
+<pad name="9" x="-1.27" y="0" drill="1.0668" rot="R90"/>
+<pad name="10" x="1.27" y="0" drill="1.0668" rot="R90"/>
+<pad name="11" x="3.81" y="0" drill="1.0668" rot="R90"/>
+<pad name="12" x="6.35" y="0" drill="1.0668" rot="R90"/>
+<pad name="13" x="8.89" y="0" drill="1.0668" rot="R90"/>
+<pad name="14" x="11.43" y="0" drill="1.0668" rot="R90"/>
+<pad name="15" x="13.97" y="0" drill="1.0668" rot="R90"/>
+<pad name="16" x="16.51" y="0" drill="1.0668" rot="R90"/>
+<pad name="17" x="19.05" y="0" drill="1.0668" rot="R90"/>
+<pad name="18" x="21.59" y="0" drill="1.0668" rot="R90"/>
 <text x="-22.9362" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-22.86" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="18.796" y1="-0.254" x2="19.304" y2="0.254" layer="51"/>
