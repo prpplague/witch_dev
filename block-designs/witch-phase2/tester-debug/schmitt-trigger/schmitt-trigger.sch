@@ -5937,10 +5937,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="3.175" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="1.016" diameter="1.6764" shape="square" rot="R90"/>
-<pad name="2" x="-1.27" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
-<pad name="3" x="1.27" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
-<pad name="4" x="3.81" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
+<pad name="1" x="-3.81" y="0" drill="1.0668" shape="square" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.0668" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1.0668" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.0668" rot="R90"/>
 <text x="-5.1562" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
@@ -6234,7 +6234,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pin name="GND" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
 <pin name="VCC" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
 </symbol>
-<symbol name="7414">
+<symbol name="7417">
 <wire x1="-5.08" y1="5.08" x2="5.08" y2="0" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="0" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.4064" layer="94"/>
@@ -6247,31 +6247,17 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <text x="1.27" y="3.175" size="1.778" layer="95">&gt;NAME</text>
 <text x="1.27" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="I" x="-10.16" y="0" visible="pad" length="middle" direction="in"/>
-<pin name="O" x="10.16" y="0" visible="pad" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="O" x="10.16" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="74*1G14" prefix="IC">
-<description>Single &lt;b&gt;Schmitt-Trigger Inverter &lt;/b&gt;Gate</description>
+<deviceset name="74*1G17" prefix="IC">
+<description>Single Schmitt-Trigger Buffer</description>
 <gates>
-<gate name="A" symbol="7414" x="10.16" y="0"/>
-<gate name="P" symbol="PWRN" x="-7.62" y="0" addlevel="request"/>
+<gate name="P" symbol="PWRN" x="22.86" y="0" addlevel="request"/>
+<gate name="A" symbol="7417" x="0" y="0"/>
 </gates>
 <devices>
-<device name="DBV" package="SOT23-5">
-<connects>
-<connect gate="A" pin="I" pad="2"/>
-<connect gate="A" pin="O" pad="4"/>
-<connect gate="P" pin="GND" pad="3"/>
-<connect gate="P" pin="VCC" pad="5"/>
-</connects>
-<technologies>
-<technology name="AHC"/>
-<technology name="AHCT"/>
-<technology name="AUC"/>
-<technology name="LVC"/>
-</technologies>
-</device>
 <device name="DCK" package="SC70-5">
 <connects>
 <connect gate="A" pin="I" pad="2"/>
@@ -6280,8 +6266,18 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <connect gate="P" pin="VCC" pad="5"/>
 </connects>
 <technologies>
-<technology name="AHC"/>
-<technology name="AHCT"/>
+<technology name="AUC"/>
+<technology name="LVC"/>
+</technologies>
+</device>
+<device name="DBV" package="SOT23-5">
+<connects>
+<connect gate="A" pin="I" pad="2"/>
+<connect gate="A" pin="O" pad="4"/>
+<connect gate="P" pin="GND" pad="3"/>
+<connect gate="P" pin="VCC" pad="5"/>
+</connects>
+<technologies>
 <technology name="AUC"/>
 <technology name="LVC"/>
 </technologies>
@@ -6322,7 +6318,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="C3" library="resistor" deviceset="C-US" device="C0603K"/>
-<part name="IC1" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="LVC"/>
+<part name="IC1" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
 </parts>
 <sheets>
 <sheet>
