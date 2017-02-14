@@ -12400,7 +12400,14 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </package>
 </packages>
 <symbols>
-<symbol name="7414">
+<symbol name="PWRN">
+<text x="-0.635" y="-0.635" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.905" y="-6.35" size="1.27" layer="95" rot="R90">GND</text>
+<text x="1.905" y="2.54" size="1.27" layer="95" rot="R90">VCC</text>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
+<pin name="VCC" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
+</symbol>
+<symbol name="7417">
 <wire x1="-5.08" y1="5.08" x2="5.08" y2="0" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="0" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.4064" layer="94"/>
@@ -12413,38 +12420,17 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <text x="1.27" y="3.175" size="1.778" layer="95">&gt;NAME</text>
 <text x="1.27" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="I" x="-10.16" y="0" visible="pad" length="middle" direction="in"/>
-<pin name="O" x="10.16" y="0" visible="pad" length="middle" direction="out" function="dot" rot="R180"/>
-</symbol>
-<symbol name="PWRN">
-<text x="-0.635" y="-0.635" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.905" y="-6.35" size="1.27" layer="95" rot="R90">GND</text>
-<text x="1.905" y="2.54" size="1.27" layer="95" rot="R90">VCC</text>
-<pin name="GND" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<pin name="VCC" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
+<pin name="O" x="10.16" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="74*1G14" prefix="IC">
-<description>Single &lt;b&gt;Schmitt-Trigger Inverter &lt;/b&gt;Gate</description>
+<deviceset name="74*1G17" prefix="IC">
+<description>Single Schmitt-Trigger Buffer</description>
 <gates>
-<gate name="A" symbol="7414" x="10.16" y="0"/>
-<gate name="P" symbol="PWRN" x="-7.62" y="0" addlevel="request"/>
+<gate name="P" symbol="PWRN" x="22.86" y="0" addlevel="request"/>
+<gate name="A" symbol="7417" x="0" y="0"/>
 </gates>
 <devices>
-<device name="DBV" package="SOT23-5">
-<connects>
-<connect gate="A" pin="I" pad="2"/>
-<connect gate="A" pin="O" pad="4"/>
-<connect gate="P" pin="GND" pad="3"/>
-<connect gate="P" pin="VCC" pad="5"/>
-</connects>
-<technologies>
-<technology name="AHC"/>
-<technology name="AHCT"/>
-<technology name="AUC"/>
-<technology name="LVC"/>
-</technologies>
-</device>
 <device name="DCK" package="SC70-5">
 <connects>
 <connect gate="A" pin="I" pad="2"/>
@@ -12453,8 +12439,18 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <connect gate="P" pin="VCC" pad="5"/>
 </connects>
 <technologies>
-<technology name="AHC"/>
-<technology name="AHCT"/>
+<technology name="AUC"/>
+<technology name="LVC"/>
+</technologies>
+</device>
+<device name="DBV" package="SOT23-5">
+<connects>
+<connect gate="A" pin="I" pad="2"/>
+<connect gate="A" pin="O" pad="4"/>
+<connect gate="P" pin="GND" pad="3"/>
+<connect gate="P" pin="VCC" pad="5"/>
+</connects>
+<technologies>
 <technology name="AUC"/>
 <technology name="LVC"/>
 </technologies>
@@ -12500,64 +12496,64 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="IC1" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="LVC"/>
+<part name="IC1" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
 <part name="FRAME2" library="frames" deviceset="TABL_L" device=""/>
 <part name="C5" library="resistor" deviceset="C-US" device="C0603K" value="1uF"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
 <part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="IC3" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="LVC"/>
+<part name="IC3" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
 <part name="C6" library="resistor" deviceset="C-US" device="C0603K" value="1uF"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
 <part name="R4" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="IC4" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="LVC"/>
+<part name="IC4" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
 <part name="C7" library="resistor" deviceset="C-US" device="C0603K" value="1uF"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
 <part name="R5" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="IC5" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="LVC"/>
+<part name="IC5" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
 <part name="C8" library="resistor" deviceset="C-US" device="C0603K" value="1uF"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="P+11" library="supply1" deviceset="VCC" device=""/>
 <part name="R6" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="IC6" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="LVC"/>
+<part name="IC6" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
 <part name="C9" library="resistor" deviceset="C-US" device="C0603K" value="1uF"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
 <part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="IC7" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="LVC"/>
+<part name="IC7" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
 <part name="FRAME3" library="frames" deviceset="TABL_L" device=""/>
 <part name="C3" library="resistor" deviceset="C-US" device="C0603K" value="1uF"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="IC2" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="LVC"/>
+<part name="IC2" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
 <part name="C10" library="resistor" deviceset="C-US" device="C0603K" value="1uF"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="P+13" library="supply1" deviceset="VCC" device=""/>
 <part name="R8" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="IC8" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="LVC"/>
+<part name="IC8" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
 <part name="C11" library="resistor" deviceset="C-US" device="C0603K" value="1uF"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="P+14" library="supply1" deviceset="VCC" device=""/>
 <part name="R9" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="IC9" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="LVC"/>
+<part name="IC9" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
 <part name="C12" library="resistor" deviceset="C-US" device="C0603K" value="1uF"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" deviceset="VCC" device=""/>
 <part name="R10" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="IC10" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="LVC"/>
+<part name="IC10" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
 <part name="C13" library="resistor" deviceset="C-US" device="C0603K" value="1uF"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="P+16" library="supply1" deviceset="VCC" device=""/>
 <part name="R11" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="IC11" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="LVC"/>
+<part name="IC11" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
 <part name="C14" library="resistor" deviceset="C-US" device="C0603K" value="1uF"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="P+17" library="supply1" deviceset="VCC" device=""/>
 <part name="R12" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="IC12" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="LVC"/>
+<part name="IC12" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
 <part name="C15" library="resistor" deviceset="C-US" device="C0603K" value="1uF"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="P+18" library="supply1" deviceset="VCC" device=""/>
