@@ -12578,6 +12578,12 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="P+23" library="supply1" deviceset="VCC" device=""/>
 <part name="C26" library="resistor" deviceset="C-US" device="C0603K" value="1uF"/>
+<part name="C27" library="resistor" deviceset="C-US" device="C0603K" value="1uF"/>
+<part name="GND24" library="supply1" deviceset="GND" device=""/>
+<part name="P+24" library="supply1" deviceset="VCC" device=""/>
+<part name="R13" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="IC13" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
+<part name="C28" library="resistor" deviceset="C-US" device="C0603K" value="1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -12586,7 +12592,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="299.72" y="0"/>
-<instance part="JP2" gate="A" x="115.57" y="199.39" rot="R270"/>
+<instance part="JP2" gate="A" x="115.57" y="162.56" rot="R270"/>
 <instance part="JP5" gate="G$1" x="199.39" y="110.49" rot="R270"/>
 <instance part="JP4" gate="G$1" x="199.39" y="207.01" rot="MR90"/>
 <instance part="JP6" gate="G$1" x="199.39" y="165.1" rot="R270"/>
@@ -12632,41 +12638,45 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="GND23" gate="1" x="95.25" y="40.64"/>
 <instance part="P+23" gate="VCC" x="95.25" y="66.04"/>
 <instance part="C26" gate="G$1" x="100.33" y="53.34"/>
+<instance part="C28" gate="G$1" x="109.22" y="53.34"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="N$32" class="0">
 <segment>
-<pinref part="JP2" gate="A" pin="11"/>
-<pinref part="JP9" gate="A" pin="11"/>
-<wire x1="102.87" y1="201.93" x2="102.87" y2="186.69" width="0.1524" layer="91"/>
-<wire x1="102.87" y1="201.93" x2="102.87" y2="219.71" width="0.1524" layer="91"/>
 <pinref part="JP13" gate="A" pin="14"/>
 <wire x1="102.87" y1="219.71" x2="97.79" y2="219.71" width="0.1524" layer="91"/>
 <wire x1="97.79" y1="219.71" x2="97.79" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="JP9" gate="A" pin="11"/>
+<wire x1="102.87" y1="219.71" x2="102.87" y2="186.69" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="11"/>
+<wire x1="102.87" y1="165.1" x2="102.87" y2="186.69" width="0.1524" layer="91"/>
+<junction x="102.87" y="186.69"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="JP2" gate="A" pin="10"/>
-<wire x1="105.41" y1="220.98" x2="105.41" y2="201.93" width="0.1524" layer="91"/>
-<pinref part="JP9" gate="A" pin="10"/>
-<wire x1="105.41" y1="201.93" x2="105.41" y2="186.69" width="0.1524" layer="91"/>
 <pinref part="JP13" gate="A" pin="13"/>
 <wire x1="105.41" y1="220.98" x2="100.33" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="100.33" y1="220.98" x2="100.33" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="JP9" gate="A" pin="10"/>
+<wire x1="105.41" y1="220.98" x2="105.41" y2="186.69" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="10"/>
+<wire x1="105.41" y1="186.69" x2="105.41" y2="165.1" width="0.1524" layer="91"/>
+<junction x="105.41" y="186.69"/>
 </segment>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="JP2" gate="A" pin="9"/>
-<wire x1="107.95" y1="222.25" x2="107.95" y2="201.93" width="0.1524" layer="91"/>
-<pinref part="JP9" gate="A" pin="9"/>
-<wire x1="107.95" y1="201.93" x2="107.95" y2="186.69" width="0.1524" layer="91"/>
 <pinref part="JP13" gate="A" pin="12"/>
 <wire x1="107.95" y1="222.25" x2="102.87" y2="222.25" width="0.1524" layer="91"/>
 <wire x1="102.87" y1="222.25" x2="102.87" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="JP9" gate="A" pin="9"/>
+<wire x1="107.95" y1="222.25" x2="107.95" y2="186.69" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="9"/>
+<wire x1="107.95" y1="186.69" x2="107.95" y2="165.1" width="0.1524" layer="91"/>
+<junction x="107.95" y="186.69"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -12774,6 +12784,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="224.79" y1="214.63" x2="242.57" y2="214.63" width="0.1524" layer="91"/>
 <wire x1="242.57" y1="214.63" x2="242.57" y2="217.17" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
+<junction x="224.79" y="214.63"/>
 </segment>
 <segment>
 <wire x1="50.8" y1="87.63" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
@@ -12840,6 +12851,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <junction x="95.25" y="59.69"/>
 <pinref part="C25" gate="G$1" pin="1"/>
 <pinref part="C26" gate="G$1" pin="1"/>
+<pinref part="C28" gate="G$1" pin="1"/>
+<wire x1="100.33" y1="59.69" x2="109.22" y2="59.69" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="59.69" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
+<junction x="100.33" y="59.69"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -13014,88 +13029,70 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <junction x="95.25" y="45.72"/>
 <pinref part="C25" gate="G$1" pin="2"/>
 <pinref part="C26" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<pinref part="JP2" gate="A" pin="8"/>
-<wire x1="110.49" y1="248.92" x2="110.49" y2="201.93" width="0.1524" layer="91"/>
-<pinref part="JP9" gate="A" pin="8"/>
-<wire x1="110.49" y1="201.93" x2="110.49" y2="186.69" width="0.1524" layer="91"/>
-<pinref part="JP13" gate="A" pin="9"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="JP2" gate="A" pin="7"/>
-<pinref part="JP9" gate="A" pin="7"/>
-<wire x1="113.03" y1="201.93" x2="113.03" y2="186.69" width="0.1524" layer="91"/>
-<pinref part="JP13" gate="A" pin="8"/>
-<wire x1="113.03" y1="201.93" x2="113.03" y2="248.92" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$37" class="0">
-<segment>
-<pinref part="JP2" gate="A" pin="6"/>
-<pinref part="JP9" gate="A" pin="6"/>
-<wire x1="115.57" y1="201.93" x2="115.57" y2="186.69" width="0.1524" layer="91"/>
-<pinref part="JP13" gate="A" pin="7"/>
-<wire x1="115.57" y1="201.93" x2="115.57" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="C28" gate="G$1" pin="2"/>
+<wire x1="100.33" y1="45.72" x2="109.22" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="45.72" x2="109.22" y2="48.26" width="0.1524" layer="91"/>
+<junction x="100.33" y="45.72"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
-<pinref part="JP2" gate="A" pin="5"/>
-<wire x1="118.11" y1="222.25" x2="118.11" y2="201.93" width="0.1524" layer="91"/>
-<pinref part="JP9" gate="A" pin="5"/>
-<wire x1="118.11" y1="201.93" x2="118.11" y2="186.69" width="0.1524" layer="91"/>
 <pinref part="JP13" gate="A" pin="5"/>
 <wire x1="118.11" y1="222.25" x2="120.65" y2="222.25" width="0.1524" layer="91"/>
 <wire x1="120.65" y1="222.25" x2="120.65" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="JP9" gate="A" pin="5"/>
+<wire x1="118.11" y1="222.25" x2="118.11" y2="186.69" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="5"/>
+<wire x1="118.11" y1="186.69" x2="118.11" y2="165.1" width="0.1524" layer="91"/>
+<junction x="118.11" y="186.69"/>
 </segment>
 </net>
 <net name="N$39" class="0">
 <segment>
-<pinref part="JP9" gate="A" pin="4"/>
-<pinref part="JP2" gate="A" pin="4"/>
-<wire x1="120.65" y1="186.69" x2="120.65" y2="201.93" width="0.1524" layer="91"/>
-<wire x1="120.65" y1="220.98" x2="120.65" y2="201.93" width="0.1524" layer="91"/>
 <pinref part="JP13" gate="A" pin="4"/>
 <wire x1="120.65" y1="220.98" x2="123.19" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="123.19" y1="220.98" x2="123.19" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="JP9" gate="A" pin="4"/>
+<wire x1="120.65" y1="220.98" x2="120.65" y2="186.69" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="4"/>
+<wire x1="120.65" y1="186.69" x2="120.65" y2="165.1" width="0.1524" layer="91"/>
+<junction x="120.65" y="186.69"/>
 </segment>
 </net>
 <net name="N$41" class="0">
 <segment>
-<pinref part="JP9" gate="A" pin="2"/>
-<pinref part="JP2" gate="A" pin="2"/>
-<wire x1="125.73" y1="186.69" x2="125.73" y2="201.93" width="0.1524" layer="91"/>
-<wire x1="125.73" y1="218.44" x2="125.73" y2="201.93" width="0.1524" layer="91"/>
 <pinref part="JP13" gate="A" pin="2"/>
 <wire x1="125.73" y1="218.44" x2="128.27" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="128.27" y1="218.44" x2="128.27" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="JP9" gate="A" pin="2"/>
+<wire x1="125.73" y1="218.44" x2="125.73" y2="186.69" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="2"/>
+<wire x1="125.73" y1="186.69" x2="125.73" y2="165.1" width="0.1524" layer="91"/>
+<junction x="125.73" y="186.69"/>
 </segment>
 </net>
 <net name="N$46" class="0">
 <segment>
-<pinref part="JP2" gate="A" pin="1"/>
-<pinref part="JP9" gate="A" pin="1"/>
-<wire x1="128.27" y1="186.69" x2="128.27" y2="201.93" width="0.1524" layer="91"/>
-<wire x1="128.27" y1="217.17" x2="128.27" y2="201.93" width="0.1524" layer="91"/>
 <pinref part="JP13" gate="A" pin="1"/>
 <wire x1="128.27" y1="217.17" x2="130.81" y2="217.17" width="0.1524" layer="91"/>
 <wire x1="130.81" y1="217.17" x2="130.81" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="JP9" gate="A" pin="1"/>
+<wire x1="128.27" y1="217.17" x2="128.27" y2="186.69" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="1"/>
+<wire x1="128.27" y1="186.69" x2="128.27" y2="165.1" width="0.1524" layer="91"/>
+<junction x="128.27" y="186.69"/>
 </segment>
 </net>
 <net name="N$40" class="0">
 <segment>
-<pinref part="JP2" gate="A" pin="3"/>
-<wire x1="123.19" y1="219.71" x2="123.19" y2="201.93" width="0.1524" layer="91"/>
-<pinref part="JP9" gate="A" pin="3"/>
-<wire x1="123.19" y1="186.69" x2="123.19" y2="201.93" width="0.1524" layer="91"/>
 <pinref part="JP13" gate="A" pin="3"/>
 <wire x1="123.19" y1="219.71" x2="125.73" y2="219.71" width="0.1524" layer="91"/>
 <wire x1="125.73" y1="219.71" x2="125.73" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="JP9" gate="A" pin="3"/>
+<wire x1="123.19" y1="219.71" x2="123.19" y2="186.69" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="3"/>
+<wire x1="123.19" y1="186.69" x2="123.19" y2="165.1" width="0.1524" layer="91"/>
+<junction x="123.19" y="186.69"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -13398,6 +13395,45 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <label x="219.71" y="173.99" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="JP13" gate="A" pin="9"/>
+<pinref part="JP9" gate="A" pin="8"/>
+<wire x1="110.49" y1="248.92" x2="110.49" y2="186.69" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="8"/>
+<wire x1="110.49" y1="186.69" x2="110.49" y2="165.1" width="0.1524" layer="91"/>
+<junction x="110.49" y="186.69"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="JP13" gate="A" pin="7"/>
+<pinref part="JP9" gate="A" pin="6"/>
+<wire x1="115.57" y1="248.92" x2="115.57" y2="186.69" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="6"/>
+<wire x1="115.57" y1="186.69" x2="115.57" y2="165.1" width="0.1524" layer="91"/>
+<junction x="115.57" y="186.69"/>
+</segment>
+</net>
+<net name="CARRY_IN" class="0">
+<segment>
+<pinref part="JP13" gate="A" pin="8"/>
+<pinref part="JP9" gate="A" pin="7"/>
+<wire x1="113.03" y1="248.92" x2="113.03" y2="186.69" width="0.1524" layer="91"/>
+<wire x1="113.03" y1="186.69" x2="113.03" y2="179.07" width="0.1524" layer="91"/>
+<wire x1="113.03" y1="179.07" x2="81.28" y2="179.07" width="0.1524" layer="91"/>
+<label x="81.28" y="179.07" size="1.778" layer="95"/>
+<junction x="113.03" y="186.69"/>
+</segment>
+</net>
+<net name="CARRY_OUT" class="0">
+<segment>
+<pinref part="JP2" gate="A" pin="7"/>
+<wire x1="113.03" y1="165.1" x2="113.03" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="113.03" y1="175.26" x2="81.28" y2="175.26" width="0.1524" layer="91"/>
+<label x="81.28" y="175.26" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -13584,7 +13620,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <label x="283.21" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="IN5" class="0">
+<net name="INA5" class="0">
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="162.56" x2="257.81" y2="162.56" width="0.1524" layer="91"/>
@@ -13604,7 +13640,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <label x="283.21" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="IN6" class="0">
+<net name="INA6" class="0">
 <segment>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="111.76" x2="257.81" y2="111.76" width="0.1524" layer="91"/>
@@ -13662,6 +13698,11 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="P+17" gate="VCC" x="148.59" y="147.32" rot="MR0"/>
 <instance part="R12" gate="G$1" x="148.59" y="137.16" rot="R90"/>
 <instance part="IC12" gate="A" x="172.72" y="125.73"/>
+<instance part="C27" gate="G$1" x="100.33" y="57.15"/>
+<instance part="GND24" gate="1" x="100.33" y="43.18"/>
+<instance part="P+24" gate="VCC" x="100.33" y="82.55" rot="MR0"/>
+<instance part="R13" gate="G$1" x="100.33" y="72.39" rot="R90"/>
+<instance part="IC13" gate="A" x="124.46" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -13697,6 +13738,11 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="P+17" gate="VCC" pin="VCC"/>
 <wire x1="148.59" y1="142.24" x2="148.59" y2="144.78" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="P+24" gate="VCC" pin="VCC"/>
+<wire x1="100.33" y1="77.47" x2="100.33" y2="80.01" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -13728,6 +13774,11 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="C14" gate="G$1" pin="2"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="148.59" y1="116.84" x2="148.59" y2="110.49" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C27" gate="G$1" pin="2"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+<wire x1="100.33" y1="52.07" x2="100.33" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INB1" class="0">
@@ -13848,6 +13899,26 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="182.88" y1="125.73" x2="203.2" y2="125.73" width="0.1524" layer="91"/>
 <pinref part="IC12" gate="A" pin="O"/>
 <label x="187.96" y="125.73" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CARRY_IN" class="0">
+<segment>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="100.33" y1="60.96" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="100.33" y1="59.69" x2="100.33" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="IC13" gate="A" pin="I"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="100.33" y1="60.96" x2="100.33" y2="67.31" width="0.1524" layer="91"/>
+<junction x="100.33" y="60.96"/>
+<wire x1="100.33" y1="60.96" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
+<label x="78.74" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CARRY_OUT" class="0">
+<segment>
+<wire x1="134.62" y1="60.96" x2="154.94" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="IC13" gate="A" pin="O"/>
+<label x="139.7" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
