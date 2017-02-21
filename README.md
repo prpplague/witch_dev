@@ -9,4 +9,4 @@ The National Museum of Computing at Bletchley Park, where it is described as
 "the oldest original functioning electronic stored program computer in the 
 world".
 
-http://elinux.org/WITCH
+http://www.witch-e.org
