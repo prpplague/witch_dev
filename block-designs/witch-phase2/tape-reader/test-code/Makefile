@@ -5,7 +5,7 @@ CFLAGS += `pkg-config --cflags --libs cairo`
 LDFLAGS += `cups-config --cflags --libs`
 
 punch-tape: $(obj)
-	$(CC) -o $@ $^ $(CFLAGS) $(LDFLAGS)
+	$(CC) -o $@ $^ $(CFLAGS) $(LDFLAGS) -l png
 
 .PHONY: clean
 clean:
