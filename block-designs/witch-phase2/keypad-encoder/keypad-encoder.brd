@@ -161,7 +161,7 @@
 <hole x="157.607" y="2.159" drill="2.0066"/>
 <circle x="157.607" y="2.159" radius="2.0066" width="0.0254" layer="41"/>
 <circle x="157.607" y="2.159" radius="2.0066" width="0.0254" layer="42"/>
-<text x="4.318" y="49.276" size="2.1844" layer="48">Keypad Encoder</text>
+<text x="2.794" y="45.72" size="2.1844" layer="48">Keypad Encoder</text>
 </plain>
 <libraries>
 <library name="pinhead">
