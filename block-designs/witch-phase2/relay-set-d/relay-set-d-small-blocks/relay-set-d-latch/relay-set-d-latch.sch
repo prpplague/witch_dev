@@ -6395,68 +6395,6 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="transistor-pnp">
-<description>&lt;b&gt;PNP Transistors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SOT23-BEC">
-<description>&lt;b&gt;TO-236&lt;/b&gt; ITT Intermetall</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.127" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.127" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.127" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.127" layer="51"/>
-<smd name="C" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="E" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="B" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="PNP">
-<wire x1="2.086" y1="1.678" x2="1.578" y2="2.594" width="0.1524" layer="94"/>
-<wire x1="1.578" y1="2.594" x2="0.516" y2="1.478" width="0.1524" layer="94"/>
-<wire x1="0.516" y1="1.478" x2="2.086" y2="1.678" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="1.808" y2="2.124" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="1.778" x2="1.524" y2="2.413" width="0.254" layer="94"/>
-<wire x1="1.524" y1="2.413" x2="0.762" y2="1.651" width="0.254" layer="94"/>
-<wire x1="0.762" y1="1.651" x2="1.778" y2="1.778" width="0.254" layer="94"/>
-<wire x1="1.778" y1="1.778" x2="1.524" y2="2.159" width="0.254" layer="94"/>
-<wire x1="1.524" y1="2.159" x2="1.143" y2="1.905" width="0.254" layer="94"/>
-<wire x1="1.143" y1="1.905" x2="1.524" y2="1.905" width="0.254" layer="94"/>
-<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
-<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="C" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MMBT2907*" prefix="Q">
-<description>&lt;b&gt;PNP Transistror&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="PNP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMD" package="SOT23-BEC">
-<connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
-</connects>
-<technologies>
-<technology name="ALT1"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="led">
 <description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
@@ -8473,17 +8411,11 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
 <part name="LED7" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="Q2" library="transistor-pnp" deviceset="MMBT2907*" device="SMD" technology="ALT1"/>
-<part name="R15" library="resistor" deviceset="R-US_" device="R0805"/>
 <part name="R17" library="resistor" deviceset="R-US_" device="R0805"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="LED6" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="Q1" library="transistor-pnp" deviceset="MMBT2907*" device="SMD" technology="ALT1"/>
-<part name="R14" library="resistor" deviceset="R-US_" device="R0805"/>
 <part name="R16" library="resistor" deviceset="R-US_" device="R0805"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="FRAME1" library="frames" deviceset="TABL_L" device=""/>
 <part name="R11" library="resistor" deviceset="R-US_" device="R0805"/>
 <part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805"/>
@@ -8551,6 +8483,7 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <part name="C10" library="resistor" deviceset="C-US" device="C0603K" value="1uF"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="IC12" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
+<part name="C12" library="resistor" deviceset="C-US" device="C0805"/>
 </parts>
 <sheets>
 <sheet>
@@ -8560,30 +8493,12 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <instance part="JP2" gate="A" x="389.89" y="231.14"/>
 <instance part="GND11" gate="1" x="377.19" y="203.2" rot="MR0"/>
 <instance part="P+10" gate="VCC" x="377.19" y="254" rot="MR0"/>
-<instance part="LED7" gate="G$1" x="220.98" y="26.67"/>
-<instance part="Q2" gate="G$1" x="218.44" y="46.99" smashed="yes">
-<attribute name="NAME" x="213.36" y="49.53" size="1.778" layer="95"/>
-<attribute name="VALUE" x="195.58" y="39.37" size="1.778" layer="96"/>
-</instance>
-<instance part="R15" gate="G$1" x="205.74" y="46.99" smashed="yes" rot="R180">
-<attribute name="NAME" x="207.01" y="50.5714" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="209.55" y="50.292" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R17" gate="G$1" x="220.98" y="35.56" rot="R270"/>
-<instance part="GND8" gate="1" x="220.98" y="17.78"/>
-<instance part="P+6" gate="VCC" x="220.98" y="57.15"/>
-<instance part="LED6" gate="G$1" x="175.26" y="26.67"/>
-<instance part="Q1" gate="G$1" x="172.72" y="46.99" smashed="yes">
-<attribute name="NAME" x="167.64" y="49.53" size="1.778" layer="95"/>
-<attribute name="VALUE" x="149.86" y="39.37" size="1.778" layer="96"/>
-</instance>
-<instance part="R14" gate="G$1" x="160.02" y="46.99" smashed="yes" rot="R180">
-<attribute name="NAME" x="161.29" y="50.5714" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="163.83" y="50.292" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R16" gate="G$1" x="175.26" y="35.56" rot="R270"/>
-<instance part="GND7" gate="1" x="175.26" y="17.78"/>
-<instance part="P+5" gate="VCC" x="175.26" y="57.15"/>
+<instance part="LED7" gate="G$1" x="261.62" y="13.97"/>
+<instance part="R17" gate="G$1" x="261.62" y="22.86" rot="R270"/>
+<instance part="GND8" gate="1" x="261.62" y="5.08"/>
+<instance part="LED6" gate="G$1" x="234.95" y="13.97"/>
+<instance part="R16" gate="G$1" x="234.95" y="22.86" rot="R270"/>
+<instance part="GND7" gate="1" x="234.95" y="5.08"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="299.72" y="0"/>
 <instance part="R11" gate="G$1" x="256.54" y="194.31" rot="R270"/>
@@ -8598,8 +8513,8 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <instance part="R8" gate="G$1" x="179.07" y="195.58"/>
 <instance part="R9" gate="G$1" x="179.07" y="172.72"/>
 <instance part="R10" gate="G$1" x="179.07" y="149.86"/>
-<instance part="R18" gate="G$1" x="106.68" y="34.29"/>
-<instance part="P+9" gate="VCC" x="116.84" y="39.37"/>
+<instance part="R18" gate="G$1" x="278.13" y="22.86" rot="R90"/>
+<instance part="P+9" gate="VCC" x="278.13" y="34.29"/>
 <instance part="IC1" gate="A" x="107.95" y="243.84" rot="MR180"/>
 <instance part="IC2" gate="A" x="107.95" y="220.98" rot="MR180"/>
 <instance part="IC3" gate="A" x="107.95" y="198.12" rot="MR180"/>
@@ -8624,17 +8539,17 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <instance part="JP1" gate="A" x="318.77" y="229.87"/>
 <instance part="GND9" gate="1" x="335.28" y="204.47" rot="MR0"/>
 <instance part="P+7" gate="VCC" x="306.07" y="255.27" rot="MR0"/>
-<instance part="C3" gate="G$1" x="330.2" y="62.23"/>
-<instance part="C4" gate="G$1" x="337.82" y="62.23"/>
-<instance part="C5" gate="G$1" x="345.44" y="62.23"/>
-<instance part="P+8" gate="VCC" x="345.44" y="72.39"/>
-<instance part="GND10" gate="1" x="345.44" y="49.53"/>
-<instance part="C6" gate="G$1" x="353.06" y="62.23"/>
-<instance part="C7" gate="G$1" x="360.68" y="62.23"/>
-<instance part="C8" gate="G$1" x="368.3" y="62.23"/>
-<instance part="C9" gate="G$1" x="375.92" y="62.23"/>
-<instance part="C2" gate="G$1" x="322.58" y="62.23"/>
-<instance part="C1" gate="G$1" x="314.96" y="62.23"/>
+<instance part="C3" gate="G$1" x="158.75" y="21.59"/>
+<instance part="C4" gate="G$1" x="166.37" y="21.59"/>
+<instance part="C5" gate="G$1" x="173.99" y="21.59"/>
+<instance part="P+8" gate="VCC" x="173.99" y="31.75"/>
+<instance part="GND10" gate="1" x="173.99" y="8.89"/>
+<instance part="C6" gate="G$1" x="181.61" y="21.59"/>
+<instance part="C7" gate="G$1" x="189.23" y="21.59"/>
+<instance part="C8" gate="G$1" x="196.85" y="21.59"/>
+<instance part="C9" gate="G$1" x="204.47" y="21.59"/>
+<instance part="C2" gate="G$1" x="151.13" y="21.59"/>
+<instance part="C1" gate="G$1" x="143.51" y="21.59"/>
 <instance part="GND12" gate="1" x="256.54" y="182.88"/>
 <instance part="R19" gate="G$1" x="40.64" y="146.05" rot="R270"/>
 <instance part="P+11" gate="VCC" x="40.64" y="156.21"/>
@@ -8661,12 +8576,13 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <attribute name="NAME" x="238.76" y="168.1226" size="1.778" layer="95"/>
 <attribute name="VALUE" x="228.6" y="164.0586" size="1.778" layer="96"/>
 </instance>
-<instance part="IC11" gate="G$1" x="276.86" y="203.2"/>
+<instance part="IC11" gate="G$1" x="284.48" y="203.2"/>
 <instance part="R12" gate="G$1" x="40.64" y="83.82" rot="R270"/>
 <instance part="P+2" gate="VCC" x="40.64" y="93.98"/>
 <instance part="C10" gate="G$1" x="40.64" y="67.31"/>
 <instance part="GND14" gate="1" x="40.64" y="53.34"/>
 <instance part="IC12" gate="G$1" x="55.88" y="73.66"/>
+<instance part="C12" gate="G$1" x="271.78" y="195.58"/>
 </instances>
 <busses>
 </busses>
@@ -8705,9 +8621,10 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 </net>
 <net name="SELECT" class="0">
 <segment>
-<pinref part="R15" gate="G$1" pin="2"/>
-<label x="187.96" y="46.99" size="1.778" layer="95"/>
-<wire x1="200.66" y1="46.99" x2="187.96" y2="46.99" width="0.1524" layer="91"/>
+<label x="247.65" y="34.29" size="1.778" layer="95"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="247.65" y1="34.29" x2="261.62" y2="34.29" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="34.29" x2="261.62" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="316.23" y1="217.17" x2="289.56" y2="217.17" width="0.1524" layer="91"/>
@@ -8731,8 +8648,9 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <net name="!CLEAR" class="0">
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="34.29" x2="88.9" y2="34.29" width="0.1524" layer="91"/>
-<label x="88.9" y="34.29" size="1.778" layer="95"/>
+<wire x1="278.13" y1="17.78" x2="278.13" y2="5.08" width="0.1524" layer="91"/>
+<label x="281.94" y="5.08" size="1.778" layer="95"/>
+<wire x1="278.13" y1="5.08" x2="289.56" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC6" gate="G$1" pin="!CLR"/>
@@ -8783,12 +8701,12 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 </segment>
 <segment>
 <pinref part="LED7" gate="G$1" pin="C"/>
-<wire x1="220.98" y1="21.59" x2="220.98" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="8.89" x2="261.62" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="LED6" gate="G$1" pin="C"/>
-<wire x1="175.26" y1="21.59" x2="175.26" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="234.95" y1="8.89" x2="234.95" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -8851,48 +8769,53 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="330.2" y1="57.15" x2="330.2" y2="54.61" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="54.61" x2="337.82" y2="54.61" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="54.61" x2="345.44" y2="54.61" width="0.1524" layer="91"/>
+<wire x1="158.75" y1="16.51" x2="158.75" y2="13.97" width="0.1524" layer="91"/>
+<wire x1="158.75" y1="13.97" x2="166.37" y2="13.97" width="0.1524" layer="91"/>
+<wire x1="166.37" y1="13.97" x2="173.99" y2="13.97" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="337.82" y1="57.15" x2="337.82" y2="54.61" width="0.1524" layer="91"/>
+<wire x1="166.37" y1="16.51" x2="166.37" y2="13.97" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="345.44" y1="57.15" x2="345.44" y2="54.61" width="0.1524" layer="91"/>
+<wire x1="173.99" y1="16.51" x2="173.99" y2="13.97" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="353.06" y1="57.15" x2="353.06" y2="54.61" width="0.1524" layer="91"/>
-<junction x="345.44" y="54.61"/>
-<junction x="337.82" y="54.61"/>
-<junction x="330.2" y="54.61"/>
+<wire x1="181.61" y1="16.51" x2="181.61" y2="13.97" width="0.1524" layer="91"/>
+<junction x="173.99" y="13.97"/>
+<junction x="166.37" y="13.97"/>
+<junction x="158.75" y="13.97"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="353.06" y1="54.61" x2="345.44" y2="54.61" width="0.1524" layer="91"/>
-<wire x1="345.44" y1="52.07" x2="345.44" y2="54.61" width="0.1524" layer="91"/>
-<junction x="345.44" y="54.61"/>
-<junction x="353.06" y="54.61"/>
-<wire x1="353.06" y1="54.61" x2="360.68" y2="54.61" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="13.97" x2="173.99" y2="13.97" width="0.1524" layer="91"/>
+<wire x1="173.99" y1="11.43" x2="173.99" y2="13.97" width="0.1524" layer="91"/>
+<junction x="173.99" y="13.97"/>
+<junction x="181.61" y="13.97"/>
+<wire x1="181.61" y1="13.97" x2="189.23" y2="13.97" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="360.68" y1="54.61" x2="368.3" y2="54.61" width="0.1524" layer="91"/>
-<wire x1="360.68" y1="54.61" x2="360.68" y2="57.15" width="0.1524" layer="91"/>
+<wire x1="189.23" y1="13.97" x2="196.85" y2="13.97" width="0.1524" layer="91"/>
+<wire x1="189.23" y1="13.97" x2="189.23" y2="16.51" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="368.3" y1="54.61" x2="368.3" y2="57.15" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="54.61" x2="375.92" y2="54.61" width="0.1524" layer="91"/>
+<wire x1="196.85" y1="13.97" x2="196.85" y2="16.51" width="0.1524" layer="91"/>
+<wire x1="196.85" y1="13.97" x2="204.47" y2="13.97" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="375.92" y1="54.61" x2="375.92" y2="57.15" width="0.1524" layer="91"/>
-<junction x="368.3" y="54.61"/>
-<junction x="360.68" y="54.61"/>
+<wire x1="204.47" y1="13.97" x2="204.47" y2="16.51" width="0.1524" layer="91"/>
+<junction x="196.85" y="13.97"/>
+<junction x="189.23" y="13.97"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="330.2" y1="54.61" x2="322.58" y2="54.61" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="54.61" x2="314.96" y2="54.61" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="54.61" x2="314.96" y2="57.15" width="0.1524" layer="91"/>
+<wire x1="158.75" y1="13.97" x2="151.13" y2="13.97" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="13.97" x2="143.51" y2="13.97" width="0.1524" layer="91"/>
+<wire x1="143.51" y1="13.97" x2="143.51" y2="16.51" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="322.58" y1="54.61" x2="322.58" y2="57.15" width="0.1524" layer="91"/>
-<junction x="322.58" y="54.61"/>
-<junction x="314.96" y="54.61"/>
-<junction x="375.92" y="54.61"/>
+<wire x1="151.13" y1="13.97" x2="151.13" y2="16.51" width="0.1524" layer="91"/>
+<junction x="151.13" y="13.97"/>
+<junction x="143.51" y="13.97"/>
+<junction x="204.47" y="13.97"/>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="256.54" y1="189.23" x2="256.54" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="189.23" x2="256.54" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="256.54" y1="187.96" x2="256.54" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="190.5" x2="271.78" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="187.96" x2="256.54" y2="187.96" width="0.1524" layer="91"/>
+<junction x="256.54" y="187.96"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
@@ -8913,20 +8836,9 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <pinref part="P+10" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="G$1" pin="E"/>
-<wire x1="220.98" y1="52.07" x2="220.98" y2="54.61" width="0.1524" layer="91"/>
-<pinref part="P+6" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="Q1" gate="G$1" pin="E"/>
-<wire x1="175.26" y1="52.07" x2="175.26" y2="54.61" width="0.1524" layer="91"/>
-<pinref part="P+5" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
 <pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="P+9" gate="VCC" pin="VCC"/>
-<wire x1="111.76" y1="34.29" x2="116.84" y2="34.29" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="34.29" x2="116.84" y2="36.83" width="0.1524" layer="91"/>
+<wire x1="278.13" y1="27.94" x2="278.13" y2="31.75" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="137.16" y1="157.48" x2="132.08" y2="157.48" width="0.1524" layer="91"/>
@@ -8968,43 +8880,43 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="330.2" y1="64.77" x2="330.2" y2="67.31" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="67.31" x2="337.82" y2="67.31" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="67.31" x2="345.44" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="158.75" y1="24.13" x2="158.75" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="158.75" y1="26.67" x2="166.37" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="166.37" y1="26.67" x2="173.99" y2="26.67" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="337.82" y1="64.77" x2="337.82" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="166.37" y1="24.13" x2="166.37" y2="26.67" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="345.44" y1="64.77" x2="345.44" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="173.99" y1="24.13" x2="173.99" y2="26.67" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="345.44" y1="67.31" x2="353.06" y2="67.31" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="67.31" x2="353.06" y2="64.77" width="0.1524" layer="91"/>
-<junction x="330.2" y="67.31"/>
-<junction x="337.82" y="67.31"/>
-<junction x="345.44" y="67.31"/>
+<wire x1="173.99" y1="26.67" x2="181.61" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="26.67" x2="181.61" y2="24.13" width="0.1524" layer="91"/>
+<junction x="158.75" y="26.67"/>
+<junction x="166.37" y="26.67"/>
+<junction x="173.99" y="26.67"/>
 <pinref part="P+8" gate="VCC" pin="VCC"/>
-<wire x1="345.44" y1="67.31" x2="345.44" y2="69.85" width="0.1524" layer="91"/>
-<junction x="345.44" y="67.31"/>
-<junction x="353.06" y="67.31"/>
-<wire x1="353.06" y1="67.31" x2="360.68" y2="67.31" width="0.1524" layer="91"/>
-<wire x1="360.68" y1="67.31" x2="368.3" y2="67.31" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="67.31" x2="375.92" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="173.99" y1="26.67" x2="173.99" y2="29.21" width="0.1524" layer="91"/>
+<junction x="173.99" y="26.67"/>
+<junction x="181.61" y="26.67"/>
+<wire x1="181.61" y1="26.67" x2="189.23" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="189.23" y1="26.67" x2="196.85" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="196.85" y1="26.67" x2="204.47" y2="26.67" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="375.92" y1="64.77" x2="375.92" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="24.13" x2="204.47" y2="26.67" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="368.3" y1="64.77" x2="368.3" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="196.85" y1="24.13" x2="196.85" y2="26.67" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="360.68" y1="64.77" x2="360.68" y2="67.31" width="0.1524" layer="91"/>
-<junction x="360.68" y="67.31"/>
-<junction x="368.3" y="67.31"/>
+<wire x1="189.23" y1="24.13" x2="189.23" y2="26.67" width="0.1524" layer="91"/>
+<junction x="189.23" y="26.67"/>
+<junction x="196.85" y="26.67"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="330.2" y1="67.31" x2="322.58" y2="67.31" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="67.31" x2="314.96" y2="67.31" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="67.31" x2="314.96" y2="64.77" width="0.1524" layer="91"/>
+<wire x1="158.75" y1="26.67" x2="151.13" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="26.67" x2="143.51" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="143.51" y1="26.67" x2="143.51" y2="24.13" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="322.58" y1="64.77" x2="322.58" y2="67.31" width="0.1524" layer="91"/>
-<junction x="314.96" y="67.31"/>
-<junction x="322.58" y="67.31"/>
-<junction x="375.92" y="67.31"/>
+<wire x1="151.13" y1="24.13" x2="151.13" y2="26.67" width="0.1524" layer="91"/>
+<junction x="143.51" y="26.67"/>
+<junction x="151.13" y="26.67"/>
+<junction x="204.47" y="26.67"/>
 </segment>
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
@@ -9201,53 +9113,26 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <wire x1="316.23" y1="229.87" x2="323.85" y2="229.87" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="R15" gate="G$1" pin="1"/>
-<pinref part="Q2" gate="G$1" pin="B"/>
-<wire x1="210.82" y1="46.99" x2="215.9" y2="46.99" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="R17" gate="G$1" pin="1"/>
-<pinref part="Q2" gate="G$1" pin="C"/>
-<wire x1="220.98" y1="40.64" x2="220.98" y2="41.91" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$24" class="0">
 <segment>
 <pinref part="LED7" gate="G$1" pin="A"/>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="220.98" y1="29.21" x2="220.98" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="R14" gate="G$1" pin="1"/>
-<pinref part="Q1" gate="G$1" pin="B"/>
-<wire x1="165.1" y1="46.99" x2="170.18" y2="46.99" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="R16" gate="G$1" pin="1"/>
-<pinref part="Q1" gate="G$1" pin="C"/>
-<wire x1="175.26" y1="40.64" x2="175.26" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="16.51" x2="261.62" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="LED6" gate="G$1" pin="A"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="29.21" x2="175.26" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="234.95" y1="16.51" x2="234.95" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DATA" class="0">
 <segment>
-<pinref part="R14" gate="G$1" pin="2"/>
-<label x="142.24" y="46.99" size="1.778" layer="95"/>
-<wire x1="154.94" y1="46.99" x2="142.24" y2="46.99" width="0.1524" layer="91"/>
+<label x="223.52" y="34.29" size="1.778" layer="95"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="34.29" x2="234.95" y2="34.29" width="0.1524" layer="91"/>
+<wire x1="234.95" y1="34.29" x2="234.95" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="167.64" x2="246.38" y2="167.64" width="0.1524" layer="91"/>
@@ -9263,8 +9148,9 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <junction x="246.38" y="220.98"/>
 <junction x="246.38" y="203.2"/>
 <junction x="246.38" y="185.42"/>
-<label x="259.08" y="203.2" size="1.778" layer="95"/>
-<wire x1="256.54" y1="203.2" x2="266.7" y2="203.2" width="0.1524" layer="91"/>
+<label x="261.62" y="203.2" size="1.778" layer="95"/>
+<wire x1="256.54" y1="203.2" x2="271.78" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="203.2" x2="274.32" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="203.2" x2="256.54" y2="203.2" width="0.1524" layer="91"/>
 <junction x="256.54" y="203.2"/>
 <wire x1="256.54" y1="199.39" x2="256.54" y2="203.2" width="0.1524" layer="91"/>
@@ -9275,6 +9161,9 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <pinref part="D5" gate="G$1" pin="C"/>
 <pinref part="IC11" gate="G$1" pin="I"/>
 <pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="271.78" y1="198.12" x2="271.78" y2="203.2" width="0.1524" layer="91"/>
+<junction x="271.78" y="203.2"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -9314,8 +9203,8 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 </net>
 <net name="VALDATA" class="0">
 <segment>
-<wire x1="287.02" y1="203.2" x2="299.72" y2="203.2" width="0.1524" layer="91"/>
-<label x="288.29" y="203.2" size="1.778" layer="95"/>
+<wire x1="294.64" y1="203.2" x2="307.34" y2="203.2" width="0.1524" layer="91"/>
+<label x="295.91" y="203.2" size="1.778" layer="95"/>
 <pinref part="IC11" gate="G$1" pin="O"/>
 </segment>
 <segment>
