@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6689,6 +6689,22 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="JP4" library="custom-pinhead" deviceset="PINHD-1X6" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
+<part name="C15" library="resistor" deviceset="C-US" device="C0805"/>
+<part name="P+17" library="supply1" deviceset="VCC" device=""/>
+<part name="GND23" library="supply1" deviceset="GND" device=""/>
+<part name="C16" library="resistor" deviceset="C-US" device="C0805"/>
+<part name="C17" library="resistor" deviceset="C-US" device="C0603"/>
+<part name="P+18" library="supply1" deviceset="VCC" device=""/>
+<part name="GND24" library="supply1" deviceset="GND" device=""/>
+<part name="C18" library="resistor" deviceset="C-US" device="C0603"/>
+<part name="P+19" library="supply1" deviceset="VCC" device=""/>
+<part name="GND25" library="supply1" deviceset="GND" device=""/>
+<part name="C19" library="resistor" deviceset="C-US" device="C0603"/>
+<part name="P+20" library="supply1" deviceset="VCC" device=""/>
+<part name="GND26" library="supply1" deviceset="GND" device=""/>
+<part name="C20" library="resistor" deviceset="C-US" device="C0603"/>
+<part name="P+21" library="supply1" deviceset="VCC" device=""/>
+<part name="GND27" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6981,6 +6997,22 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="GND16" gate="1" x="208.28" y="160.02"/>
 <instance part="JP4" gate="A" x="224.79" y="107.95" rot="MR180"/>
 <instance part="GND18" gate="1" x="208.28" y="92.71"/>
+<instance part="C15" gate="G$1" x="204.47" y="39.37"/>
+<instance part="P+17" gate="VCC" x="204.47" y="49.53" rot="MR0"/>
+<instance part="GND23" gate="1" x="204.47" y="26.67"/>
+<instance part="C16" gate="G$1" x="215.9" y="39.37"/>
+<instance part="C17" gate="G$1" x="57.15" y="24.13"/>
+<instance part="P+18" gate="VCC" x="57.15" y="31.75" rot="MR0"/>
+<instance part="GND24" gate="1" x="57.15" y="13.97"/>
+<instance part="C18" gate="G$1" x="68.58" y="24.13"/>
+<instance part="P+19" gate="VCC" x="68.58" y="31.75" rot="MR0"/>
+<instance part="GND25" gate="1" x="68.58" y="13.97"/>
+<instance part="C19" gate="G$1" x="81.28" y="24.13"/>
+<instance part="P+20" gate="VCC" x="81.28" y="31.75" rot="MR0"/>
+<instance part="GND26" gate="1" x="81.28" y="13.97"/>
+<instance part="C20" gate="G$1" x="93.98" y="24.13"/>
+<instance part="P+21" gate="VCC" x="93.98" y="31.75" rot="MR0"/>
+<instance part="GND27" gate="1" x="93.98" y="13.97"/>
 </instances>
 <busses>
 </busses>
@@ -7062,6 +7094,36 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="208.28" y1="100.33" x2="208.28" y2="95.25" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="GND23" gate="1" pin="GND"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="204.47" y1="29.21" x2="204.47" y2="31.75" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="2"/>
+<wire x1="204.47" y1="31.75" x2="204.47" y2="34.29" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="34.29" x2="215.9" y2="31.75" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="31.75" x2="204.47" y2="31.75" width="0.1524" layer="91"/>
+<junction x="204.47" y="31.75"/>
+</segment>
+<segment>
+<wire x1="57.15" y1="19.05" x2="57.15" y2="16.51" width="0.1524" layer="91"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+<pinref part="C17" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="19.05" x2="68.58" y2="16.51" width="0.1524" layer="91"/>
+<pinref part="GND25" gate="1" pin="GND"/>
+<pinref part="C18" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="81.28" y1="19.05" x2="81.28" y2="16.51" width="0.1524" layer="91"/>
+<pinref part="GND26" gate="1" pin="GND"/>
+<pinref part="C19" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="93.98" y1="19.05" x2="93.98" y2="16.51" width="0.1524" layer="91"/>
+<pinref part="GND27" gate="1" pin="GND"/>
+<pinref part="C20" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -7105,6 +7167,36 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="19.05" y1="240.03" x2="19.05" y2="242.57" width="0.1524" layer="91"/>
 <pinref part="P+9" gate="VCC" pin="VCC"/>
 <pinref part="C9" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="P+17" gate="VCC" pin="VCC"/>
+<wire x1="204.47" y1="41.91" x2="204.47" y2="44.45" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="204.47" y1="44.45" x2="204.47" y2="46.99" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="41.91" x2="215.9" y2="44.45" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="44.45" x2="204.47" y2="44.45" width="0.1524" layer="91"/>
+<junction x="204.47" y="44.45"/>
+</segment>
+<segment>
+<wire x1="57.15" y1="26.67" x2="57.15" y2="29.21" width="0.1524" layer="91"/>
+<pinref part="P+18" gate="VCC" pin="VCC"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="26.67" x2="68.58" y2="29.21" width="0.1524" layer="91"/>
+<pinref part="P+19" gate="VCC" pin="VCC"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="81.28" y1="26.67" x2="81.28" y2="29.21" width="0.1524" layer="91"/>
+<pinref part="P+20" gate="VCC" pin="VCC"/>
+<pinref part="C19" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="93.98" y1="26.67" x2="93.98" y2="29.21" width="0.1524" layer="91"/>
+<pinref part="P+21" gate="VCC" pin="VCC"/>
+<pinref part="C20" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SND_ENABLE" class="0">
