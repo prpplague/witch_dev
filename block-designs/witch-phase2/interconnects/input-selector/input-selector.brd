@@ -134,7 +134,9 @@ ENABLE</text>
 <text x="43.688" y="5.588" size="1.778" layer="48" align="center">RCV STORE</text>
 <text x="64.008" y="5.588" size="1.778" layer="48" align="center">SND ROW</text>
 <text x="23.368" y="5.588" size="1.778" layer="48" align="center">RCV ROW</text>
-<text x="2.3876" y="56.1086" size="1.778" layer="48">Input Selector Interconnect</text>
+<text x="1.7018" y="51.7144" size="1.778" layer="48">Input Selector
+Interconnect</text>
+<text x="1.7272" y="50.0126" size="0.8128" layer="48">Revision 1</text>
 </plain>
 <libraries>
 <library name="resistor">
@@ -1855,8 +1857,14 @@ design rules under a new name.</description>
 <element name="JP4" library="custom-pinhead" package="1X06" value="" x="23.368" y="2.54" smashed="yes">
 <attribute name="VALUE" x="15.748" y="-0.635" size="1.27" layer="27"/>
 </element>
-<element name="C15" library="resistor" package="C0805" value="" x="75.4126" y="64.5922" rot="R180"/>
-<element name="C16" library="resistor" package="C0805" value="" x="11.2776" y="64.897" rot="R180"/>
+<element name="C15" library="resistor" package="C0805" value="" x="75.4126" y="64.5922" smashed="yes" rot="R180">
+<attribute name="NAME" x="77.47" y="63.0936" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="76.6826" y="67.1322" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="C16" library="resistor" package="C0805" value="" x="11.2776" y="64.897" smashed="yes" rot="R180">
+<attribute name="NAME" x="13.2588" y="63.3984" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="12.5476" y="67.437" size="1.27" layer="27" rot="R180"/>
+</element>
 <element name="C17" library="resistor" package="C0603" value="" x="13.6652" y="3.3909" smashed="yes" rot="R270">
 <attribute name="NAME" x="12.7889" y="5.207" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="11.7602" y="4.0259" size="1.27" layer="27" rot="R270"/>

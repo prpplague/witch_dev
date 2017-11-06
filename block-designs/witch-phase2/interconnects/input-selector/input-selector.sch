@@ -6709,6 +6709,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <sheets>
 <sheet>
 <plain>
+<text x="392.43" y="7.62" size="1.778" layer="94">R1</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -6950,6 +6951,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </sheet>
 <sheet>
 <plain>
+<text x="393.7" y="7.62" size="1.778" layer="94">R1</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>

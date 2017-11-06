@@ -11405,6 +11405,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
+<text x="393.7" y="7.62" size="1.778" layer="94">R2</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -12323,6 +12324,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </sheet>
 <sheet>
 <plain>
+<text x="393.7" y="7.62" size="1.778" layer="94">R2</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
