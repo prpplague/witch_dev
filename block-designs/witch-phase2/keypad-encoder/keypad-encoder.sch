@@ -7735,7 +7735,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="D30" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="PTH"/>
 <part name="D31" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="PTH"/>
 <part name="D32" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="PTH"/>
-<part name="R22" library="resistor" deviceset="R-US_" device="R0805" value="1k"/>
+<part name="R22" library="resistor" deviceset="R-US_" device="R0805" value="100K"/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="IC8" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="LVC"/>
 <part name="C26" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
