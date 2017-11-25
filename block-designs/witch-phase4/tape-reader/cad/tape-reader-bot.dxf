@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
--53.17923497294759
+220.9356718931945
  22
--0.7535519125721318
+128.396046445219
  13
 0
  23
@@ -1149,9 +1149,9 @@ AcDbViewportTableRecord
  37
 0
  40
-13.77923497274755
+391.6294125686946
  41
-1.71875
+2.338815789473684
  42
 50
  43
@@ -2447,7 +2447,7 @@ Standard
  77
     0
  78
-    1
+    8
  79
     0
 170
@@ -2485,7 +2485,7 @@ Standard
 277
     2
 278
-    0
+   44
 279
     0
 280
@@ -2507,7 +2507,7 @@ Standard
 289
     3
 340
-standard
+STANDARD
 341
 
 371
@@ -2807,7 +2807,7 @@ AcDbCircle
  10
 15
  20
-67.5
+32.5
  40
 1.05
   0
@@ -2829,57 +2829,13 @@ AcDbCircle
  10
 15
  20
-32.5
- 40
-1.05
-  0
-CIRCLE
-  5
-55
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-5
- 20
-50
- 40
-3.25
-  0
-CIRCLE
-  5
-56
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-15
- 20
 85
  40
 1.05
   0
 CIRCLE
   5
-57
+55
 100
 AcDbEntity
   8
@@ -2901,7 +2857,7 @@ AcDbCircle
   0
 CIRCLE
   5
-58
+56
 100
 AcDbEntity
   8
@@ -2923,55 +2879,55 @@ AcDbCircle
   0
 LINE
   5
+57
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+93
+ 20
+135
+ 11
+0
+ 21
+135
+  0
+LINE
+  5
+58
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+93
+ 20
+0
+ 11
+93
+ 21
+135
+  0
+LINE
+  5
 59
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-93
- 20
-135
- 11
-0
- 21
-135
-  0
-LINE
-  5
-5A
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-93
- 20
-0
- 11
-93
- 21
-135
-  0
-LINE
-  5
-5B
 100
 AcDbEntity
   8
@@ -2995,7 +2951,7 @@ AcDbLine
   0
 CIRCLE
   5
-5C
+5A
 100
 AcDbEntity
   8
@@ -3017,7 +2973,7 @@ AcDbCircle
   0
 CIRCLE
   5
-5D
+5B
 100
 AcDbEntity
   8
@@ -3034,6 +2990,50 @@ AcDbCircle
 5
  20
 130
+ 40
+1.55
+  0
+CIRCLE
+  5
+5C
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+88
+ 20
+130
+ 40
+1.55
+  0
+CIRCLE
+  5
+5D
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+5
+ 20
+5
  40
 1.55
   0
@@ -3055,7 +3055,7 @@ AcDbCircle
  10
 88
  20
-130
+5
  40
 1.55
   0
@@ -3075,33 +3075,11 @@ ByLayer
 100
 AcDbCircle
  10
-5
+15
  20
-5
+67.5
  40
-1.55
-  0
-CIRCLE
-  5
-60
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-88
- 20
-5
- 40
-1.55
+1.05
   0
 ENDSEC
   0
