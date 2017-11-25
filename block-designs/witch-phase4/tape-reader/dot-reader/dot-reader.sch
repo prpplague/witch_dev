@@ -6612,7 +6612,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </package>
 </packages>
 <symbols>
-<symbol name="7414">
+<symbol name="7417">
 <wire x1="-5.08" y1="5.08" x2="5.08" y2="0" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="0" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.4064" layer="94"/>
@@ -6625,7 +6625,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <text x="1.27" y="3.175" size="1.778" layer="95">&gt;NAME</text>
 <text x="1.27" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="I" x="-10.16" y="0" visible="pad" length="middle" direction="in"/>
-<pin name="O" x="10.16" y="0" visible="pad" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="O" x="10.16" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
 </symbol>
 <symbol name="PWRN">
 <text x="-0.635" y="-0.635" size="1.778" layer="95">&gt;NAME</text>
@@ -6636,27 +6636,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="74*1G14" prefix="IC">
-<description>Single &lt;b&gt;Schmitt-Trigger Inverter &lt;/b&gt;Gate</description>
+<deviceset name="74*1G17" prefix="IC">
+<description>Single Schmitt-Trigger Buffer</description>
 <gates>
-<gate name="A" symbol="7414" x="10.16" y="0"/>
-<gate name="P" symbol="PWRN" x="-7.62" y="0" addlevel="request"/>
+<gate name="P" symbol="PWRN" x="22.86" y="0" addlevel="request"/>
+<gate name="A" symbol="7417" x="0" y="0"/>
 </gates>
 <devices>
-<device name="DBV" package="SOT23-5">
-<connects>
-<connect gate="A" pin="I" pad="2"/>
-<connect gate="A" pin="O" pad="4"/>
-<connect gate="P" pin="GND" pad="3"/>
-<connect gate="P" pin="VCC" pad="5"/>
-</connects>
-<technologies>
-<technology name="AHC"/>
-<technology name="AHCT"/>
-<technology name="AUC"/>
-<technology name="LVC"/>
-</technologies>
-</device>
 <device name="DCK" package="SC70-5">
 <connects>
 <connect gate="A" pin="I" pad="2"/>
@@ -6665,8 +6651,18 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <connect gate="P" pin="VCC" pad="5"/>
 </connects>
 <technologies>
-<technology name="AHC"/>
-<technology name="AHCT"/>
+<technology name="AUC"/>
+<technology name="LVC"/>
+</technologies>
+</device>
+<device name="DBV" package="SOT23-5">
+<connects>
+<connect gate="A" pin="I" pad="2"/>
+<connect gate="A" pin="O" pad="4"/>
+<connect gate="P" pin="GND" pad="3"/>
+<connect gate="P" pin="VCC" pad="5"/>
+</connects>
+<technologies>
 <technology name="AUC"/>
 <technology name="LVC"/>
 </technologies>
@@ -8236,12 +8232,12 @@ Source: www.kingbright.com</description>
 <part name="R14" library="resistor" deviceset="R-US_" device="M0805" value="10K"/>
 <part name="R6" library="resistor" deviceset="R-US_" device="M0805" value="10K"/>
 <part name="R15" library="resistor" deviceset="R-US_" device="M0805" value="10K"/>
-<part name="IC4" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="LVC"/>
-<part name="IC5" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="LVC"/>
-<part name="IC6" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="LVC"/>
-<part name="IC1" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="LVC"/>
-<part name="IC2" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="LVC"/>
-<part name="IC3" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="LVC"/>
+<part name="IC4" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
+<part name="IC5" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
+<part name="IC6" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
+<part name="IC1" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
+<part name="IC2" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
+<part name="IC3" library="74xx-little-us" deviceset="74*1G17" device="DBV" technology="LVC"/>
 <part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805"/>
 <part name="R7" library="resistor" deviceset="R-US_" device="R0805" value="270"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
@@ -8729,7 +8725,7 @@ Source: www.kingbright.com</description>
 <junction x="246.38" y="143.51"/>
 </segment>
 </net>
-<net name="!SENS_A" class="0">
+<net name="A" class="0">
 <segment>
 <wire x1="49.53" y1="185.42" x2="66.04" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="U1" gate="&gt;NAME" pin="C"/>
@@ -8740,7 +8736,7 @@ Source: www.kingbright.com</description>
 <pinref part="IC1" gate="A" pin="I"/>
 </segment>
 </net>
-<net name="!SENS_B" class="0">
+<net name="B" class="0">
 <segment>
 <pinref part="U2" gate="&gt;NAME" pin="C"/>
 <wire x1="49.53" y1="140.97" x2="49.53" y2="142.24" width="0.1524" layer="91"/>
@@ -8751,7 +8747,7 @@ Source: www.kingbright.com</description>
 <pinref part="IC2" gate="A" pin="I"/>
 </segment>
 </net>
-<net name="!SENS_DOT" class="0">
+<net name="DOT" class="0">
 <segment>
 <pinref part="U3" gate="&gt;NAME" pin="C"/>
 <wire x1="49.53" y1="97.79" x2="49.53" y2="99.06" width="0.1524" layer="91"/>
@@ -8762,7 +8758,7 @@ Source: www.kingbright.com</description>
 <pinref part="IC3" gate="A" pin="I"/>
 </segment>
 </net>
-<net name="!SENS_C" class="0">
+<net name="C" class="0">
 <segment>
 <pinref part="U4" gate="&gt;NAME" pin="C"/>
 <pinref part="R13" gate="G$1" pin="1"/>
@@ -8773,7 +8769,7 @@ Source: www.kingbright.com</description>
 <pinref part="IC4" gate="A" pin="I"/>
 </segment>
 </net>
-<net name="!SENS_D" class="0">
+<net name="D" class="0">
 <segment>
 <pinref part="U5" gate="&gt;NAME" pin="C"/>
 <wire x1="210.82" y1="143.51" x2="194.31" y2="143.51" width="0.1524" layer="91"/>
@@ -8784,7 +8780,7 @@ Source: www.kingbright.com</description>
 <pinref part="IC5" gate="A" pin="I"/>
 </segment>
 </net>
-<net name="!SENS_E" class="0">
+<net name="E" class="0">
 <segment>
 <pinref part="U6" gate="&gt;NAME" pin="C"/>
 <wire x1="210.82" y1="100.33" x2="194.31" y2="100.33" width="0.1524" layer="91"/>
