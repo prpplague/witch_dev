@@ -226,10 +226,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.37" y1="-1.424" x2="-1.1" y2="-1.7" width="0.2032" layer="21"/>
 <wire x1="-1.1" y1="-1.7" x2="1.4" y2="-1.7" width="0.2032" layer="21"/>
 <wire x1="1.4" y1="-1.7" x2="1.4" y2="-1.627" width="0.2032" layer="21"/>
-<smd name="1" x="-1.8" y="-0.9" dx="1.2" dy="0.6" layer="1"/>
-<smd name="2" x="1.8" y="-0.9" dx="1.2" dy="0.6" layer="1"/>
-<smd name="3" x="1.8" y="0.9" dx="1.2" dy="0.6" layer="1"/>
-<smd name="4" x="-1.8" y="0.9" dx="1.2" dy="0.6" layer="1"/>
+<smd name="1" x="-2" y="-0.905" dx="1.66" dy="0.79" layer="1"/>
+<smd name="2" x="2" y="-0.9" dx="1.66" dy="0.79" layer="1"/>
+<smd name="3" x="2" y="0.9" dx="1.66" dy="0.79" layer="1"/>
+<smd name="4" x="-2" y="0.905" dx="1.66" dy="0.79" layer="1"/>
 <text x="-2.54" y="1.905" size="1.27" layer="25">&gt;Name</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;Value</text>
 </package>
@@ -8463,7 +8463,7 @@ Source: www.kingbright.com</description>
 <junction x="314.96" y="69.85"/>
 </segment>
 </net>
-<net name="SENS_E" class="0">
+<net name="SENSE_A" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="7"/>
 <wire x1="356.87" y1="140.97" x2="330.2" y2="140.97" width="0.1524" layer="91"/>
@@ -8645,7 +8645,7 @@ Source: www.kingbright.com</description>
 <wire x1="186.69" y1="99.06" x2="186.69" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SENS_B" class="0">
+<net name="SENSE_D" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="3"/>
 <wire x1="356.87" y1="151.13" x2="330.2" y2="151.13" width="0.1524" layer="91"/>
@@ -8661,7 +8661,7 @@ Source: www.kingbright.com</description>
 <junction x="101.6" y="142.24"/>
 </segment>
 </net>
-<net name="SENS_DOT" class="0">
+<net name="SENSE_C" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="4"/>
 <wire x1="356.87" y1="148.59" x2="330.2" y2="148.59" width="0.1524" layer="91"/>
@@ -8677,7 +8677,7 @@ Source: www.kingbright.com</description>
 <junction x="101.6" y="99.06"/>
 </segment>
 </net>
-<net name="SENS_A" class="0">
+<net name="SENSE_E" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
 <wire x1="356.87" y1="153.67" x2="330.2" y2="153.67" width="0.1524" layer="91"/>
@@ -8693,7 +8693,7 @@ Source: www.kingbright.com</description>
 <junction x="101.6" y="185.42"/>
 </segment>
 </net>
-<net name="SENS_C" class="0">
+<net name="SENSE_DOT" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="5"/>
 <wire x1="356.87" y1="146.05" x2="330.2" y2="146.05" width="0.1524" layer="91"/>
@@ -8709,7 +8709,7 @@ Source: www.kingbright.com</description>
 <junction x="246.38" y="186.69"/>
 </segment>
 </net>
-<net name="SENS_D" class="0">
+<net name="SENSE_B" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="6"/>
 <wire x1="356.87" y1="143.51" x2="330.2" y2="143.51" width="0.1524" layer="91"/>
